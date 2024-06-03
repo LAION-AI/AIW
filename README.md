@@ -114,7 +114,7 @@ Refer to [this Python script](data_collection/examples/example_together.py) to s
 
 **Colect by scraping [LMSYS Chatbot Arena](https://chat.lmsys.org/):**
 
-*Note* This method is not recommended since it's limited for purpose of automated model evaluation. The platform is gated by cloudflare.
+*Note* This method is not recommended since it's limited for purpose of automated model. The platform is gated by cloudflare.
 
 Refer to [this bash script](scripts/execute_lmsys_data_gathering.sh) to see how to use litellm to gather model responses.
 
