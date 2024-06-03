@@ -2,7 +2,6 @@
         🎩🐇 Alice in Wonderland: Simple Tasks Showing Complete Reasoning Breakdown in State-Of-the-Art Large Language Models
     </h1>
  <p align="center">Alice in Wonderland code base for experiments and raw experiments data</p>
-<br>
 <h4 align="center"><a href="https://marianna13.github.io/aiw/" target="_blank">Homepage</a> | <a href="https://docs.litellm.ai/docs/hosted" target="_blank"> Paper</a> | <a href="https://docs.litellm.ai/docs/enterprise"target="_blank">Arxiv</a></h4>
 
 
