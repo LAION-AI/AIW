@@ -29,7 +29,7 @@ Refer to [this Python script](data_collection/examples/example_together.py) to s
 Refer to [this bash script](scripts/execute_lmsys_data_gathering.sh) to see how to use litellm to gather model responses.
 
 
-### Plot the data
+## Plot the data
 
 Run script to generate plots from the paper (by deafault plots will be saved in the working directory):
 `bash scripts/plot.sh`
