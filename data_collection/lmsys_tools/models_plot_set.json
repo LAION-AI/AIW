@@ -1,0 +1,13 @@
+[
+    "claude-3-opus-20240229",
+    "claude-3-sonnet-20240229",
+    "claude-3-haiku-20240307",
+    "gpt-4-turbo-2024-04-09",
+    "gpt-4-0613",
+    "gpt-3.5-turbo-0125",
+    "mistral\/mistral-large-2402",
+    "mistral\/mistral-small-2402",
+    "mistral\/open-mixtral-8x22b",
+    "mistral\/open-mixtral-8x7b",
+    "mistral\/open-mistral-7b"
+]

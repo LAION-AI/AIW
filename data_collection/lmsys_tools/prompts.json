@@ -1,0 +1,656 @@
+[
+    {
+        "id": 1,
+        "prompt": "Alice has 4 brothers and she also has 1 sister. How many sisters does Alice's brother have? To answer the question, DO NOT OUTPUT ANY TEXT EXCEPT following format that contains final answer: ### Answer:",
+        "right_answer": "2",
+        "description": "original prompt"
+    },
+    {
+        "id": 2,
+        "prompt": "Alice has 4 sisters and she also has 1 brother. How many sisters does Alice's brother have? To answer the question, DO NOT OUTPUT ANY TEXT EXCEPT following format that contains final answer: ### Answer:",
+        "right_answer": "5",
+        "description": "easy prompt"
+    },
+    {
+        "id": 3,
+        "prompt": "Alice has four brothers and she also has one sister. How many sisters does Alice's brother have? To answer the question, DO NOT OUTPUT ANY TEXT EXCEPT following format that contains final answer: ### Answer:",
+        "right_answer": "2",
+        "description": "original prompt, words instead numbers"
+    },
+    {
+        "id": 4,
+        "prompt": "Alice has four sisters and she also has one brother. How many sisters does Alice's brother have? To answer the question, DO NOT OUTPUT ANY TEXT EXCEPT following format that contains final answer: ### Answer:",
+        "right_answer": "5",
+        "description": "easy prompt, words instead numbers"
+    },
+    {
+        "id": 5,
+        "prompt": "Alice has 4 brothers and she also has 1 sister. How many sisters does Alice's brother have?",
+        "right_answer": "2",
+        "description": "original prompt, plain, no format enforcement"
+    },
+    {
+        "id": 6,
+        "prompt": "Alice has 4 sisters and she also has 1 brother. How many sisters does Alice's brother have?",
+        "right_answer": "5",
+        "description": "easy prompt, plain, no format enforcement"
+    },
+    {
+        "id": 7,
+        "prompt": "Alice has 4 brothers and she also has 1 sister. How many sisters does Alice's brother have? Before you try to solve the problem, describe the initial situation like a very intelligent, accurate and precise scientist who starts by listing all the entities in the initial situation and then writing down all the known or obvious, presumable attributes for each entity. Such as whether it is a person or an animal or an object or a location, abstract concept, and so on, and what other attributes are known about the respective entity. The problem itself is also an entity with attributes. Once you have written down all the entities with all the attributes, try to write down a few assumptions about the connections and finally solve the problem step by step.",
+        "right_answer": "2",
+        "description": "original prompt, scientist version"
+    },
+    {
+        "id": 8,
+        "prompt": "Alice has 4 sisters and she also has 1 brother. How many sisters does Alice's brother have? Before you try to solve the problem, describe the initial situation like a very intelligent, accurate and precise scientist who starts by listing all the entities in the initial situation and then writing down all the known or obvious, presumable attributes for each entity. Such as whether it is a person or an animal or an object or a location, abstract concept, and so on, and what other attributes are known about the respective entity. The problem itself is also an entity with attributes. Once you have written down all the entities with all the attributes, try to write down a few assumptions about the connections and finally solve the problem step by step.",
+        "right_answer": "5",
+        "description": "easy prompt, plain, scientist version"
+    },
+    {
+        "id": 9,
+        "prompt": "Alice has four brothers and she also has a sister. How many sisters does Alice's brother have? Solve the problem by taking care not to make any mistakes. Express your level of confidence in the provided solution as precisely as possible.",
+        "right_answer": "2",
+        "description": "original prompt, plain, overconfidence version"
+    },
+    {
+        "id": 10,
+        "prompt": "Alice has four sisters and she also has a brother. How many sisters does Alice's brother have? Solve the problem by taking care not to make any mistakes. Express your level of confidence in the provided solution as precisely as possible.",
+        "right_answer": "5",
+        "description": "easy prompt, plain, overconfidence version"
+    },
+    {
+        "id": 11,
+        "prompt": "Alice has 4 brothers and she also has 1 sister. How many sisters does Alice's brother have? Solve the problem by taking care not to make any mistakes. Express your level of confidence in the provided solution as precisely as possible.",
+        "right_answer": "2",
+        "description": "original prompt, plain, overconfidence version 2"
+    },
+    {
+        "id": 12,
+        "prompt": "Alice has 4 sisters and she also has 1 brother. How many sisters does Alice's brother have? Solve the problem by taking care not to make any mistakes. Express your level of confidence in the provided solution as precisely as possible.",
+        "right_answer": "5",
+        "description": "easy prompt, plain, overconfidence version 2"
+    },
+    {
+        "id": 13,
+        "prompt": "Alice has 4 brothers and she also has 1 sister. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "2",
+        "description": "original prompt, think carefully ver 1"
+    },
+    {
+        "id": 14,
+        "prompt": "Alice has 4 sisters and she also has 1 brother. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "5",
+        "description": "easy prompt, think carefully ver 1"
+    },
+    {
+        "id": 15,
+        "prompt": "Alice has 4 brothers and she also has 1 sister. All brothers identify themselves as males, and all sisters identify themselves as females. How many sisters does Alice's brother have? To answer the question, DO NOT OUTPUT ANY TEXT EXCEPT following format that contains final answer: ### Answer:",
+        "right_answer": "2",
+        "description": "original prompt, with full gender identification"
+    },
+    {
+        "id": 16,
+        "prompt": "Alice has 4 sisters and she also has 1 brother. All brothers identify themselves as males, and all sisters identify themselves as females. How many sisters does Alice's brother have? To answer the question, DO NOT OUTPUT ANY TEXT EXCEPT following format that contains final answer: ### Answer:",
+        "right_answer": "5",
+        "description": "easy prompt, with full gender identification"
+    },
+    {
+        "id": 17,
+        "prompt": "Alice has 1 sister and she also has 4 brothers. How many sisters does Alice's brother have? To answer the question, DO NOT OUTPUT ANY TEXT EXCEPT following format that contains final answer: ### Answer:",
+        "right_answer": "2",
+        "description": "original prompt, order change in the sentence"
+    },
+    {
+        "id": 18,
+        "prompt": "Alice has 1 brother and she also has 4 sisters. How many sisters does Alice's brother have? To answer the question, DO NOT OUTPUT ANY TEXT EXCEPT following format that contains final answer: ### Answer:",
+        "right_answer": "5",
+        "description": "easy prompt, order change in the sentence"
+    },
+    {
+        "id": 19,
+        "prompt": "Alice has 4 brothers and she also has 2 sisters. How many sisters does Alice's brother have? To answer the question, DO NOT OUTPUT ANY TEXT EXCEPT following format that contains final answer: ### Answer:",
+        "right_answer": "3",
+        "description": "original prompt, change in numbers"
+    },
+    {
+        "id": 20,
+        "prompt": "Alice has 4 sisters and she also has 3 brothers. How many sisters does Alice's brother have? To answer the question, DO NOT OUTPUT ANY TEXT EXCEPT following format that contains final answer: ### Answer:",
+        "right_answer": "5",
+        "description": "easy prompt, change in numbers"
+    },
+    {
+        "id": 21,
+        "prompt": "Alice has 4 brothers and she also has 2 sisters. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "3",
+        "description": "original prompt, change in numbers, think carefully v2"
+    },
+    {
+        "id": 22,
+        "prompt": "Alice has 4 sisters and she also has 3 brothers. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "5",
+        "description": "easy prompt, change in numbers, think carefully v2"
+    },
+    {
+        "id": 23,
+        "prompt": "Alice has 1 sister and she also has 4 brothers. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "2",
+        "description": "original prompt, order change in the sentence, think carefully v1"
+    },
+    {
+        "id": 24,
+        "prompt": "Alice has 1 brother and she also has 4 sisters. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "5",
+        "description": "easy prompt, order change in the sentence, think carefully v1"
+    },
+    {
+        "id": 25,
+        "prompt": "Alice has 1 sister and she also has 4 brothers. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "2",
+        "description": "original prompt, order change in the sentence, think carefully v2"
+    },
+    {
+        "id": 26,
+        "prompt": "Alice has 1 brother and she also has 4 sisters. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "5",
+        "description": "easy prompt, order change in the sentence, think carefully v2"
+    },
+    {
+        "id": 27,
+        "prompt": "Alice has 4 brothers and she also has 1 sister. How many sisters does Alice's brother have? Solve this problem and provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "2",
+        "description": "original prompt, no output length restriction"
+    },
+    {
+        "id": 28,
+        "prompt": "Alice has 4 sisters and she also has 1 brother. How many sisters does Alice's brother have? Solve this problem and provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "5",
+        "description": "easy prompt, no output length restriction"
+    },
+    {
+        "id": 29,
+        "prompt": "Alice has 1 sister and she also has 4 brothers. How many sisters does Alice's brother have? Solve this problem by providing final answer in following form: \"### Answer: \".",
+        "right_answer": "2",
+        "description": "original prompt, no output length restriction, changed order"
+    },
+    {
+        "id": 30,
+        "prompt": "Alice has 1 brother and she also has 4 sisters. How many sisters does Alice's brother have? Solve this problem by providing final answer in following form: \"### Answer: \".",
+        "right_answer": "5",
+        "description": "easy prompt, no output length restriction, changed order"
+    },
+    {
+        "id": 31,
+        "prompt": "Alice has 1 sister and she also has 4 brothers. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "2",
+        "description": "original prompt, order change in the sentence, think carefully v1"
+    },
+    {
+        "id": 32,
+        "prompt": "Alice has 1 brother and she also has 4 sisters. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "5",
+        "description": "easy prompt, order change in the sentence, think carefully v1"
+    },
+    {
+        "id": 33,
+        "prompt": "Alice has 4 brothers and she also has 2 sisters. How many sisters does Alice's brother have? Solve this problem and provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "3",
+        "description": "original prompt, change in numbers, no restriction in output length"
+    },
+    {
+        "id": 34,
+        "prompt": "Alice has 4 sisters and she also has 3 brothers. How many sisters does Alice's brother have? Solve this problem and provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "5",
+        "description": "easy prompt, change in numbers, no restriction in output length"
+    },
+    {
+        "id": 35,
+        "prompt": "Alice has 4 brothers and she also has 1 sister. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "2",
+        "description": "original prompt, think carefully v2"
+    },
+    {
+        "id": 36,
+        "prompt": "Alice has 4 sisters and she also has 1 brother. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "5",
+        "description": "easy prompt, think carefully v2"
+    },
+    {
+        "id": 37,
+        "prompt": "Alice has 4 brothers and she also has 1 sister. How many sisters does Alice's brother have? To solve the problem, approach it as a very intelligent, accurate and precise scientist who starts by listing all the entities in the initial situation and then writing down all the known or obvious, presumable attributes and relations for each entity. Once you have written down all the entities with all the attributes and relations, proceed figuring out all the necessary attributes and relations not clearly provided in the problem description by thinking step by step, double check your reasoning, and based on gathered evidence, provide the final answer to the problem in following form: \"### Answer: \".",
+        "right_answer": "2",
+        "description": "original prompt, scientist v2"
+    },
+    {
+        "id": 38,
+        "prompt": "Alice has 4 sisters and she also has 1 brother. How many sisters does Alice's brother have? To solve the problem, approach it as a very intelligent, accurate and precise scientist who starts by listing all the entities in the initial situation and then writing down all the known or obvious, presumable attributes and relations for each entity. Once you have written down all the entities with all the attributes and relations, proceed figuring out all the necessary attributes and relations not clearly provided in the problem description by thinking step by step, double check your reasoning, and based on gathered evidence, provide the final answer to the problem in following form: \"### Answer: \".",
+        "right_answer": "5",
+        "description": "easy prompt, scientist v2"
+    },
+    {
+        "id": 39,
+        "prompt": "Alice has 4 brothers and she also has 1 sister. How many sisters does Alice's brother have? To solve the problem, approach it as a very intelligent, accurate and precise scientist capable of strong and sound reasoning. Provide the solution to the problem by thinking step by step, double checking your reasoning for any mistakes, and based on gathered evidence, provide the final answer to the problem in following form: \"### Answer: \".",
+        "right_answer": "2",
+        "description": "original prompt, scientist v3"
+    },
+    {
+        "id": 40,
+        "prompt": "Alice has 4 sisters and she also has 1 brother. How many sisters does Alice's brother have? To solve the problem, approach it as a very intelligent, accurate and precise scientist capable of strong and sound reasoning. Provide the solution to the problem by thinking step by step, double checking your reasoning for any mistakes, and based on gathered evidence, provide the final answer to the problem in following form: \"### Answer: \".",
+        "right_answer": "5",
+        "description": "easy prompt, scientist v3"
+    },
+    {
+        "id": 41,
+        "prompt": "Alice has 4 brothers and she also has 1 sister. How many sisters does Alice's brother have? Alice and her sisters identify themselves as female, the brothers identify themselves as male. All persons described before have same two parents and are one family. Solve this problem and provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "2",
+        "description": "original prompt, no output length restriction, additional precision info"
+    },
+    {
+        "id": 42,
+        "prompt": "Alice has 4 sisters and she also has 1 brother. How many sisters does Alice's brother have? Alice and her sisters identify themselves as female, the brothers identify themselves as male. All persons described before have same two parents and are one family. Solve this problem and provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "5",
+        "description": "easy prompt, no output length restriction, additional precision info"
+    },
+    {
+        "id": 43,
+        "prompt": "Alice has 4 brothers and she also has 2 sisters. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "3",
+        "description": "original prompt, change in numbers, think carefully v1"
+    },
+    {
+        "id": 44,
+        "prompt": "Alice has 4 sisters and she also has 3 brothers. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "5",
+        "description": "easy prompt, change in numbers, think carefully v1"
+    },
+    {
+        "id": 45,
+        "prompt": "Alice has 2 brothers and she also has 3 sisters. How many sisters does Alice's brother have? Solve this problem and provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "4",
+        "description": "original prompt, change in numbers, no bias in responses, no restriction in output length"
+    },
+    {
+        "id": 46,
+        "prompt": "Alice has 2 sisters and she also has 5 brothers. How many sisters does Alice's brother have? Solve this problem and provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "3",
+        "description": "easy prompt, change in numbers, no bias in responses, no restriction in output length"
+    },
+    {
+        "id": 47,
+        "prompt": "Alice has 2 brothers and she also has 3 sisters. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "4",
+        "description": "original prompt, change in numbers, no bias in responses, no restriction in output length, think carefully v1"
+    },
+    {
+        "id": 48,
+        "prompt": "Alice has 2 sisters and she also has 5 brothers. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "3",
+        "description": "easy prompt, change in numbers, no bias in responses, no restriction in output length, think carefully v1"
+    },
+    {
+        "id": 49,
+        "prompt": "Alice has 2 brothers and she also has 3 sisters. How many sisters does Alice's brother have? To answer the question, DO NOT OUTPUT ANY TEXT EXCEPT following format that contains final answer: \"### Answer: \".",
+        "right_answer": "4",
+        "description": "original prompt, change in numbers, no bias in responses, no restriction in output length"
+    },
+    {
+        "id": 50,
+        "prompt": "Alice has 2 sisters and she also has 5 brothers. How many sisters does Alice's brother have? To answer the question, DO NOT OUTPUT ANY TEXT EXCEPT following format that contains final answer: \"### Answer: \".",
+        "right_answer": "3",
+        "description": "easy prompt, change in numbers, no bias in responses, no restriction in output length"
+    },
+    {
+        "id": 51,
+        "prompt": "Alice has 3 brothers and she also has 6 sisters. How many sisters does Alice's brother have? To answer the question, DO NOT OUTPUT ANY TEXT EXCEPT following format that contains final answer: \"### Answer: \".",
+        "right_answer": "7",
+        "description": "EXPERIMENTAL original prompt, change in numbers, no bias in responses, restriction in output length"
+    },
+    {
+        "id": 52,
+        "prompt": "Alice has 3 sisters and she also has 5 brothers. How many sisters does Alice's brother have? To answer the question, DO NOT OUTPUT ANY TEXT EXCEPT following format that contains final answer: \"### Answer: \".",
+        "right_answer": "4",
+        "description": "EXPERIMENTAL easy prompt, change in numbers, no bias in responses, restriction in output length"
+    },
+    {
+        "id": 53,
+        "prompt": "Alice has 3 brothers and she also has 6 sisters. How many sisters does Alice's brother have? To answer the question, DO NOT OUTPUT ANY TEXT EXCEPT following format that contains final answer: \"### Answer: \".",
+        "right_answer": "7",
+        "description": "EXPERIMENTAL BREAKING CLAUDE ON RESTRICTED original prompt, change in numbers, no bias in responses, restriction in output length"
+    },
+    {
+        "id": 54,
+        "prompt": "Alice has 2 sisters and she also has 4 brothers. How many sisters does Alice's brother have? To answer the question, DO NOT OUTPUT ANY TEXT EXCEPT following format that contains final answer: \"### Answer: \".",
+        "right_answer": "3",
+        "description": "EXPERIMENTAL BREAKING CLAUDE ON RESTRICTED easy prompt, change in numbers, no bias in responses, restriction in output length"
+    },
+    {
+        "id": 55,
+        "prompt": "Alice has 3 brothers and she also has 6 sisters. How many sisters does Alice's brother have? Solve this problem and provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "7",
+        "description": "EXPERIMENTAL BREAKING CLAUDE ON RESTRICTED original prompt, change in numbers, no bias in responses, no restriction in output length"
+    },
+    {
+        "id": 56,
+        "prompt": "Alice has 2 sisters and she also has 4 brothers. How many sisters does Alice's brother have? Solve this problem and provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "3",
+        "description": "EXPERIMENTAL BREAKING CLAUDE ON RESTRICTED easy prompt, change in numbers, no bias in responses, no restriction in output length"
+    },
+    {
+        "id": 57,
+        "prompt": "Alice has 3 brothers and she also has 6 sisters. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "7",
+        "description": "EXPERIMENTAL BREAKING CLAUDE ON RESTRICTED original prompt, change in numbers, no bias in responses, no restriction in output length, thinking carefully v1"
+    },
+    {
+        "id": 58,
+        "prompt": "Alice has 2 sisters and she also has 4 brothers. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "3",
+        "description": "EXPERIMENTAL BREAKING CLAUDE ON RESTRICTED easy prompt, change in numbers, no bias in responses, no restriction in output length, thinking carefully v1"
+    },
+    {
+        "id": 59,
+        "prompt": "Alice has 2 brothers and she also has 4 sisters. How many sisters does Alice's brother have? Solve this problem and provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "5",
+        "description": "EXPERIMENTAL ILLUSIONARY BOOSTING CLAUDE ON RESTRICTED original prompt, change in numbers, no bias in responses, no restriction in output length"
+    },
+    {
+        "id": 60,
+        "prompt": "Alice has 2 sisters and she also has 4 brothers. How many sisters does Alice's brother have? Solve this problem and provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "3",
+        "description": "EXPERIMENTAL BREAKING CLAUDE ON RESTRICTED easy prompt, change in numbers, no bias in responses, no restriction in output length"
+    },
+    {
+        "id": 61,
+        "prompt": "Alice has 2 brothers and she also has 4 sisters. How many sisters does Alice's brother have? To answer the question, DO NOT OUTPUT ANY TEXT EXCEPT following format that contains final answer: \"### Answer: \".",
+        "right_answer": "5",
+        "description": "EXPERIMENTAL ILLUSIONARY BOOSTING CLAUDE ON RESTRICTED (because of response 5) original prompt, change in numbers, no bias in responses, restriction in output length"
+    },
+    {
+        "id": 62,
+        "prompt": "Alice has 2 sisters and she also has 4 brothers. How many sisters does Alice's brother have? To answer the question, DO NOT OUTPUT ANY TEXT EXCEPT following format that contains final answer: \"### Answer: \".",
+        "right_answer": "3",
+        "description": "EXPERIMENTAL BREAKING CLAUDE ON RESTRICTED easy prompt, change in numbers, no bias in responses, restriction in output length"
+    },
+    {
+        "id": 63,
+        "prompt": "Alice has 4 sisters and she also has 1 brother. How many sisters does Alice's brother have? Solve this problem and provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "5",
+        "description": "easy prompt, no output restriction"
+    },
+    {
+        "id": 64,
+        "prompt": "Alice has 4 sisters and she also has 1 brother. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "5",
+        "description": "easy prompt, no output restriction, thinking carefully v1"
+    },
+    {
+        "id": 65,
+        "prompt": "Alice has 4 sisters and she also has 1 brother. How many sisters does Alice's brother have? To answer the question, DO NOT OUTPUT ANY TEXT EXCEPT following format that contains final answer: \"### Answer: \".",
+        "right_answer": "5",
+        "description": "easy prompt, output restriction"
+    },
+    {
+        "id": 66,
+        "prompt": "Alice has 3 brothers and she also has 6 sisters. How many sisters does Alice's brother have? To solve the problem, approach it as a very intelligent, accurate and precise scientist capable of strong and sound reasoning. Provide the solution to the problem by thinking step by step, double checking your reasoning for any mistakes, and based on gathered evidence, provide the final answer to the problem in following form: \"### Answer: \".",
+        "right_answer": "7",
+        "description": "EXPERIMENTAL BREAKING CLAUDE ON RESTRICTED original prompt, change in numbers, scientist v3"
+    },
+    {
+        "id": 67,
+        "prompt": "Alice has 2 sisters and she also has 4 brothers. How many sisters does Alice's brother have? To solve the problem, approach it as a very intelligent, accurate and precise scientist capable of strong and sound reasoning. Provide the solution to the problem by thinking step by step, double checking your reasoning for any mistakes, and based on gathered evidence, provide the final answer to the problem in following form: \"### Answer: \".",
+        "right_answer": "3",
+        "description": "EXPERIMENTAL BREAKING CLAUDE ON RESTRICTED easy prompt, change in numbers, scientist v3"
+    },
+    {
+        "id": 68,
+        "prompt": "Alice has 4 sisters and she also has 1 brother. How many sisters does Alice's brother have? To solve the problem, approach it as a very intelligent, accurate and precise scientist capable of strong and sound reasoning. Provide the solution to the problem by thinking step by step, double checking your reasoning for any mistakes, and based on gathered evidence, provide the final answer to the problem in following form: \"### Answer: \".",
+        "right_answer": "5",
+        "description": "easy prompt, scientist v3"
+    },
+    {
+        "id": 69,
+        "prompt": "Alice has 4 brothers and she also has 1 sister. How many sisters does Alice's brother have? Solve this problem and provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "2",
+        "description": "original prompt, no output restriction"
+    },
+    {
+        "id": 70,
+        "prompt": "Alice has 4 brothers and she also has 1 sister. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "2",
+        "description": "original prompt, no output restriction, thinking carefully v1"
+    },
+    {
+        "id": 71,
+        "prompt": "Alice has 4 brothers and she also has 1 sister. How many sisters does Alice's brother have? To answer the question, DO NOT OUTPUT ANY TEXT EXCEPT following format that contains final answer: \"### Answer: \".",
+        "right_answer": "2",
+        "description": "original prompt, output restriction"
+    },
+    {
+        "id": 72,
+        "prompt": "# Provide correct answer to the formulated problem. ### Problem: Alice has 4 brothers and she also has 1 sister. How many sisters does Alice's brother have? ### Answer: 2 ### Problem: Alice has 4 sisters and she also has 1 brother. How many sisters does Alice's brother have? ### Answer: 5 ### Problem: Alice has 3 brothers and she also has 6 sisters. How many sisters does Alice's brother have? ### Answer: 7 ### Problem: Alice has 2 sisters and she also has 4 brothers. How many sisters does Alice's brother have? ### Answer: 3 ### Problem: Alice has 3 brothers and she also has 5 sisters . How many sisters does Alice's brother have? ### Answer:",
+        "right_answer": "6",
+        "description": "in context learning, Alice"
+    },
+    {
+        "id": 73,
+        "prompt": "# Provide correct answer to the formulated problem. ### Problem: Alice has 4 brothers and she also has 1 sister. How many sisters does Alice's brother have? ### Answer: 2 ### Problem: Alice has 4 sisters and she also has 1 brother. How many sisters does Alice's brother have? ### Answer: 5 ### Problem: Alice has 3 brothers and she also has 6 sisters. How many sisters does Alice's brother have? ### Answer: 7 ### Problem: Alice has 2 sisters and she also has 4 brothers. How many sisters does Alice's brother have? ### Answer: 3 ### Problem: Bob has 3 brothers and he also has 5 sisters . How many brothers does Bob's sister have?",
+        "right_answer": "4",
+        "description": "in context learning, Bob"
+    },
+    {
+        "id": 74,
+        "prompt": "Haret has 3 brothers and she also has 6 sisters. How many sisters does Haret's brother have? To answer the question, DO NOT OUTPUT ANY TEXT EXCEPT following format that contains final answer: \"### Answer: \".",
+        "right_answer": "7",
+        "description": "Variation, change in name, no bias in responses, restriction in output length"
+    },
+    {
+        "id": 75,
+        "prompt": "Haret has 2 sisters and she also has 4 brothers. How many sisters does Haret's brother have? To answer the question, DO NOT OUTPUT ANY TEXT EXCEPT following format that contains final answer: \"### Answer: \".",
+        "right_answer": "3",
+        "description": "Variation, change in name, no bias in responses, restriction in output length"
+    },
+    {
+        "id": 76,
+        "prompt": "Haret has 3 brothers and she also has 6 sisters. How many sisters does Haret's brother have? Solve this problem and provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "7",
+        "description": "Variation, change in name, no bias in responses, no restriction in output length"
+    },
+    {
+        "id": 77,
+        "prompt": "Haret has 2 sisters and she also has 4 brothers. How many sisters does Haret's brother have? Solve this problem and provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "3",
+        "description": "Variation, change in name, no bias in responses, no restriction in output length"
+    },
+    {
+        "id": 78,
+        "prompt": "Haret has 3 brothers and she also has 6 sisters. How many sisters does Haret's brother have? Before providing answer to this problem, think carefully and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "7",
+        "description": "Variation, change in name, no bias in responses, no restriction in output length, thinking carefully v1"
+    },
+    {
+        "id": 79,
+        "prompt": "Haret has 2 sisters and she also has 4 brothers. How many sisters does Haret's brother have? Before providing answer to this problem, think carefully and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "3",
+        "description": "Variation, change in name, no bias in responses, no restriction in output length, thinking carefully v1"
+    },
+    {
+        "id": 80,
+        "prompt": "Haret has 4 sisters and she also has 1 brother. How many sisters does Haret's brother have? Solve this problem and provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "5",
+        "description": "Variation, change in name, easy prompt, no output restriction"
+    },
+    {
+        "id": 81,
+        "prompt": "Haret has 4 sisters and she also has 1 brother. How many sisters does Haret's brother have? Before providing answer to this problem, think carefully and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "5",
+        "description": "Variation, change in name, easy prompt, no output restriction, thinking carefully v1"
+    },
+    {
+        "id": 82,
+        "prompt": "Haret has 4 sisters and she also has 1 brother. How many sisters does Haret's brother have? To answer the question, DO NOT OUTPUT ANY TEXT EXCEPT following format that contains final answer: \"### Answer: \".",
+        "right_answer": "5",
+        "description": "Variation, change in name, easy prompt, output restriction"
+    },
+    {
+        "id": 83,
+        "prompt": "Haret has 4 brothers and she also has 1 sister. How many sisters does Haret's brother have? Solve this problem and provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "2",
+        "description": "Variation, change in name, original prompt, no output restriction"
+    },
+    {
+        "id": 84,
+        "prompt": "Haret has 4 brothers and she also has 1 sister. How many sisters does Haret's brother have? Before providing answer to this problem, think carefully and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "2",
+        "description": "Variation, change in name, original prompt, no output restriction, thinking carefully v1"
+    },
+    {
+        "id": 85,
+        "prompt": "Haret has 4 brothers and she also has 1 sister. How many sisters does Haret's brother have? To answer the question, DO NOT OUTPUT ANY TEXT EXCEPT following format that contains final answer: \"### Answer: \".",
+        "right_answer": "2",
+        "description": "Variation, change in name, original prompt, output restriction"
+    },
+    {
+        "id": 86,
+        "prompt": "Build SQLite queries for creation and population of the table that represents: \"Alice has 4 sisters and she also has a brother. How many sisters in total does Alice's brother have?\".\nGiven the table schema, query the table.\nEmulate the previous query execution only by looking on SQL and provide the result of execution. (Format every SQL query as ```sql {the query}```",
+        "right_answer": "5",
+        "description": "SQL prompt"
+    },
+    {
+        "id": 87,
+        "prompt": "### Problem: Alice has 3 brothers and she also has 6 sisters. How many sisters does Alice's brother have?\n### Answer: ",
+        "right_answer": "7",
+        "description": "Base model prompt version of prompt id 55"
+    },
+    {
+        "id": 88,
+        "prompt": "### Problem: Alice has 2 sisters and she also has 4 brothers. How many sisters does Alice's brother have?\n### Answer: ",
+        "right_answer": "3",
+        "description": "Base model prompt version of prompt id 56"
+    },
+    {
+        "id": 89,
+        "prompt": "### Problem: Alice has 4 sisters and she also has 1 brother. How many sisters does Alice's brother have?\n### Answer: ",
+        "right_answer": "5",
+        "description": "Base model prompt version of prompt id 63"
+    },
+    {
+        "id": 90,
+        "prompt": "### Problem: Alice has 4 brothers and she also has 1 sister. How many sisters does Alice's brother have?\n### Answer: ",
+        "right_answer": "2",
+        "description": "Base model prompt version of prompt id 69"
+    },
+    {
+        "id": 91,
+        "prompt": "Alice has 3 sisters. Her mother has 1 sister who does not have children - she has 7 nephews and nieces and also 2 brothers. Alice's father has a brother who has 5 nephews and nieces in total, and who has also 1 son. How many cousins does Alice's sister have? Solve this problem and provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "5",
+        "description": "AIW+ EXPERIMENTAL, STANDARD, no bias in responses, no restriction in output length"
+    },
+    {
+        "id": 92,
+        "prompt": "Alice has 3 sisters. Her mother has 1 sister who does not have children - she has 7 nephews and nieces and also 2 brothers. Alice's father has a brother who has 5 nephews and nieces in total, and who has also 1 son. How many cousins does Alice's sister have? Before providing answer to this problem, think carefully and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "5",
+        "description": "AIW+ EXPERIMENTAL, THINKING, no bias in responses, no restriction in output length, encouraging longer output by thinking."
+    },
+    {
+        "id": 93,
+        "prompt": "Alice has 3 sisters. Her mother has 1 sister who does not have children - she has 7 nephews and nieces and also 2 brothers. Alice's father has a brother who has 5 nephews and nieces in total, and who has also 1 son. How many cousins does Alice's sister have? To answer the question, DO NOT OUTPUT ANY TEXT EXCEPT following format that contains final answer: \"### Answer: \".",
+        "right_answer": "5",
+        "description": "AIW+ EXPERIMENTAL, RESTRICTED, restriction in output length."
+    },
+    {
+        "id": 94,
+        "prompt": "Alice has 2 sisters. Her mother has 1 sister who does not have children and who has 6 nephews and nieces and also 2 brothers. Alice's father has a brother who has 5 nephews and nieces in total, and who also has 2 daughters. How many cousins does Alice's sister have? Solve this problem and provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "7",
+        "description": "AIW+ VARIATION 2 EXPERIMENTAL, STANDARD, no bias in responses, no restriction in output length"
+    },
+    {
+        "id": 95,
+        "prompt": "Alice has 2 sisters. Her mother has 1 sister who does not have children and who has 6 nephews and nieces and also 2 brothers. Alice's father has a brother who has 5 nephews and nieces in total, and who also has 2 daughters. How many cousins does Alice's sister have? Before providing answer to this problem, think carefully and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "7",
+        "description": "AIW+ VARIATION 2 EXPERIMENTAL, THINKING, no bias in responses, no restriction in output length, encouraging longer output by thinking."
+    },
+    {
+        "id": 96,
+        "prompt": "Alice has 2 sisters. Her mother has 1 sister who does not have children and who has 6 nephews and nieces and also 2 brothers. Alice's father has a brother who has 5 nephews and nieces in total, and who also has 2 daughters. How many cousins does Alice's sister have? To answer the question, DO NOT OUTPUT ANY TEXT EXCEPT following format that contains final answer: \"### Answer: \".",
+        "right_answer": "7",
+        "description": "AIW+ VARIATION 2 EXPERIMENTAL, RESTRICTED, restriction in output length."
+    },
+    {
+        "id": 97,
+        "prompt": "Alice has 3 sisters. Her mother has 1 sister who does not have children and who has 6 nephews and nieces and also 2 brothers. Alice's father has a brother who has 4 nephews and nieces in total, and who also has 1 son. How many cousins does Alice's sister have? Solve this problem and provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "3",
+        "description": "AIW+ VARIATION 3 EXPERIMENTAL, STANDARD, no bias in responses, no restriction in output length"
+    },
+    {
+        "id": 98,
+        "prompt": "Alice has 3 sisters. Her mother has 1 sister who does not have children and who has 6 nephews and nieces and also 2 brothers. Alice's father has a brother who has 4 nephews and nieces in total, and who also has 1 son. How many cousins does Alice's sister have? Before providing answer to this problem, think carefully and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "3",
+        "description": "AIW+ VARIATION 3 EXPERIMENTAL, THINKING, no bias in responses, no restriction in output length, encouraging longer output by thinking."
+    },
+    {
+        "id": 99,
+        "prompt": "Alice has 3 sisters. Her mother has 1 sister who does not have children and who has 6 nephews and nieces and also 2 brothers. Alice's father has a brother who has 4 nephews and nieces in total, and who also has 1 son. How many cousins does Alice's sister have? To answer the question, DO NOT OUTPUT ANY TEXT EXCEPT following format that contains final answer: \"### Answer: \".",
+        "right_answer": "3",
+        "description": "AIW+ VARIATION 3 EXPERIMENTAL, RESTRICTED, restriction in output length."
+    },
+    {
+        "id": 100,
+        "prompt": "Alice has M sisters and she also has N brothers. How many sisters does Alice's brother have? Solve this problem and provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "null",
+        "description": "AIW PARAM EXPERIMENTAL, STANDARD, no bias in responses, no restriction in output length"
+    },
+    {
+        "id": 101,
+        "prompt": "Alice has M sisters and she also has N brothers. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "null",
+        "description": "AIW PARAM EXPERIMENTAL, THINKING, no bias in responses, no restriction in output length, encouraging longer output by thinking."
+    },
+    {
+        "id": 102,
+        "prompt": "Alice has M sisters and she also has N brothers. How many sisters does Alice's brother have? To answer the question, DO NOT OUTPUT ANY TEXT EXCEPT following format that contains final answer: \"### Answer: \".",
+        "right_answer": "null",
+        "description": "AIW PARAM EXPERIMENTAL, RESTRICTED, restriction in output length."
+    },
+    {
+        "id": 103,
+        "prompt": "Alice has X sisters and she also has Y brothers. How many sisters does Alice's brother have? Solve this problem and provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "null",
+        "description": "AIW PARAM EXPERIMENTAL VARIATION 2, STANDARD, no bias in responses, no restriction in output length"
+    },
+    {
+        "id": 104,
+        "prompt": "Alice has X sisters and she also has Y brothers. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "null",
+        "description": "AIW PARAM EXPERIMENTAL VARIATION 2, THINKING, no bias in responses, no restriction in output length, encouraging longer output by thinking."
+    },
+    {
+        "id": 105,
+        "prompt": "Alice has X sisters and she also has Y brothers. How many sisters does Alice's brother have? To answer the question, DO NOT OUTPUT ANY TEXT EXCEPT following format that contains final answer: \"### Answer: \".",
+        "right_answer": "null",
+        "description": "AIW PARAM EXPERIMENTAL VARIATION 2, RESTRICTED, restriction in output length."
+    },
+    {
+        "id": 106,
+        "prompt": "Alice has X brothers and she also has Y sisters. How many sisters does Alice's brother have? Solve this problem and provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "null",
+        "description": "AIW PARAM EXPERIMENTAL VARIATION 3, STANDARD, no bias in responses, no restriction in output length"
+    },
+    {
+        "id": 107,
+        "prompt": "Alice has X brothers and she also has Y sisters. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "null",
+        "description": "AIW PARAM EXPERIMENTAL VARIATION 3, THINKING, no bias in responses, no restriction in output length, encouraging longer output by thinking."
+    },
+    {
+        "id": 108,
+        "prompt": "Alice has X brothers and she also has Y sisters. How many sisters does Alice's brother have? To answer the question, DO NOT OUTPUT ANY TEXT EXCEPT following format that contains final answer: \"### Answer: \".",
+        "right_answer": "null",
+        "description": "AIW PARAM EXPERIMENTAL VARIATION 3, RESTRICTED, restriction in output length."
+    },
+    {
+        "id": 109,
+        "prompt": "Reformulate the following problem as a relational database SQL programming problem. Problem: \"Alice has four sisters and a brother. How many sisters in total does Alice's brother have?\"",
+        "right_answer": "null",
+        "description": "AIW SQL experimental Reformulation prompt."
+    }
+]

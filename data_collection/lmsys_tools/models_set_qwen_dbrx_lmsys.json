@@ -1,0 +1,8 @@
+[
+    "qwen1.5-72b-chat",
+    "qwen1.5-32b-chat",
+    "qwen1.5-14b-chat",
+    "qwen1.5-7b-chat",
+    "qwen1.5-4b-chat",
+    "dbrx-instruct"
+]

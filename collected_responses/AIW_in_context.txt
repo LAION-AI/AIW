@@ -1,0 +1,691 @@
+LLama 2 70B
+
+
+****************
+—---------------------------------------
+Llama-70B
+—----------------------------------------
+# Provide correct answer to the formulated problem.
+
+### Problem: Alice has 4 brothers and she also has 1 sister. How many sisters does Alice's brother have?
+
+### Answer: 2
+
+### Problem: Alice has 4 sisters and she also has 1 brother. How many sisters does Alice's brother have?
+
+### Answer: 5
+
+### Problem: Alice has 3 brothers and she also has 6 sisters. How many sisters does Alice's brother have?
+
+### Answer: 7
+
+### Problem: Alice has 2 sisters and she also has 4 brothers. How many sisters does Alice's brother have?
+
+### Answer: 3
+
+### Problem: Alice has 3 brothers and she also has 5 sisters. How many sisters does Alice's brother have?
+
+### Answer: 6 [CORRECT!]
+
+### Problem: Alice has 1 sister and she also has 2 brothers. How many sisters does Alice's brother have?
+
+### Answer: 1
+
+### Problem: Alice has 1 brother and she also has 3 sisters. How many sisters does Alice's brother have?
+
+### Answer: 2
+
+### Problem: Alice has 2 sisters and she also has 1 brother. How many sisters does Alice's brother have?
+
+### Answer: 2
+
+### Problem: Alice has 3 brothers and she also has 3 sisters. How many sisters does Alice's brother have?
+
+### Answer: 4
+
+### Problem: Alice has 4 brothers and she also has 2 sisters. How many sisters does Alice's brother have?
+
+### Answer: 3
+
+### Problem: Alice has 2 brothers and she also has 2 sisters. How many sisters does Alice's brother have?
+
+### Answer: 2
+
+### Problem: Alice has 3 brothers and she also has 2 sisters. How many sisters does Alice's brother have?
+
+### Answer: 3
+
+### Problem: Alice has 1 brother and she also has 4 sisters. How many sisters does Alice's brother have?
+
+### Answer: 4
+
+### Problem: Alice has 4 brothers and she also has 3 sisters. How many sisters does Alice's brother have?
+
+### Answer: 4
+
+### Problem: Alice has 2 brothers and she also has 1 sister. How many sisters does Alice's brother have?
+
+### Answer: 1
+
+### Problem: Alice has 2 brothers and she also has 2 sisters. How many sisters does Alice's brother have?
+
+### Answer: 2
+
+### Problem: Alice has 1 brother and she also has 1 sister. How many sisters does Alice's brother have?
+
+### Answer: 1
+
+### Problem: Alice has 1 brother and she also has 2 sisters. How many sisters does Alice's brother have?
+
+### Answer: 2
+
+### Problem:
+
+****************
+—---------------------------------------
+
+LLama 2 70B
+
+Alice:
+
+# Provide correct answer to the formulated problem.
+
+### Problem: Alice has 4 brothers and she also has 1 sister. How many sisters does Alice's brother have?
+
+### Answer: 2
+
+### Problem: Alice has 4 sisters and she also has 1 brother. How many sisters does Alice's brother have?
+
+### Answer: 5
+
+### Problem: Alice has 3 brothers and she also has 6 sisters. How many sisters does Alice's brother have?
+
+### Answer: 7
+
+### Problem: Alice has 2 sisters and she also has 4 brothers. How many sisters does Alice's brother have?
+
+### Answer: 3
+
+### Problem: Alice has 3 brothers and she also has 5 sisters. How many sisters does Alice's brother have?
+
+### Answer: 4 [WRONG!]
+
+### Problem: Alice has 2 sisters and she also has 2 brothers. How many sisters does Alice's brother have?
+
+### Answer: 2
+
+### Problem: Alice has 1 sister and she also has 3 brothers. How many sisters does Alice's brother have?
+
+### Answer: 1
+
+### Problem: Alice has 5 sisters and she also has 1 brother. How many sisters does Alice's brother have?
+
+### Answer: 5
+
+### Problem: Alice has 1 sister and she also has 4 brothers. How many sisters does Alice's brother have?
+
+### Answer: 1
+
+### Problem: Alice has 2 sisters and she also has 1 brother. How many sisters does Alice's brother have?
+
+### Answer: 2
+
+### Problem: Alice has 1 sister and she also has 2 brothers. How many sisters does Alice's brother have?
+
+### Answer: 1
+
+### Problem: Alice has 3 sisters and she also has 3 brothers. How many sisters does Alice's brother have?
+
+### Answer: 3
+
+### Problem: Alice has 1 sister and she also has 5 brothers. How many sisters does Alice's brother have?
+
+### Answer: 1
+
+### Problem: Alice has 3 sisters and she also has 2 brothers. How many sisters does Alice's brother have?
+
+### Answer: 3
+
+### Problem: Alice has 4 sisters and she also has 3 brothers. How many sisters does Alice's brother have?
+
+### Answer: 4
+
+### Problem: Alice has 5 sisters and she also has 2 brothers. How many sisters does Alice's brother have?
+
+### Answer: 5
+
+### Problem: Alice has 6 sisters and she also has 1 brother. How many sisters does Alice's brother have?
+
+### Answer: 6
+
+### Problem: Alice has 1 sister and she also has 6 brothers. How many sisters does Alice's brother have?
+
+### Answer: 1
+
+### Problem: Alice has
+
+
+****************
+
+—---------------------------------------
+
+LLama 3 70B
+
+—----------------------------------------
+
+LLama 3 70B
+—----------------------------------------
+
+# Provide correct answer to the formulated problem.
+
+### Problem: Alice has 4 brothers and she also has 1 sister. How many sisters does Alice's brother have?
+
+### Answer: 2
+
+### Problem: Alice has 4 sisters and she also has 1 brother. How many sisters does Alice's brother have?
+
+### Answer: 5
+
+### Problem: Alice has 3 brothers and she also has 6 sisters. How many sisters does Alice's brother have?
+
+### Answer: 7
+
+### Problem: Alice has 2 sisters and she also has 4 brothers. How many sisters does Alice's brother have?
+
+### Answer: 3
+
+### Problem: Alice has 3 brothers and she also has 8 sisters. How many sisters does Alice's brother have?
+
+### Answer: 9 [CORRECT]
+
+### Problem: Alice has 2 sisters and she also has 2 brothers. How many sisters does Alice's brother have?
+
+### Answer: 3 [CORRECT, and so on …]
+
+### Problem: Alice has 2 brothers and she also has 2 sisters. How many sisters does Alice's brother have?
+
+### Answer: 3
+
+### Problem: Alice has 2 brothers and she also has 1 sister. How many sisters does Alice's brother have?
+
+### Answer: 2
+
+### Problem: Alice has 2 sisters and she also has 1 brother. How many sisters does Alice's brother have?
+
+### Answer: 3
+
+### Problem: Alice has 1 brother and she also has 2 sisters. How many sisters does Alice's brother have?
+
+### Answer: 3
+
+### Problem: Alice has 1 sister and she also has 2 brothers. How many sisters does Alice's brother have?
+
+### Answer: 2
+
+### Problem: Alice has 2 brothers and she also has 3 sisters. How many sisters does Alice's brother have?
+
+### Answer: 4
+
+### Problem: Alice has 2 sisters and she also has 3 brothers. How many sisters does Alice's brother have?
+
+### Answer: 3
+
+### Problem: Alice has 3 brothers and she also has 2 sisters. How many sisters does Alice's brother have?
+
+### Answer: 3
+
+### Problem: Alice has 3 sisters and she also has 2 brothers. How many sisters does Alice's brother have?
+
+### Answer: 4
+
+### Problem: Alice has 2 brothers and she also has 4 sisters. How many sisters does Alice's brother have?
+
+### Answer: 5
+…
+
+
+—----------------------------------------
+
+LLama 3 70B, Alice, Bob switching, CORRECT
+—----------------------------------------
+
+# Provide correct answer to the formulated problem.
+
+### Problem: Alice has 4 brothers and she also has 1 sister. How many sisters does Alice's brother have?
+
+### Answer: 2
+
+### Problem: Alice has 4 sisters and she also has 1 brother. How many sisters does Alice's brother have?
+
+### Answer: 5
+
+### Problem: Alice has 3 brothers and she also has 6 sisters. How many sisters does Alice's brother have?
+
+### Answer: 7
+
+### Problem: Alice has 2 sisters and she also has 4 brothers. How many sisters does Alice's brother have?
+
+### Answer: 3
+
+### Problem: Bob has 3 brothers and he also has 5 sisters. How many brothers does Bob's sister have?
+
+### Answer: 4 [CORRECT]
+
+### Problem: Bob has 2 sisters and he also has 6 brothers. How many brothers does Bob's sister have?
+
+### Answer: 7 [CORRECT, and so on]
+
+### Problem: Bob has 6 brothers and he also has 2 sisters. How many brothers does Bob's sister have?
+
+### Answer: 7
+
+### Problem: Bob has 6 sisters and he also has 4 brothers. How many brothers does Bob's sister have?
+
+### Answer: 5
+
+### Problem: Bob has 4 brothers and he also has 6 sisters. How many brothers does Bob's sister have?
+
+### Answer: 5
+
+### Problem: Bob has 6 brothers and he also has 4 sisters. How many brothers does Bob's sister have?
+
+### Answer: 7
+
+### Problem: Bob has 6 brothers and he also has 6 sisters. How many brothers does Bob's sister have?
+
+### Answer: 7
+
+….
+
+
+—----------------------------------------
+
+LLama 3 70B
+
+—----------------------------------------
+# Provide correct answer to the formulated problem.
+
+### Problem: Alice has 4 brothers and she also has 1 sister. How many sisters does Alice's brother have?
+
+### Answer: 2
+
+### Problem: Alice has 4 sisters and she also has 1 brother. How many sisters does Alice's brother have?
+
+### Answer: 5
+
+### Problem: Alice has 3 brothers and she also has 6 sisters. How many sisters does Alice's brother have?
+
+### Answer: 7
+
+### Problem: Alice has 2 sisters and she also has 4 brothers. How many sisters does Alice's brother have?
+
+### Answer: 3
+
+### Problem: Bob has 3 sisters and he also has 5 brothers. How many sisters does Bob's brother have?
+
+### Answer: 4 [WRONG, +1 SHORTCUT!]
+
+### Problem: Bob has 2 brothers and he also has 2 sisters. How many sisters does Bob's brother have?
+
+### Answer: 3  [AGAIN WRONG, +1 shortcut]
+
+### Problem: Bob has 2 brothers and he also has 1 sister. How many sisters does Bob's brother have?
+
+### Answer: 2 [again wrong, and so on …]
+
+### Problem: Bob has 1 brother and he also has 2 sisters. How many sisters does Bob's brother have?
+
+### Answer: 3
+
+### Problem: Bob has 2 brothers and he also has 4 sisters. How many sisters does Bob's brother have?
+
+### Answer: 5
+
+### Problem: Bob has 2 brothers and he also has 3 sisters. How many sisters does Bob's brother have?
+
+### Answer: 4
+
+### Problem: Bob has 2 brothers and he also has 1 sister. How many sisters does Bob's brother have?
+
+### Answer: 2
+
+### Problem: Bob has 2 brothers and he also has 2 sisters. How many sisters does Bob's brother have?
+
+### Answer: 3
+
+### Problem: Bob has 2 brothers and he also has 2 sisters. How many sisters does Bob's brother have?
+
+### Answer: 3
+
+……
+
+
+—----------------------------------------
+
+LLama 3 70B
+—----------------------------------------
+
+# Provide correct answer to the formulated problem.
+
+### Problem: Alice has 4 brothers and she also has 1 sister. How many sisters does Alice's brother have?
+
+### Answer: 2
+
+### Problem: Alice has 4 sisters and she also has 1 brother. How many sisters does Alice's brother have?
+
+### Answer: 5
+
+### Problem: Alice has 3 brothers and she also has 6 sisters. How many sisters does Alice's brother have?
+
+### Answer: 7
+
+### Problem: Alice has 2 sisters and she also has 4 brothers. How many sisters does Alice's brother have?
+
+### Answer: 3
+
+### Problem: Alice has 3 brothers and she also has 5 sisters. How many brothers does Alice's sister have?
+
+### Answer: 4 [WRONG, +1 SHORTCUT!]
+
+### Problem: Alice has 4 brothers and she also has 5 sisters. How many brothers does Alice's sister have?
+
+### Answer: 5 [AGAIN WRONG, +1 SHORTCUT!]
+
+### Problem: Alice has 4 brothers and she also has 2 sisters. How many brothers does Alice's sister have?
+
+### Answer: 5
+
+….
+
+
+—-----------------------------------------
+Llama 3 70B
+Parameterized, correct, then producing many wrong examples
+—-----------------------------------------
+
+# Provide correct answer to the formulated problem.
+
+### Problem: Alice has 4 brothers and she also has 1 sister. How many sisters does Alice's brother have?
+
+### Answer: 2
+
+### Problem: Alice has 4 sisters and she also has 1 brother. How many sisters does Alice's brother have?
+
+### Answer: 5
+
+### Problem: Alice has 3 brothers and she also has 6 sisters. How many sisters does Alice's brother have?
+
+### Answer: 7
+
+### Problem: Alice has 2 sisters and she also has 4 brothers. How many sisters does Alice's brother have?
+
+### Answer: 3
+
+### Problem: Alice has N brothers and she also has M sisters. How many sisters does Alice's brother have?
+
+### Answer: M+1 [CORRECT]
+
+### Problem: Alice has N brothers and she also has M sisters. How many sisters does Alice's sister have?
+
+### Answer: M-1 [WRONG]
+
+### Problem: Alice has N brothers and she also has M sisters. How many brothers does Alice's brother have?
+
+### Answer: N-1 [AND SO ON]
+
+### Problem: Alice has N brothers and she also has M sisters. How many brothers does Alice's sister have?
+
+### Answer: N+1
+
+### Problem: Alice has N brothers and she also has M sisters. How many brothers does Alice have?
+
+### Answer: N
+
+….
+—--------------------
+Llama 3 70B
+Parameterized, incorrect, producing number instead of generic response, then producing many wrong examples
+
+—--------------------
+
+# Provide correct answer to the formulated problem.
+
+### Problem: Alice has 4 brothers and she also has 1 sister. How many sisters does Alice's brother have?
+
+### Answer: 2
+
+### Problem: Alice has 4 sisters and she also has 1 brother. How many sisters does Alice's brother have?
+
+### Answer: 5
+
+### Problem: Alice has 3 brothers and she also has 6 sisters. How many sisters does Alice's brother have?
+
+### Answer: 7
+
+### Problem: Alice has 2 sisters and she also has 4 brothers. How many sisters does Alice's brother have?
+
+### Answer: 3
+
+### Problem: Alice has N brothers and she also has M sisters. How many sisters does Alice's brother have?
+
+### Answer: 2
+
+### Problem: Alice has N sisters and she also has M brothers. How many sisters does Alice's brother have?
+
+### Answer: 5
+
+### Problem: Alice has N brothers and she also has M sisters. How many sisters does Alice's brother have?
+
+### Answer: 7
+
+### Problem: Alice has N sisters and she also has M brothers. How many sisters does Alice's brother have?
+
+### Answer: 3
+
+### Problem: Alice has 4 brothers and she also has 1 sister. How many sisters does Alice's brother have?
+
+### Answer: 2
+
+
+—-----------------------------------------
+Llama 3 70B
+Parameterized,
+
+
+—-----------------------------------------
+
+—-----------------------------------------
+
+LLama 3 8B
+
+—-------------------------------------------------------
+
+**********************************
+LLama 3 8B, Bob, #1, CORRECT
+
+**********************************
+
+# Provide correct answer to the formulated problem.
+
+### Problem: Alice has 4 brothers and she also has 1 sister. How many sisters does Alice's brother have?
+
+### Answer: 2
+
+### Problem: Alice has 4 sisters and she also has 1 brother. How many sisters does Alice's brother have?
+
+### Answer: 5
+
+### Problem: Alice has 3 brothers and she also has 6 sisters. How many sisters does Alice's brother have?
+
+### Answer: 7
+
+### Problem: Alice has 2 sisters and she also has 4 brothers. How many sisters does Alice's brother have?
+
+### Answer: 3
+
+### Problem: Bob has 3 brothers and he also has 5 sisters. How many brothers does Bob's sister have?
+
+### Answer: 4 [CORRECT]
+
+### Problem: Bob has 5 brothers and he also has 3 sisters. How many brothers does Bob's sister have?
+
+### Answer: 6
+
+### Problem: Bob has 6 brothers and he also has 4 sisters. How many brothers does Bob's sister have?
+
+### Answer: 8
+
+### Problem: Bob has 4 brothers and he also has 7 sisters. How many brothers does Bob's sister have?
+
+### Answer: 5
+
+### Problem: Bob has 5 brothers and he also has 7 sisters. How many brothers does Bob's sister have?
+
+### Answer: 6
+
+### Problem: Bob has 6 brothers and he also has 7 sisters. How many brothers does Bob's sister have?
+
+### Answer: 8
+
+### Problem: Bob has 7 brothers and he also has 5 sisters. How many brothers does Bob's sister have?
+
+### Answer: 9
+
+### Problem: Bob has 8 brothers and he also has 3 sisters. How many brothers does Bob's sister have?
+
+### Answer: 11
+
+### Problem: Bob has 9 brothers and he also has 1 sister. How many brothers does Bob's sister have?
+
+### Answer: 10
+
+### Problem: Bob has 10 brothers and he also has 1 sister. How many brothers does Bob's sister have?
+
+### Answer: 11
+
+### Problem: Bob has 11 brothers and he also has 1 sister. How many brothers does Bob's sister have?
+
+### Answer: 12
+
+### Problem: Bob has 12 brothers and he also has 1 sister. How many brothers does Bob's sister have?
+
+### Answer: 13
+
+### Problem: Bob has 13 brothers and he also has 1 sister. How many brothers does Bob's sister have?
+
+### Answer: 14
+
+### Problem: Bob has 14 brothers and he also has 1 sister. How many brothers does Bob's sister have?
+
+### Answer: 15
+
+### Problem: Bob has 15 brothers and he also has 1 sister. How many brothers does Bob's sister have?
+
+### Answer: 16
+
+### Problem: Bob has 16 brothers and he also has 1 sister. How many brothers does Bob's sister have?
+
+### Answer: 17
+
+### Problem: Bob has 17 brothers and he also has 1 sister. How many brothers does Bob's sister have?
+
+### Answer: 18
+
+### Problem: Bob has 18 brothers and he also has
+
+—-------------------------
+
+**********************************
+LLama 3 70B
+
+HINT ON +1 SHORTCUT ?? As answers for Bob brothers ALWAYS add 1, although it is NOT the correct way to solve the problem
+
+**********************************
+
+# Provide correct answer to the formulated problem.
+
+### Problem: Alice has 4 brothers and she also has 1 sister. How many sisters does Alice's brother have?
+
+### Answer: 2
+
+### Problem: Alice has 4 sisters and she also has 1 brother. How many sisters does Alice's brother have?
+
+### Answer: 5
+
+### Problem: Alice has 3 brothers and she also has 6 sisters. How many sisters does Alice's brother have?
+
+### Answer: 7
+
+### Problem: Alice has 2 sisters and she also has 4 brothers. How many sisters does Alice's brother have?
+
+### Answer: 3
+
+### Problem: Alice has 3 brothers and she also has 5 sisters. How many sisters does Alice's brother have?
+
+### Answer: 4 [CORRECT]
+
+### Problem: Bob has 4 sisters and he also has 1 brother. How many sisters does Bob's brother have?
+
+### Answer: 5 [+1 ! WRONG]
+
+### Problem: Bob has 2 sisters and he also has 2 brothers. How many sisters does Bob's brother have?
+
+### Answer: 3 [+1 ! WRONG]
+
+### Problem: Bob has 1 sister and he also has 3 brothers. How many sisters does Bob's brother have?
+
+### Answer: 2
+
+### Problem: Bob has 4 sisters and he also has 5 brothers. How many sisters does Bob's brother have?
+
+### Answer: 5
+
+### Problem: Bob has 3 sisters and he also has 3 brothers. How many sisters does Bob's brother have?
+
+### Answer: 4
+
+### Problem: Bob has 2 sisters and he also has 2 brothers. How many sisters does Bob's brother have?
+
+### Answer: 3
+
+### Problem: Bob has 3 sisters and he also has 2 brothers. How many sisters does Bob's brother have?
+
+### Answer: 4
+
+### Problem: Bob has 1 sister and he also has 3 brothers. How many sisters does Bob's brother have?
+
+### Answer: 2
+
+### Problem: Bob has 4 sisters and he also has 5 brothers. How many sisters does Bob's brother have?
+
+### Answer: 5
+
+### Problem: Bob has 2 sisters and he also has 4 brothers. How many sisters does Bob's brother have?
+
+### Answer: 3
+
+### Problem: Bob has 4 sisters and he also has 3 brothers. How many sisters does Bob's brother have?
+
+### Answer: 5
+
+### Problem: Bob has 5 sisters and he also has 4 brothers. How many sisters does Bob's brother have?
+
+### Answer: 6
+
+### Problem: Bob has 1 sister and he also has 3 brothers. How many sisters does Bob's brother have?
+
+### Answer: 2
+
+### Problem: Bob has 3 sisters and he also has 2 brothers. How many sisters does Bob's brother have?
+
+### Answer: 4
+
+### Problem: Bob has 5 sisters and he also has 2 brothers. How many sisters does Bob's brother have?
+
+### Answer: 6
+
+### Problem: Bob has 3 sisters and he also has 2 brothers. How many sisters does Bob's brother have?
+
+### Answer: 4
+
+### Problem: Bob has 3 sisters and he also has

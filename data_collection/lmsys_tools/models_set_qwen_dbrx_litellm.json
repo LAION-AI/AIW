@@ -1,0 +1,9 @@
+[
+    "together_ai\/Qwen\/Qwen1.5-72B-Chat",
+    "together_ai\/Qwen\/Qwen1.5-32B-Chat",
+    "together_ai\/Qwen\/Qwen1.5-14B-Chat",
+    "together_ai\/Qwen\/Qwen1.5-7B-Chat",
+    "together_ai\/Qwen\/Qwen1.5-4B-Chat",
+    "together_ai\/Qwen\/Qwen1.5-1.8B-Chat",
+    "together_ai\/databricks\/dbrx-instruct"    
+]

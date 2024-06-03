@@ -1,0 +1,5 @@
+requests
+pandas
+matplotlib
+seaborn
+selenium

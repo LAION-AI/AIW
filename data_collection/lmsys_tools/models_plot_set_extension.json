@@ -1,0 +1,19 @@
+[
+    "gemini\/gemini-pro",
+    "together_ai\/meta-llama\/Llama-2-70b-chat-hf",
+    "together_ai\/meta-llama\/Llama-2-13b-chat-hf",
+    "together_ai\/meta-llama\/Llama-2-7b-chat-hf",
+    "together_ai\/meta-llama\/Llama-3-70b-chat-hf",
+    "together_ai\/meta-llama\/Llama-3-8b-chat-hf",
+    "command-nightly",
+    "command-r-plus",
+    "together_ai\/databricks\/dbrx-instruct",    
+    "together_ai\/google\/gemma-7b-it",
+    "together_ai\/google\/gemma-2b-it",
+    "together_ai\/Qwen\/Qwen1.5-72B-Chat",
+    "together_ai\/Qwen\/Qwen1.5-32B-Chat",
+    "together_ai\/Qwen\/Qwen1.5-14B-Chat",
+    "together_ai\/Qwen\/Qwen1.5-7B-Chat",
+    "together_ai\/Qwen\/Qwen1.5-4B-Chat",
+    "together_ai\/Qwen\/Qwen1.5-1.8B-Chat"
+]
