@@ -24,6 +24,7 @@ Refer to the [TogetherAI Docs](https://docs.together.ai/docs/quickstart) on how 
 Refer to [this Python script](data_collection/examples/example_together.py) to see how to use togetherAI to gather model responses.
 
 **Colect by scraping [LMSYS Chatbot Arena](https://chat.lmsys.org/):**
+
 *Important note* This method is not recommended since it's limited and can violate LMSYS' ToS.
 
 Refer to [this bash script](scripts/execute_lmsys_data_gathering.sh) to see how to use litellm to gather model responses.
