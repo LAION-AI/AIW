@@ -123,3 +123,11 @@ Refer to [this bash script](scripts/execute_lmsys_data_gathering.sh) to see how 
 
 Run script to generate plots from the paper (by default plots will be saved in the working directory):
 `bash scripts/plot.sh`
+
+## Acknowledgments
+
+We would like to express gratitude to all the people who are working on making code, models and data publicly available, advancing community based research and making research more reproducible. Specifically, we would like to thank all the members of the [LAION Discord server](https://discord.gg/BZqhreFazY) community and [Open-Ψ (Open-Sci) Collective](https://discord.gg/GsKh4mBVcv) for providing fruitful ground for scientific exchange and open-source development.
+
+Marianna Nezhurina acknowledges funding by the Federal Ministry of Education and Research of Germany under grant no. 01IS22094B WestAI - AI Service Center West.
+
+Lucia Cipolina-Kun acknowledges the Helmholtz Information & Data Science Academy (HIDA) for providing financial support enabling a short-term research stay at Juelich Supercomputing Center (JSC), Research Center Juelich (FZJ) to conduct research on foundation models.
