@@ -15,7 +15,7 @@ Install requirements:
 **Collect using [LiteLLM](https://github.com/BerriAI/litellm):**
 Refer to the [LiteLLM Docs](https://docs.litellm.ai/docs/) on how to setup your account and API keys.
 
- workflow init
+Workflow init:
 
 ```bash
 export SHARED_MINICONDA=/path/to/miniconda_install
@@ -112,14 +112,14 @@ Refer to the [TogetherAI Docs](https://docs.together.ai/docs/quickstart) on how 
 
 Refer to [this Python script](data_collection/examples/example_together.py) to see how to use togetherAI to gather model responses.
 
-**Colect by scraping [LMSYS Chatbot Arena](https://chat.lmsys.org/):**
+**Collect by scraping [LMSYS Chatbot Arena](https://chat.lmsys.org/):**
 
-*Note* This method is not recommended since it's limited for purpose of automated model. The platform is gated by cloudflare.
+*Note* This method is not recommended since it's limited for purpose of automated model evaluation. The platform is gated by cloudflare.
 
 Refer to [this bash script](scripts/execute_lmsys_data_gathering.sh) to see how to use litellm to gather model responses.
 
 
 ## Plot the data
 
-Run script to generate plots from the paper (by deafault plots will be saved in the working directory):
+Run script to generate plots from the paper (by default plots will be saved in the working directory):
 `bash scripts/plot.sh`
