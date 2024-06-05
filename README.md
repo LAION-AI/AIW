@@ -123,3 +123,18 @@ Refer to [this bash script](scripts/execute_lmsys_data_gathering.sh) to see how 
 
 Run script to generate plots from the paper (by deafault plots will be saved in the working directory):
 `bash scripts/plot.sh`
+
+## Citation
+If you like this work, please cite:
+
+```
+@article{nezhurina2024alice,
+        title={Alice in Wonderland: Simple Tasks Showing Complete Reasoning Breakdown in State-Of-the-Art Large Language Models},
+        author={Marianna Nezhurina and Lucia Cipolina-Kun and Mehdi Cherti and Jenia Jitsev},
+        year={2024},
+        journal={arXiv preprint arXiv:2406.02061},
+        eprint={2406.02061},
+        archivePrefix={arXiv},
+        primaryClass={cs.LG}
+}
+```
