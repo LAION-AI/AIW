@@ -2,7 +2,7 @@
         🎩🐇 Alice in Wonderland: Simple Tasks Showing Complete Reasoning Breakdown in State-Of-the-Art Large Language Models
     </h1>
  <p align="center">Alice in Wonderland code base for experiments and raw experiments data</p>
-<h4 align="center"><a href="https://marianna13.github.io/aiw/" target="_blank">Homepage</a> | <a href="https://docs.litellm.ai/docs/hosted" target="_blank"> Paper</a> | <a href="https://docs.litellm.ai/docs/enterprise"target="_blank">Arxiv</a></h4>
+<h4 align="center"><a href="https://marianna13.github.io/aiw/" target="_blank">Homepage</a> | <a href="https://arxiv.org/pdf/2406.02061" target="_blank"> Paper</a> | <a href="https://arxiv.org/abs/2406.02061"target="_blank">ArXiv</a></h4>
 
 
 ## Usage
@@ -15,7 +15,7 @@ Install requirements:
 **Collect using [LiteLLM](https://github.com/BerriAI/litellm):**
 Refer to the [LiteLLM Docs](https://docs.litellm.ai/docs/) on how to setup your account and API keys.
 
- workflow init
+Workflow init:
 
 ```bash
 export SHARED_MINICONDA=/path/to/miniconda_install
@@ -112,17 +112,33 @@ Refer to the [TogetherAI Docs](https://docs.together.ai/docs/quickstart) on how 
 
 Refer to [this Python script](data_collection/examples/example_together.py) to see how to use togetherAI to gather model responses.
 
-**Colect by scraping [LMSYS Chatbot Arena](https://chat.lmsys.org/):**
+**Collect by scraping [LMSYS Chatbot Arena](https://chat.lmsys.org/):**
 
-*Note* This method is not recommended since it's limited for purpose of automated model. The platform is gated by cloudflare.
+*Note* This method is not recommended since it's limited for purpose of automated model evaluation. The platform is gated by cloudflare.
 
 Refer to [this bash script](scripts/execute_lmsys_data_gathering.sh) to see how to use litellm to gather model responses.
 
 
 ## Plot the data
 
-Run script to generate plots from the paper (by deafault plots will be saved in the working directory):
+Run script to generate plots from the paper (by default plots will be saved in the working directory):
 `bash scripts/plot.sh`
+
+## Acknowledgments
+
+We would like to express gratitude to all the people who are working on making code, models and data publicly available, advancing community based research and making research more reproducible. Specifically, we would like to thank all the members of the [LAION Discord server](https://discord.gg/BZqhreFazY) community and [Open-Ψ (Open-Sci) Collective](https://discord.gg/GsKh4mBVcv) for providing fruitful ground for scientific exchange and open-source development.
+
+Marianna Nezhurina acknowledges funding by the Federal Ministry of Education and Research of Germany under grant no. 01IS22094B WestAI - AI Service Center West.
+
+Lucia Cipolina-Kun acknowledges the Helmholtz Information & Data Science Academy (HIDA) for providing financial support enabling a short-term research stay at Juelich Supercomputing Center (JSC), Research Center Juelich (FZJ) to conduct research on foundation models.
+
+## Acknowledgments
+
+We would like to express gratitude to all the people who are working on making code, models and data publicly available, advancing community based research and making research more reproducible. Specifically, we would like to thank all the members of the [LAION Discord server](https://discord.gg/BZqhreFazY) community and [Open-Ψ (Open-Sci) Collective](https://discord.gg/GsKh4mBVcv) for providing fruitful ground for scientific exchange and open-source development.
+
+Marianna Nezhurina acknowledges funding by the Federal Ministry of Education and Research of Germany under grant no. 01IS22094B WestAI - AI Service Center West.
+
+Lucia Cipolina-Kun acknowledges the Helmholtz Information & Data Science Academy (HIDA) for providing financial support enabling a short-term research stay at Juelich Supercomputing Center (JSC), Research Center Juelich (FZJ) to conduct research on foundation models.
 
 ## Citation
 If you like this work, please cite:
