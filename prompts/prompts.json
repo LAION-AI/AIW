@@ -73,15 +73,15 @@
     },
     {
         "id": 13,
-        "prompt": "Alice has 4 brothers and she also has 1 sister. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
-        "right_answer": "2",
-        "description": "original prompt, think carefully ver 1"
+        "prompt": "Alice has 4 brothers and she also has 3 sisters. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "4",
+        "description": "original mod prompt, think carefully ver 1"
     },
     {
         "id": 14,
-        "prompt": "Alice has 4 sisters and she also has 1 brother. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
-        "right_answer": "5",
-        "description": "easy prompt, think carefully ver 1"
+        "prompt": "Alice has 2 sisters and she also has 1 brother. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "3",
+        "description": "mod prompt, think carefully ver 1"
     },
     {
         "id": 15,
@@ -157,15 +157,15 @@
     },
     {
         "id": 27,
-        "prompt": "Alice has 4 brothers and she also has 1 sister. How many sisters does Alice's brother have? Solve this problem and provide the final answer in following form: \"### Answer: \".",
+        "prompt": "Alice has 3 brothers and she also has 1 sister. How many sisters does Alice's brother have? Solve this problem and provide the final answer in following form: \"### Answer: \".",
         "right_answer": "2",
-        "description": "original prompt, no output length restriction"
+        "description": "original mod prompt, no output length restriction"
     },
     {
         "id": 28,
-        "prompt": "Alice has 4 sisters and she also has 1 brother. How many sisters does Alice's brother have? Solve this problem and provide the final answer in following form: \"### Answer: \".",
-        "right_answer": "5",
-        "description": "easy prompt, no output length restriction"
+        "prompt": "Alice has 5 sisters and she also has 1 brother. How many sisters does Alice's brother have? Solve this problem and provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "6",
+        "description": "AIW original variation, no output length restriction"
     },
     {
         "id": 29,
@@ -235,9 +235,9 @@
     },
     {
         "id": 40,
-        "prompt": "Alice has 4 sisters and she also has 1 brother. How many sisters does Alice's brother have? To solve the problem, approach it as a very intelligent, accurate and precise scientist capable of strong and sound reasoning. Provide the solution to the problem by thinking step by step, double checking your reasoning for any mistakes, and based on gathered evidence, provide the final answer to the problem in following form: \"### Answer: \".",
-        "right_answer": "5",
-        "description": "easy prompt, scientist v3"
+        "prompt": "Alice has 5 sisters and she also has 1 brother. How many sisters does Alice's brother have? To solve the problem, approach it as a very intelligent, accurate and precise scientist capable of strong and sound reasoning. Provide the solution to the problem by thinking step by step, double checking your reasoning for any mistakes, and based on gathered evidence, provide the final answer to the problem in following form: \"### Answer: \".",
+        "right_answer": "6",
+        "description": "AIW original variation, scientist v3"
     },
     {
         "id": 41,
@@ -315,37 +315,37 @@
         "id": 53,
         "prompt": "Alice has 3 brothers and she also has 6 sisters. How many sisters does Alice's brother have? To answer the question, DO NOT OUTPUT ANY TEXT EXCEPT following format that contains final answer: \"### Answer: \".",
         "right_answer": "7",
-        "description": "EXPERIMENTAL BREAKING CLAUDE ON RESTRICTED original prompt, change in numbers, no bias in responses, restriction in output length"
+        "description": "AIW Variation 1, Original, RESTRICTED, restriction in output length"
     },
     {
         "id": 54,
         "prompt": "Alice has 2 sisters and she also has 4 brothers. How many sisters does Alice's brother have? To answer the question, DO NOT OUTPUT ANY TEXT EXCEPT following format that contains final answer: \"### Answer: \".",
         "right_answer": "3",
-        "description": "EXPERIMENTAL BREAKING CLAUDE ON RESTRICTED easy prompt, change in numbers, no bias in responses, restriction in output length"
+        "description": "AIW Variation 2, RESTRICTED, restriction in output length"
     },
     {
         "id": 55,
         "prompt": "Alice has 3 brothers and she also has 6 sisters. How many sisters does Alice's brother have? Solve this problem and provide the final answer in following form: \"### Answer: \".",
         "right_answer": "7",
-        "description": "EXPERIMENTAL BREAKING CLAUDE ON RESTRICTED original prompt, change in numbers, no bias in responses, no restriction in output length"
+        "description": "AIW Variation 1, STANDARD, no restriction in output length"
     },
     {
         "id": 56,
         "prompt": "Alice has 2 sisters and she also has 4 brothers. How many sisters does Alice's brother have? Solve this problem and provide the final answer in following form: \"### Answer: \".",
         "right_answer": "3",
-        "description": "EXPERIMENTAL BREAKING CLAUDE ON RESTRICTED easy prompt, change in numbers, no bias in responses, no restriction in output length"
+        "description": "AIW Variation 2, STANDARD, no restriction in output length"
     },
     {
         "id": 57,
         "prompt": "Alice has 3 brothers and she also has 6 sisters. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
         "right_answer": "7",
-        "description": "EXPERIMENTAL BREAKING CLAUDE ON RESTRICTED original prompt, change in numbers, no bias in responses, no restriction in output length, thinking carefully v1"
+        "description": "AIW Variation 1, THINKING V1, no restriction in output length, thinking carefully v1"
     },
     {
         "id": 58,
         "prompt": "Alice has 2 sisters and she also has 4 brothers. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
         "right_answer": "3",
-        "description": "EXPERIMENTAL BREAKING CLAUDE ON RESTRICTED easy prompt, change in numbers, no bias in responses, no restriction in output length, thinking carefully v1"
+        "description": "AIW Variation 2, THINKING V1, no restriction in output length, thinking carefully v1"
     },
     {
         "id": 59,
@@ -355,9 +355,9 @@
     },
     {
         "id": 60,
-        "prompt": "Alice has 2 sisters and she also has 4 brothers. How many sisters does Alice's brother have? Solve this problem and provide the final answer in following form: \"### Answer: \".",
-        "right_answer": "3",
-        "description": "EXPERIMENTAL BREAKING CLAUDE ON RESTRICTED easy prompt, change in numbers, no bias in responses, no restriction in output length"
+        "prompt": "Bob has 2 sisters and he also has 3 brothers. How many brothers does Bob's sister have? Solve this problem and provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "4",
+        "description": "AIW Variation, STANDARD, Bob Version, no restriction in output length"
     },
     {
         "id": 61,
@@ -375,19 +375,19 @@
         "id": 63,
         "prompt": "Alice has 4 sisters and she also has 1 brother. How many sisters does Alice's brother have? Solve this problem and provide the final answer in following form: \"### Answer: \".",
         "right_answer": "5",
-        "description": "AIW Variation 3, no output restriction"
+        "description": "AIW Variation 3, STANDARD, no output restriction"
     },
     {
         "id": 64,
         "prompt": "Alice has 4 sisters and she also has 1 brother. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
         "right_answer": "5",
-        "description": "AIW Variation 3, no output restriction, thinking carefully v1"
+        "description": "AIW Variation 3, THINKING V1, no output restriction, thinking carefully v1"
     },
     {
         "id": 65,
         "prompt": "Alice has 4 sisters and she also has 1 brother. How many sisters does Alice's brother have? To answer the question, DO NOT OUTPUT ANY TEXT EXCEPT following format that contains final answer: \"### Answer: \".",
         "right_answer": "5",
-        "description": "AIW Variation 3, output restriction"
+        "description": "AIW Variation 3, RESTRICTED, output restriction"
     },
     {
         "id": 66,
@@ -411,19 +411,19 @@
         "id": 69,
         "prompt": "Alice has 4 brothers and she also has 1 sister. How many sisters does Alice's brother have? Solve this problem and provide the final answer in following form: \"### Answer: \".",
         "right_answer": "2",
-        "description": "original prompt, no output restriction"
+        "description": "AIW Variation 4, STANDARD, no output restriction"
     },
     {
         "id": 70,
         "prompt": "Alice has 4 brothers and she also has 1 sister. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
         "right_answer": "2",
-        "description": "original prompt, no output restriction, thinking carefully v1"
+        "description": "AIW Variation 4, THINKING V1, no output restriction, thinking carefully v1"
     },
     {
         "id": 71,
         "prompt": "Alice has 4 brothers and she also has 1 sister. How many sisters does Alice's brother have? To answer the question, DO NOT OUTPUT ANY TEXT EXCEPT following format that contains final answer: \"### Answer: \".",
         "right_answer": "2",
-        "description": "original prompt, output restriction"
+        "description": "AIW Variation 4, RESTRICTED, output restriction"
     },
     {
         "id": 72,
@@ -1130,13 +1130,13 @@
         "id": 187,
         "prompt": "Alice has 4 sisters and she also has 1 brother. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
         "right_answer": "5",
-        "description": "AIW Variation 3, no output restriction, thinking carefully v2 - step by step"
+        "description": "AIW Variation 3, THINKING V2, no output restriction, thinking carefully v2 - step by step"
     },
     {
         "id": 188,
         "prompt": "Alice has 4 brothers and she also has 1 sister. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
         "right_answer": "2",
-        "description": "AIW Variation 4, no output restriction, thinking carefully v2 - step by step"
+        "description": "AIW Variation 4, THINKING V2, no output restriction, thinking carefully v2 - step by step"
     },
     {
         "id": 189,
@@ -1629,5 +1629,29 @@
         "prompt": "Alice and Bob are sister and brother. Alice has 3 sisters and Bob has 1 brother. How many brothers does Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
         "right_answer": "2",
         "description": "AIW ext variation 4, Alice and Bob combi, Alice brothers question, THINKING v2, no output restriction"
-    } 
+    },
+    {
+        "id": 271,
+        "prompt": "Alice has 7 brothers and she also has 3 sisters. How many brothers does Alice's sister have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "7",
+        "description": "AIW VARIATION 1, THINKING V2, Easier Control Version, NO BOOST"
+    },
+    {
+        "id": 272,
+        "prompt": "Alice has 4 sisters and she also has 3 brothers. How many brothers does Alice's sister have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "3",
+        "description": "AIW VARIATION 2, THINKING V2, Easier Control Version, NO BOOST"
+    },
+    {
+        "id": 273,
+        "prompt": "Alice has 2 sisters and she also has 5 brothers. How many brothers does Alice's sister have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "5",
+        "description": "AIW Variation 3, THINKING V2, Easier Control Version, NO BOOST"
+    },
+    {
+        "id": 274,
+        "prompt": "Alice has 2 brothers and she also has 3 sisters. How many brothers does Alice's sister have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "2",
+        "description": "AIW Variation 4, THINKING V2, Easier Control Version, NO BOOST"
+    }
 ]

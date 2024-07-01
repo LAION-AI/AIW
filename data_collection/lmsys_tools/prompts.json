@@ -163,9 +163,9 @@
     },
     {
         "id": 28,
-        "prompt": "Alice has 4 sisters and she also has 1 brother. How many sisters does Alice's brother have? Solve this problem and provide the final answer in following form: \"### Answer: \".",
-        "right_answer": "5",
-        "description": "easy prompt, no output length restriction"
+        "prompt": "Alice has 5 sisters and she also has 1 brother. How many sisters does Alice's brother have? Solve this problem and provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "6",
+        "description": "AIW original variation, no output length restriction"
     },
     {
         "id": 29,
@@ -235,9 +235,9 @@
     },
     {
         "id": 40,
-        "prompt": "Alice has 4 sisters and she also has 1 brother. How many sisters does Alice's brother have? To solve the problem, approach it as a very intelligent, accurate and precise scientist capable of strong and sound reasoning. Provide the solution to the problem by thinking step by step, double checking your reasoning for any mistakes, and based on gathered evidence, provide the final answer to the problem in following form: \"### Answer: \".",
-        "right_answer": "5",
-        "description": "easy prompt, scientist v3"
+        "prompt": "Alice has 5 sisters and she also has 1 brother. How many sisters does Alice's brother have? To solve the problem, approach it as a very intelligent, accurate and precise scientist capable of strong and sound reasoning. Provide the solution to the problem by thinking step by step, double checking your reasoning for any mistakes, and based on gathered evidence, provide the final answer to the problem in following form: \"### Answer: \".",
+        "right_answer": "6",
+        "description": "AIW original variation, scientist v3"
     },
     {
         "id": 41,
