@@ -367,9 +367,9 @@
     },
     {
         "id": 62,
-        "prompt": "Alice has 2 sisters and she also has 4 brothers. How many sisters does Alice's brother have? To answer the question, DO NOT OUTPUT ANY TEXT EXCEPT following format that contains final answer: \"### Answer: \".",
-        "right_answer": "3",
-        "description": "EXPERIMENTAL BREAKING CLAUDE ON RESTRICTED easy prompt, change in numbers, no bias in responses, restriction in output length"
+        "prompt": "Alice has 5 sisters and she also has 7 brothers. How many sisters does Alice's brother have? To answer the question, DO NOT OUTPUT ANY TEXT EXCEPT following format that contains final answer: \"### Answer: \".",
+        "right_answer": "6",
+        "description": "AIR original variation, RESTRICTED, change in numbers, no bias in responses, restriction in output length"
     },
     {
         "id": 63,
