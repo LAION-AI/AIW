@@ -27,13 +27,13 @@
         "id": 5,
         "prompt": "Alice has 4 brothers and she also has 1 sister. How many sisters does Alice's brother have?",
         "right_answer": "2",
-        "description": "original prompt, plain, no format enforcement"
+        "description": "AIW Variation 4, PLAIN, no format enforcement"
     },
     {
         "id": 6,
         "prompt": "Alice has 4 sisters and she also has 1 brother. How many sisters does Alice's brother have?",
         "right_answer": "5",
-        "description": "easy prompt, plain, no format enforcement"
+        "description": "AIW Variation 3, PLAIN, no format enforcement"
     },
     {
         "id": 7,
@@ -1124,7 +1124,7 @@
         "id": 186,
         "prompt": "Alice is female and has 4 sisters and she also has 1 brother. How many sisters does Alice's brother have? Count them step by step.",
         "right_answer": "5",
-        "description": "AIW Variation 3a, no output restriction, PLAIN no format, count step by step v1"
+        "description": "AIW Variation 3a, no output restriction, PLAIN   no format, count step by step v1"
     },
     {
         "id": 187,
@@ -1653,5 +1653,17 @@
         "prompt": "Alice has 2 brothers and she also has 3 sisters. How many brothers does Alice's sister have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
         "right_answer": "2",
         "description": "AIW Variation 4, THINKING V2, Easier Control Version, NO BOOST"
+    },
+    {
+        "id": 275,
+        "prompt": "Alice has 3 brothers and she also has 6 sisters. How many sisters does Alice's brother have?",
+        "right_answer": "7",
+        "description": "AIW Variation 1, PLAIN, no format enforcement"
+    },
+    {
+        "id": 276,
+        "prompt": "Alice has 2 sisters and she also has 4 brothers. How many sisters does Alice's brother have?",
+        "right_answer": "3",
+        "description": "AIW Variation 2, PLAIN, no format enforcement"
     }
 ]
