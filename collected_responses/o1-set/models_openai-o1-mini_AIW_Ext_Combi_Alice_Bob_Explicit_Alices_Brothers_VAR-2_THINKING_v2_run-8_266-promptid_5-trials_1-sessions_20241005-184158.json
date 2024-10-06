@@ -1,0 +1,62 @@
+[
+    {
+        "model":"o1-mini",
+        "prompt":"Alice and Bob are sister and brother. Alice has 2 sisters and Bob has 2 brothers. How many brothers does Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"### Answer: 3",
+        "parsed_answer":"3",
+        "correct":true,
+        "trial":0,
+        "total_trials":5,
+        "right_answer":"3",
+        "session":0,
+        "n_sessions":1
+    },
+    {
+        "model":"o1-mini",
+        "prompt":"Alice and Bob are sister and brother. Alice has 2 sisters and Bob has 2 brothers. How many brothers does Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"To determine how many brothers Alice has, let's break down the information:  1. **Alice and Bob's Relationship:**    - Alice and Bob are siblings, specifically sister and brother.  2. **Alice's Siblings:**    - Alice has **2 sisters**. This means there are **3 sisters in total** (including Alice herself).  3. **Bob's Siblings:**    - Bob has **2 brothers**. This means there are **3 brothers in total** (including Bob himself).  4. **Alice's Brothers:**    - The brothers in the family are Bob and his **2 brothers**.    - Therefore, **Alice has 3 brothers** in total.  ### Answer: 3",
+        "parsed_answer":"3",
+        "correct":true,
+        "trial":1,
+        "total_trials":5,
+        "right_answer":"3",
+        "session":0,
+        "n_sessions":1
+    },
+    {
+        "model":"o1-mini",
+        "prompt":"Alice and Bob are sister and brother. Alice has 2 sisters and Bob has 2 brothers. How many brothers does Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"To determine how many brothers Alice has, let's break down the information step by step:  1. **Siblings Overview:**    - Alice and Bob are siblings, with Alice being the sister and Bob the brother.  2. **Alice's Siblings:**    - Alice has **2 sisters**. This means there are **3 sisters** in total (including Alice herself).  3. **Bob's Siblings:**    - Bob has **2 brothers**. This includes himself, so there are **2 brothers** in total.  4. **Determining Alice's Brothers:**    - Since Bob is one of the brothers and there is another brother, Alice has **2 brothers** in total.  ### Answer: 2",
+        "parsed_answer":"2",
+        "correct":false,
+        "trial":2,
+        "total_trials":5,
+        "right_answer":"3",
+        "session":0,
+        "n_sessions":1
+    },
+    {
+        "model":"o1-mini",
+        "prompt":"Alice and Bob are sister and brother. Alice has 2 sisters and Bob has 2 brothers. How many brothers does Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"### Answer: 3",
+        "parsed_answer":"3",
+        "correct":true,
+        "trial":3,
+        "total_trials":5,
+        "right_answer":"3",
+        "session":0,
+        "n_sessions":1
+    },
+    {
+        "model":"o1-mini",
+        "prompt":"Alice and Bob are sister and brother. Alice has 2 sisters and Bob has 2 brothers. How many brothers does Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"### Answer: 3",
+        "parsed_answer":"3",
+        "correct":true,
+        "trial":4,
+        "total_trials":5,
+        "right_answer":"3",
+        "session":0,
+        "n_sessions":1
+    }
+]

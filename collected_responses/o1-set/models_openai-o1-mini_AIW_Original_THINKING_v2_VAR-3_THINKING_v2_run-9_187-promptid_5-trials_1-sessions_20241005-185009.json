@@ -1,0 +1,62 @@
+[
+    {
+        "model":"o1-mini",
+        "prompt":"Alice has 4 sisters and she also has 1 brother. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"### Answer: 4",
+        "parsed_answer":"4",
+        "correct":false,
+        "trial":0,
+        "total_trials":5,
+        "right_answer":"5",
+        "session":0,
+        "n_sessions":1
+    },
+    {
+        "model":"o1-mini",
+        "prompt":"Alice has 4 sisters and she also has 1 brother. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"### Answer: 5",
+        "parsed_answer":"5",
+        "correct":true,
+        "trial":1,
+        "total_trials":5,
+        "right_answer":"5",
+        "session":0,
+        "n_sessions":1
+    },
+    {
+        "model":"o1-mini",
+        "prompt":"Alice has 4 sisters and she also has 1 brother. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"### Answer: 4",
+        "parsed_answer":"4",
+        "correct":false,
+        "trial":2,
+        "total_trials":5,
+        "right_answer":"5",
+        "session":0,
+        "n_sessions":1
+    },
+    {
+        "model":"o1-mini",
+        "prompt":"Alice has 4 sisters and she also has 1 brother. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"Let's break down the problem step by step:  1. **Alice's Siblings:**    - Alice has **4 sisters**.    - Alice has **1 brother**.  2. **Total Sisters:**    - Including Alice, there are **5 sisters** in total (Alice + 4 sisters).  3. **Alice's Brother's Sisters:**    - Alice's brother shares the same sisters as Alice.    - Therefore, Alice's brother has **5 sisters**.  ### Answer: 5",
+        "parsed_answer":"5",
+        "correct":true,
+        "trial":3,
+        "total_trials":5,
+        "right_answer":"5",
+        "session":0,
+        "n_sessions":1
+    },
+    {
+        "model":"o1-mini",
+        "prompt":"Alice has 4 sisters and she also has 1 brother. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"To determine how many sisters Alice's brother has, let's break it down step by step:  1. **Alice's Siblings:**    - Alice has **4 sisters**.    - Alice has **1 brother**.  2. **Understanding the Relationships:**    - The statement \"Alice has 4 sisters\" means there are 5 girls in total (including Alice).    - Therefore, Alice's brother has **5 sisters** (Alice plus the 4 other sisters).  ### Answer: 5",
+        "parsed_answer":"5",
+        "correct":true,
+        "trial":4,
+        "total_trials":5,
+        "right_answer":"5",
+        "session":0,
+        "n_sessions":1
+    }
+]

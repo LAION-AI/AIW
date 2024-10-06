@@ -1,0 +1,62 @@
+[
+    {
+        "model":"o1-mini",
+        "prompt":"Alice has 3 brothers and she also has 6 sisters. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"### Answer: 7",
+        "parsed_answer":"7",
+        "correct":true,
+        "trial":0,
+        "total_trials":5,
+        "right_answer":"7",
+        "session":0,
+        "n_sessions":1
+    },
+    {
+        "model":"o1-mini",
+        "prompt":"Alice has 3 brothers and she also has 6 sisters. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"### Answer: 6",
+        "parsed_answer":"6",
+        "correct":false,
+        "trial":1,
+        "total_trials":5,
+        "right_answer":"7",
+        "session":0,
+        "n_sessions":1
+    },
+    {
+        "model":"o1-mini",
+        "prompt":"Alice has 3 brothers and she also has 6 sisters. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"### Answer: 6",
+        "parsed_answer":"6",
+        "correct":false,
+        "trial":2,
+        "total_trials":5,
+        "right_answer":"7",
+        "session":0,
+        "n_sessions":1
+    },
+    {
+        "model":"o1-mini",
+        "prompt":"Alice has 3 brothers and she also has 6 sisters. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"To determine how many sisters Alice's brother has, let's break it down step by step:  1. **Alice's Siblings:**    - She has **3 brothers**.    - She has **6 sisters**.  2. **Total Siblings from a Brother's Perspective:**    - Each brother would have the same siblings.    - Since Alice is not a sister to herself, the **6 sisters** mentioned are the sisters for each brother.  Therefore, **each of Alice's brothers has 6 sisters**.  ### Answer: 6",
+        "parsed_answer":"6",
+        "correct":false,
+        "trial":3,
+        "total_trials":5,
+        "right_answer":"7",
+        "session":0,
+        "n_sessions":1
+    },
+    {
+        "model":"o1-mini",
+        "prompt":"Alice has 3 brothers and she also has 6 sisters. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"### Answer: 7",
+        "parsed_answer":"7",
+        "correct":true,
+        "trial":4,
+        "total_trials":5,
+        "right_answer":"7",
+        "session":0,
+        "n_sessions":1
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "model":"o1-mini",
+        "prompt":"Alice and Bob are sister and brother. Alice has 2 sisters and Bob has 3 brothers. How many brothers does Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"### Answer: 3",
+        "parsed_answer":"3",
+        "correct":false,
+        "trial":0,
+        "total_trials":5,
+        "right_answer":"4",
+        "session":0,
+        "n_sessions":1
+    },
+    {
+        "model":"o1-mini",
+        "prompt":"Alice and Bob are sister and brother. Alice has 2 sisters and Bob has 3 brothers. How many brothers does Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"Let's break down the problem step by step:  1. **Siblings Overview**:    - **Alice and Bob** are siblings.  2. **Alice's Siblings**:    - Alice has **2 sisters**. This means there are **3 sisters** in total (including Alice).  3. **Bob's Siblings**:    - Bob has **3 brothers**. This typically means **3 other brothers** besides himself, totaling **4 brothers**.  4. **Shared Siblings**:    - Since Alice and Bob are siblings, the number of brothers Alice has is the same as the number of brothers Bob has.  5. **Conclusion**:    - **Alice has 3 brothers**.  ### Answer: 3",
+        "parsed_answer":"3",
+        "correct":false,
+        "trial":1,
+        "total_trials":5,
+        "right_answer":"4",
+        "session":0,
+        "n_sessions":1
+    },
+    {
+        "model":"o1-mini",
+        "prompt":"Alice and Bob are sister and brother. Alice has 2 sisters and Bob has 3 brothers. How many brothers does Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"### Answer: 4",
+        "parsed_answer":"4",
+        "correct":true,
+        "trial":2,
+        "total_trials":5,
+        "right_answer":"4",
+        "session":0,
+        "n_sessions":1
+    },
+    {
+        "model":"o1-mini",
+        "prompt":"Alice and Bob are sister and brother. Alice has 2 sisters and Bob has 3 brothers. How many brothers does Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"### Answer: 4",
+        "parsed_answer":"4",
+        "correct":true,
+        "trial":3,
+        "total_trials":5,
+        "right_answer":"4",
+        "session":0,
+        "n_sessions":1
+    },
+    {
+        "model":"o1-mini",
+        "prompt":"Alice and Bob are sister and brother. Alice has 2 sisters and Bob has 3 brothers. How many brothers does Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"Let's break down the problem step by step to ensure accuracy:  1. **Identify the siblings:**    - Alice and Bob are siblings.    - Alice has 2 sisters.    - Bob has 3 brothers.  2. **Determine the total number of sisters:**    - Alice is one of the sisters.    - She has 2 more sisters.    - Total sisters = 1 (Alice) + 2 = 3 sisters.  3. **Determine the total number of brothers:**    - Bob is one of the brothers.    - He has 3 more brothers.    - Total brothers = 1 (Bob) + 3 = 4 brothers.  4. **Conclusion:**    - Since Alice and Bob are siblings, the number of brothers Alice has is the total number of brothers.    - Therefore, Alice has 4 brothers.  ### Answer: 4",
+        "parsed_answer":"4",
+        "correct":true,
+        "trial":4,
+        "total_trials":5,
+        "right_answer":"4",
+        "session":0,
+        "n_sessions":1
+    }
+]

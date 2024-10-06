@@ -1,0 +1,62 @@
+[
+    {
+        "model":"o1-preview",
+        "prompt":"Alice and Bob are sister and brother. Alice has 2 sisters and Bob has 2 brothers. How many brothers does Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"### Answer: 3",
+        "parsed_answer":"3",
+        "correct":true,
+        "trial":0,
+        "total_trials":5,
+        "right_answer":"3",
+        "session":0,
+        "n_sessions":1
+    },
+    {
+        "model":"o1-preview",
+        "prompt":"Alice and Bob are sister and brother. Alice has 2 sisters and Bob has 2 brothers. How many brothers does Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"### Answer: 3",
+        "parsed_answer":"3",
+        "correct":true,
+        "trial":1,
+        "total_trials":5,
+        "right_answer":"3",
+        "session":0,
+        "n_sessions":1
+    },
+    {
+        "model":"o1-preview",
+        "prompt":"Alice and Bob are sister and brother. Alice has 2 sisters and Bob has 2 brothers. How many brothers does Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"### Answer: 3",
+        "parsed_answer":"3",
+        "correct":true,
+        "trial":2,
+        "total_trials":5,
+        "right_answer":"3",
+        "session":0,
+        "n_sessions":1
+    },
+    {
+        "model":"o1-preview",
+        "prompt":"Alice and Bob are sister and brother. Alice has 2 sisters and Bob has 2 brothers. How many brothers does Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"To solve this problem, let's carefully analyze the information step by step:  1. **Alice and Bob are sister and brother.**    - This means Alice and Bob are siblings of opposite genders.  2. **Alice has 2 sisters.**    - Since people usually don't count themselves when stating the number of siblings, Alice has **2 sisters in addition to herself**.    - Therefore, there are **3 sisters in total**: Alice, Sister 1, and Sister 2.  3. **Bob has 2 brothers.**    - Similarly, Bob has **2 brothers besides himself**.    - Therefore, there are **3 brothers in total**: Bob, Brother 1, and Brother 2.  4. **Total number of siblings in the family:**    - **3 sisters (including Alice) + 3 brothers (including Bob) = 6 siblings**.  5. **Determine the number of brothers Alice has:**    - Alice's brothers are all the male siblings in the family.    - The brothers are: **Bob, Brother 1, and Brother 2**.    - Therefore, **Alice has 3 brothers**.  ### Answer: 3",
+        "parsed_answer":"3",
+        "correct":true,
+        "trial":3,
+        "total_trials":5,
+        "right_answer":"3",
+        "session":0,
+        "n_sessions":1
+    },
+    {
+        "model":"o1-preview",
+        "prompt":"Alice and Bob are sister and brother. Alice has 2 sisters and Bob has 2 brothers. How many brothers does Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"To solve this problem, let's break down the information given step by step.  1. Alice and Bob are siblings (sister and brother). 2. **Alice has 2 sisters.** This means there are 2 other girls besides Alice in the family. So, there are **3 sisters in total**. 3. **Bob has 2 brothers.** This means there are 2 other boys besides Bob in the family. So, there are **3 brothers in total**. 4. Therefore, the family has **6 children in total**: 3 sisters and 3 brothers.  Since Alice is one of the sisters, the **brothers in the family are Bob and his 2 brothers**. Therefore, **Alice has 3 brothers**.  ### Answer: 3",
+        "parsed_answer":"3",
+        "correct":true,
+        "trial":4,
+        "total_trials":5,
+        "right_answer":"3",
+        "session":0,
+        "n_sessions":1
+    }
+]

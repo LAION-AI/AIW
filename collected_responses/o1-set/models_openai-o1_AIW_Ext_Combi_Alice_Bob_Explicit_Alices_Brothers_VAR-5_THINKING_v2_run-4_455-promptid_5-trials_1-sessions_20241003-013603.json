@@ -1,0 +1,62 @@
+[
+    {
+        "model":"o1-preview",
+        "prompt":"Alice and Bob are sister and brother. Alice has 2 sisters and Bob has 3 brothers. How many brothers does Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"### Answer: 4",
+        "parsed_answer":"4",
+        "correct":true,
+        "trial":0,
+        "total_trials":5,
+        "right_answer":"4",
+        "session":0,
+        "n_sessions":1
+    },
+    {
+        "model":"o1-preview",
+        "prompt":"Alice and Bob are sister and brother. Alice has 2 sisters and Bob has 3 brothers. How many brothers does Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"### Answer: 4",
+        "parsed_answer":"4",
+        "correct":true,
+        "trial":1,
+        "total_trials":5,
+        "right_answer":"4",
+        "session":0,
+        "n_sessions":1
+    },
+    {
+        "model":"o1-preview",
+        "prompt":"Alice and Bob are sister and brother. Alice has 2 sisters and Bob has 3 brothers. How many brothers does Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"### Answer: 4",
+        "parsed_answer":"4",
+        "correct":true,
+        "trial":2,
+        "total_trials":5,
+        "right_answer":"4",
+        "session":0,
+        "n_sessions":1
+    },
+    {
+        "model":"o1-preview",
+        "prompt":"Alice and Bob are sister and brother. Alice has 2 sisters and Bob has 3 brothers. How many brothers does Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"To solve this problem, let's break it down step by step.  1. **Understand the relationships:**     - Alice and Bob are siblings; specifically, Alice is a sister, and Bob is a brother.    2. **Determine the total number of sisters and brothers:**     - **Alice has 2 sisters.** Since Alice herself is a sister, the total number of sisters in the family is \\( 2 + 1 = 3 \\).     - **Bob has 3 brothers.** Including Bob himself, the total number of brothers in the family is \\( 3 + 1 = 4 \\).  3. **Find out how many brothers Alice has:**     - The total number of brothers in the family is 4.     - Therefore, Alice has 4 brothers (which includes Bob and the other 3 brothers).  **Final Answer:**  ### Answer: 4",
+        "parsed_answer":"4",
+        "correct":true,
+        "trial":3,
+        "total_trials":5,
+        "right_answer":"4",
+        "session":0,
+        "n_sessions":1
+    },
+    {
+        "model":"o1-preview",
+        "prompt":"Alice and Bob are sister and brother. Alice has 2 sisters and Bob has 3 brothers. How many brothers does Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"### Answer: 4",
+        "parsed_answer":"4",
+        "correct":true,
+        "trial":4,
+        "total_trials":5,
+        "right_answer":"4",
+        "session":0,
+        "n_sessions":1
+    }
+]

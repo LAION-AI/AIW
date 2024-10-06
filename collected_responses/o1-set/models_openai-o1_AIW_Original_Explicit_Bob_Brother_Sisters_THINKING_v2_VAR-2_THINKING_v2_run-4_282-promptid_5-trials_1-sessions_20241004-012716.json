@@ -1,0 +1,62 @@
+[
+    {
+        "model":"o1-preview",
+        "prompt":"Alice has 2 sisters and she also has 4 brothers. Bob is a brother of Alice. How many sisters does Bob have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"### Answer: 3",
+        "parsed_answer":"3",
+        "correct":true,
+        "trial":0,
+        "total_trials":5,
+        "right_answer":"3",
+        "session":0,
+        "n_sessions":1
+    },
+    {
+        "model":"o1-preview",
+        "prompt":"Alice has 2 sisters and she also has 4 brothers. Bob is a brother of Alice. How many sisters does Bob have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"### Answer: 3",
+        "parsed_answer":"3",
+        "correct":true,
+        "trial":1,
+        "total_trials":5,
+        "right_answer":"3",
+        "session":0,
+        "n_sessions":1
+    },
+    {
+        "model":"o1-preview",
+        "prompt":"Alice has 2 sisters and she also has 4 brothers. Bob is a brother of Alice. How many sisters does Bob have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"To solve this problem, let's carefully break down the family members:  1. **Alice's Siblings:**    - **Sisters:** Alice has **2 sisters**.    - **Brothers:** Alice has **4 brothers**.  2. **Total Sisters in the Family:**    - Including Alice herself, there are **3 sisters** (Alice + 2 sisters).  3. **Bob's Siblings:**    - Bob is one of the **4 brothers**.    - Bob's sisters are the same as Alice's sisters, which are the **3 sisters** (including Alice).  **Therefore, Bob has 3 sisters.**  ### Answer: 3",
+        "parsed_answer":"3",
+        "correct":true,
+        "trial":2,
+        "total_trials":5,
+        "right_answer":"3",
+        "session":0,
+        "n_sessions":1
+    },
+    {
+        "model":"o1-preview",
+        "prompt":"Alice has 2 sisters and she also has 4 brothers. Bob is a brother of Alice. How many sisters does Bob have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"### Answer: 3",
+        "parsed_answer":"3",
+        "correct":true,
+        "trial":3,
+        "total_trials":5,
+        "right_answer":"3",
+        "session":0,
+        "n_sessions":1
+    },
+    {
+        "model":"o1-preview",
+        "prompt":"Alice has 2 sisters and she also has 4 brothers. Bob is a brother of Alice. How many sisters does Bob have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"To solve this problem, let's break it down step by step:  1. **Identify the total number of sisters:**    - Alice says she *has* 2 sisters. This means there are 2 other girls besides Alice herself.    - So, the total number of sisters in the family is:      - Alice      - Sister 1      - Sister 2    - **Total sisters:** 3  2. **Identify the total number of brothers:**    - Alice has 4 brothers.    - **Total brothers:** 4  3. **Determine Bob's sisters:**    - Bob is one of the 4 brothers.    - Bob's sisters are the same as Alice's sisters.    - Therefore, Bob has the same 3 sisters:      - Alice      - Sister 1      - Sister 2  **Conclusion:**  ### Answer: Bob has 3 sisters.",
+        "parsed_answer":"3",
+        "correct":true,
+        "trial":4,
+        "total_trials":5,
+        "right_answer":"3",
+        "session":0,
+        "n_sessions":1
+    }
+]

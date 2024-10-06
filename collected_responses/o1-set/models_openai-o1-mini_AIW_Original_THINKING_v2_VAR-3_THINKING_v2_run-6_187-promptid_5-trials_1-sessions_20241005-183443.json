@@ -1,0 +1,62 @@
+[
+    {
+        "model":"o1-mini",
+        "prompt":"Alice has 4 sisters and she also has 1 brother. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"### Answer: 5",
+        "parsed_answer":"5",
+        "correct":true,
+        "trial":0,
+        "total_trials":5,
+        "right_answer":"5",
+        "session":0,
+        "n_sessions":1
+    },
+    {
+        "model":"o1-mini",
+        "prompt":"Alice has 4 sisters and she also has 1 brother. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"### Answer: 5",
+        "parsed_answer":"5",
+        "correct":true,
+        "trial":1,
+        "total_trials":5,
+        "right_answer":"5",
+        "session":0,
+        "n_sessions":1
+    },
+    {
+        "model":"o1-mini",
+        "prompt":"Alice has 4 sisters and she also has 1 brother. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"To determine how many sisters Alice's brother has, let's break down the information step by step:  1. **Alice's Siblings:**    - Alice has **4 sisters**.    - Alice has **1 brother**.     2. **Total Children in the Family:**    - Since Alice has 4 sisters, including herself, there are **5 daughters** in the family.    - There is **1 brother**.    - Therefore, the total number of children is **6** (5 daughters + 1 brother).  3. **Alice's Brother's Perspective:**    - From the brother's point of view, all 5 daughters in the family are his sisters.    - This includes Alice and her 4 sisters.  **Conclusion:** Alice's brother has **5 sisters**.  ### Answer: 5",
+        "parsed_answer":"5",
+        "correct":true,
+        "trial":2,
+        "total_trials":5,
+        "right_answer":"5",
+        "session":0,
+        "n_sessions":1
+    },
+    {
+        "model":"o1-mini",
+        "prompt":"Alice has 4 sisters and she also has 1 brother. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"### Answer: 5",
+        "parsed_answer":"5",
+        "correct":true,
+        "trial":3,
+        "total_trials":5,
+        "right_answer":"5",
+        "session":0,
+        "n_sessions":1
+    },
+    {
+        "model":"o1-mini",
+        "prompt":"Alice has 4 sisters and she also has 1 brother. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"### Answer: 5.",
+        "parsed_answer":"5",
+        "correct":true,
+        "trial":4,
+        "total_trials":5,
+        "right_answer":"5",
+        "session":0,
+        "n_sessions":1
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "model":"o1-preview",
+        "prompt":"Alice has 4 sisters and she also has 1 brother. Bob is a brother of Alice. How many sisters does Bob have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"### Answer: 5",
+        "parsed_answer":"5",
+        "correct":true,
+        "trial":0,
+        "total_trials":5,
+        "right_answer":"5",
+        "session":0,
+        "n_sessions":1
+    },
+    {
+        "model":"o1-preview",
+        "prompt":"Alice has 4 sisters and she also has 1 brother. Bob is a brother of Alice. How many sisters does Bob have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"### Answer: 5",
+        "parsed_answer":"5",
+        "correct":true,
+        "trial":1,
+        "total_trials":5,
+        "right_answer":"5",
+        "session":0,
+        "n_sessions":1
+    },
+    {
+        "model":"o1-preview",
+        "prompt":"Alice has 4 sisters and she also has 1 brother. Bob is a brother of Alice. How many sisters does Bob have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"### Answer: 5",
+        "parsed_answer":"5",
+        "correct":true,
+        "trial":2,
+        "total_trials":5,
+        "right_answer":"5",
+        "session":0,
+        "n_sessions":1
+    },
+    {
+        "model":"o1-preview",
+        "prompt":"Alice has 4 sisters and she also has 1 brother. Bob is a brother of Alice. How many sisters does Bob have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"### Answer: 5",
+        "parsed_answer":"5",
+        "correct":true,
+        "trial":3,
+        "total_trials":5,
+        "right_answer":"5",
+        "session":0,
+        "n_sessions":1
+    },
+    {
+        "model":"o1-preview",
+        "prompt":"Alice has 4 sisters and she also has 1 brother. Bob is a brother of Alice. How many sisters does Bob have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"To solve this problem, let's break it down step by step:  1. **Alice's siblings**: The problem states that *Alice has 4 sisters and 1 brother*. This means that Alice has 4 sisters (who are her siblings) and 1 brother (also her sibling). So, including Alice herself, there are:     - 5 sisters in total (Alice + 4 sisters)    - 1 brother  2. **Total number of children in the family**: Adding up, there are 6 children in the family:     - 5 sisters    - 1 brother  3. **Bob's siblings**: Bob is the brother of Alice. This means Bob is the only brother in the family (since Alice has only 1 brother). Therefore, Bob's siblings are:     - The 5 sisters (Alice + the 4 other sisters)    - No brothers (since he is the only boy)  4. **Answering the question**: The problem asks, *How many sisters does Bob have?* As we've established, Bob has 5 sisters.  ### Answer: 5",
+        "parsed_answer":"5",
+        "correct":true,
+        "trial":4,
+        "total_trials":5,
+        "right_answer":"5",
+        "session":0,
+        "n_sessions":1
+    }
+]

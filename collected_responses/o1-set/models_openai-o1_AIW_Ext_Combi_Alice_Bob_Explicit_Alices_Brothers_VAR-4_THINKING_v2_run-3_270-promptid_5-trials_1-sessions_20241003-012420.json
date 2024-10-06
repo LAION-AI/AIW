@@ -1,0 +1,62 @@
+[
+    {
+        "model":"o1-preview",
+        "prompt":"Alice and Bob are sister and brother. Alice has 3 sisters and Bob has 1 brother. How many brothers does Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"### Answer: 2",
+        "parsed_answer":"2",
+        "correct":true,
+        "trial":0,
+        "total_trials":5,
+        "right_answer":"2",
+        "session":0,
+        "n_sessions":1
+    },
+    {
+        "model":"o1-preview",
+        "prompt":"Alice and Bob are sister and brother. Alice has 3 sisters and Bob has 1 brother. How many brothers does Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"### Answer: 2",
+        "parsed_answer":"2",
+        "correct":true,
+        "trial":1,
+        "total_trials":5,
+        "right_answer":"2",
+        "session":0,
+        "n_sessions":1
+    },
+    {
+        "model":"o1-preview",
+        "prompt":"Alice and Bob are sister and brother. Alice has 3 sisters and Bob has 1 brother. How many brothers does Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"To solve this problem, let's break down the information:  1. **Alice has 3 sisters.**    - This means besides herself, there are 3 other sisters.    - So, total number of **female siblings** is \\( 1 (\\text{Alice}) + 3 (\\text{her sisters}) = 4 \\) females.  2. **Bob has 1 brother.**    - This means besides himself, there is 1 other brother.    - So, total number of **male siblings** is \\( 1 (\\text{Bob}) + 1 (\\text{his brother}) = 2 \\) males.  3. **Alice and Bob are sister and brother.**    - They are siblings in the same family.  So, the total number of siblings in the family is \\( 4 (\\text{females}) + 2 (\\text{males}) = 6 \\) children.  **Alice's brothers are:** - **Bob** - **Bob's brother**  Therefore, **Alice has 2 brothers**.  ### Answer: 2",
+        "parsed_answer":"2",
+        "correct":true,
+        "trial":2,
+        "total_trials":5,
+        "right_answer":"2",
+        "session":0,
+        "n_sessions":1
+    },
+    {
+        "model":"o1-preview",
+        "prompt":"Alice and Bob are sister and brother. Alice has 3 sisters and Bob has 1 brother. How many brothers does Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"### Answer: 2",
+        "parsed_answer":"2",
+        "correct":true,
+        "trial":3,
+        "total_trials":5,
+        "right_answer":"2",
+        "session":0,
+        "n_sessions":1
+    },
+    {
+        "model":"o1-preview",
+        "prompt":"Alice and Bob are sister and brother. Alice has 3 sisters and Bob has 1 brother. How many brothers does Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"To solve this problem, let's analyze the family step by step.  1. **Alice and Bob are siblings**: Alice (a sister) and Bob (a brother) are in the same family.  2. **Alice has 3 sisters**: This means, besides herself, there are 3 other sisters in the family. So, total sisters = 3 (her sisters) + 1 (Alice herself) = **4 sisters**.  3. **Bob has 1 brother**: This means there is one other brother besides Bob. So, total brothers = 1 (Bob's brother) + 1 (Bob himself) = **2 brothers**.  4. **Total siblings in the family**: 4 sisters + 2 brothers = **6 siblings**.  5. **Number of brothers Alice has**: Since the family has 2 brothers (Bob and his brother), and they are both Alice's brothers, Alice has **2 brothers**.  ### Answer: Alice has 2 brothers.",
+        "parsed_answer":"2",
+        "correct":true,
+        "trial":4,
+        "total_trials":5,
+        "right_answer":"2",
+        "session":0,
+        "n_sessions":1
+    }
+]

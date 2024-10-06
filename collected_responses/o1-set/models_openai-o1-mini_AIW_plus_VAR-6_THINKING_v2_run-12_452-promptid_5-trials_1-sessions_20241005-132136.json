@@ -1,0 +1,62 @@
+[
+    {
+        "model":"o1-mini",
+        "prompt":"Alice has 2 sisters. Her mother has 1 sister who does not have children and who has 6 nephews and nieces and also 2 brothers. Alice's father has a brother who has 4 nephews and nieces in total, and who also has 2 daughters. How many cousins does Alice's sister have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"### Answer: 10",
+        "parsed_answer":"10",
+        "correct":false,
+        "trial":0,
+        "total_trials":5,
+        "right_answer":"6",
+        "session":0,
+        "n_sessions":1
+    },
+    {
+        "model":"o1-mini",
+        "prompt":"Alice has 2 sisters. Her mother has 1 sister who does not have children and who has 6 nephews and nieces and also 2 brothers. Alice's father has a brother who has 4 nephews and nieces in total, and who also has 2 daughters. How many cousins does Alice's sister have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"### Answer: 10",
+        "parsed_answer":"10",
+        "correct":false,
+        "trial":1,
+        "total_trials":5,
+        "right_answer":"6",
+        "session":0,
+        "n_sessions":1
+    },
+    {
+        "model":"o1-mini",
+        "prompt":"Alice has 2 sisters. Her mother has 1 sister who does not have children and who has 6 nephews and nieces and also 2 brothers. Alice's father has a brother who has 4 nephews and nieces in total, and who also has 2 daughters. How many cousins does Alice's sister have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"### Answer: 10",
+        "parsed_answer":"10",
+        "correct":false,
+        "trial":2,
+        "total_trials":5,
+        "right_answer":"6",
+        "session":0,
+        "n_sessions":1
+    },
+    {
+        "model":"o1-mini",
+        "prompt":"Alice has 2 sisters. Her mother has 1 sister who does not have children and who has 6 nephews and nieces and also 2 brothers. Alice's father has a brother who has 4 nephews and nieces in total, and who also has 2 daughters. How many cousins does Alice's sister have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"### Answer: 10",
+        "parsed_answer":"10",
+        "correct":false,
+        "trial":3,
+        "total_trials":5,
+        "right_answer":"6",
+        "session":0,
+        "n_sessions":1
+    },
+    {
+        "model":"o1-mini",
+        "prompt":"Alice has 2 sisters. Her mother has 1 sister who does not have children and who has 6 nephews and nieces and also 2 brothers. Alice's father has a brother who has 4 nephews and nieces in total, and who also has 2 daughters. How many cousins does Alice's sister have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"To determine how many cousins Alice's sister has, let's break down the information step by step:  1. **Alice's Immediate Family:**    - Alice has 2 sisters, making a total of 3 children in her immediate family.  2. **Mother's Side:**    - **Siblings of Alice's Mother:**      - 1 sister (maternal aunt) who has no children.      - 2 brothers.    - The maternal aunt has 6 nephews and nieces, which come from Alice's mother's 2 brothers.    - **Cousins from Mother's Side:** 6  3. **Father's Side:**    - **Siblings of Alice's Father:**      - 1 brother (paternal uncle).    - The paternal uncle has:      - 2 daughters of his own.      - 4 nephews and nieces in total.    - The 4 nephews and nieces include Alice and her 2 sisters, and possibly one more sibling if necessary to account for the total.    - **Cousins from Father's Side:** 4  4. **Total Cousins:**    - **From Mother's Side:** 6    - **From Father's Side:** 4    - **Total Cousins:** 6 + 4 = 10  Therefore, Alice's sister has **10 cousins**.  ### Answer: 10",
+        "parsed_answer":"10",
+        "correct":false,
+        "trial":4,
+        "total_trials":5,
+        "right_answer":"6",
+        "session":0,
+        "n_sessions":1
+    }
+]

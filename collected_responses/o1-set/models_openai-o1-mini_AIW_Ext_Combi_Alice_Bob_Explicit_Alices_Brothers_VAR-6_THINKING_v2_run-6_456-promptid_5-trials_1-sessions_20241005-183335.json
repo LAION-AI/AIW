@@ -1,0 +1,62 @@
+[
+    {
+        "model":"o1-mini",
+        "prompt":"Alice and Bob are sister and brother. Alice has 3 sisters and Bob has 5 brothers. How many brothers does Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"### Answer: 6",
+        "parsed_answer":"6",
+        "correct":true,
+        "trial":0,
+        "total_trials":5,
+        "right_answer":"6",
+        "session":0,
+        "n_sessions":1
+    },
+    {
+        "model":"o1-mini",
+        "prompt":"Alice and Bob are sister and brother. Alice has 3 sisters and Bob has 5 brothers. How many brothers does Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"### Answer: 5",
+        "parsed_answer":"5",
+        "correct":false,
+        "trial":1,
+        "total_trials":5,
+        "right_answer":"6",
+        "session":0,
+        "n_sessions":1
+    },
+    {
+        "model":"o1-mini",
+        "prompt":"Alice and Bob are sister and brother. Alice has 3 sisters and Bob has 5 brothers. How many brothers does Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"### Answer: 5",
+        "parsed_answer":"5",
+        "correct":false,
+        "trial":2,
+        "total_trials":5,
+        "right_answer":"6",
+        "session":0,
+        "n_sessions":1
+    },
+    {
+        "model":"o1-mini",
+        "prompt":"Alice and Bob are sister and brother. Alice has 3 sisters and Bob has 5 brothers. How many brothers does Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"### Answer: 5",
+        "parsed_answer":"5",
+        "correct":false,
+        "trial":3,
+        "total_trials":5,
+        "right_answer":"6",
+        "session":0,
+        "n_sessions":1
+    },
+    {
+        "model":"o1-mini",
+        "prompt":"Alice and Bob are sister and brother. Alice has 3 sisters and Bob has 5 brothers. How many brothers does Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"Let's break down the problem step by step:  1. **Alice and Bob's Relationship:**    - Alice is female and has siblings.    - Bob is male and is Alice's brother.  2. **Alice's Sisters:**    - Alice has 3 sisters.    - Including Alice, there are **4 sisters** in total.  3. **Bob's Brothers:**    - Bob has 5 brothers.    - This count **excludes Bob himself**, so there are **6 brothers** in total (including Bob).  4. **Alice's Brothers:**    - Since Bob is one of Alice's brothers and there are a total of 6 brothers, Alice has **6 brothers**.  ### Answer: 6",
+        "parsed_answer":"6",
+        "correct":true,
+        "trial":4,
+        "total_trials":5,
+        "right_answer":"6",
+        "session":0,
+        "n_sessions":1
+    }
+]

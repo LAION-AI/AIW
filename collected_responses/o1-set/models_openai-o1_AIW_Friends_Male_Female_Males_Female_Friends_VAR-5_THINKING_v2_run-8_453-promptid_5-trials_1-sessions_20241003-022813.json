@@ -1,0 +1,62 @@
+[
+    {
+        "model":"o1-preview",
+        "prompt":"Alice has 2 male friends and she also has 3 female friends. They all are friends with each other and have no other friends aside. How many female friends does male friend of Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"### Answer: 4",
+        "parsed_answer":"4",
+        "correct":true,
+        "trial":0,
+        "total_trials":5,
+        "right_answer":"4",
+        "session":0,
+        "n_sessions":1
+    },
+    {
+        "model":"o1-preview",
+        "prompt":"Alice has 2 male friends and she also has 3 female friends. They all are friends with each other and have no other friends aside. How many female friends does male friend of Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"### Answer: 4",
+        "parsed_answer":"4",
+        "correct":true,
+        "trial":1,
+        "total_trials":5,
+        "right_answer":"4",
+        "session":0,
+        "n_sessions":1
+    },
+    {
+        "model":"o1-preview",
+        "prompt":"Alice has 2 male friends and she also has 3 female friends. They all are friends with each other and have no other friends aside. How many female friends does male friend of Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"### Answer: 4",
+        "parsed_answer":"4",
+        "correct":true,
+        "trial":2,
+        "total_trials":5,
+        "right_answer":"4",
+        "session":0,
+        "n_sessions":1
+    },
+    {
+        "model":"o1-preview",
+        "prompt":"Alice has 2 male friends and she also has 3 female friends. They all are friends with each other and have no other friends aside. How many female friends does male friend of Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"### Answer: 4",
+        "parsed_answer":"4",
+        "correct":true,
+        "trial":3,
+        "total_trials":5,
+        "right_answer":"4",
+        "session":0,
+        "n_sessions":1
+    },
+    {
+        "model":"o1-preview",
+        "prompt":"Alice has 2 male friends and she also has 3 female friends. They all are friends with each other and have no other friends aside. How many female friends does male friend of Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "model_response":"The problem describes a social network consisting of Alice and her five friends: two male friends (let's call them M1 and M2) and three female friends (F1, F2, and F3). It states that these five friends are all friends with each other and have no other friends besides Alice and each other.  We need to determine how many female friends a male friend of Alice has. Let's consider one of the male friends, M1. M1 is friends with:  1. Alice (female) 2. M2 (male) 3. F1 (female) 4. F2 (female) 5. F3 (female)  So, M1 has **4 female friends** (Alice, F1, F2, F3).  ### Answer: 4",
+        "parsed_answer":"4",
+        "correct":true,
+        "trial":4,
+        "total_trials":5,
+        "right_answer":"4",
+        "session":0,
+        "n_sessions":1
+    }
+]
