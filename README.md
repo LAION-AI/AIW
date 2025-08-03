@@ -7,6 +7,27 @@
 
 ## Usage
 
+### Installation
+
+Optional: intall mamba environment for AIW experiments
+
+```bash
+MAMBA_DIR=MAMBA_DIR_PATH
+MAMBA_ENV=AIW_ENV_PATH
+
+# install mamba
+curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh"
+chmod +x Miniforge3-$(uname)-$(uname -m).sh
+
+# (use MAMBA_DIR if asked for the path)
+./Miniforge3-$(uname)-$(uname -m).sh 
+
+${MAMBA_DIR}/bin/mamba create --prefix ${MAMBA_ENV} --channel conda-forge --override-channels
+
+# activate AIW mamba env
+source ${MAMBA_DIR}/bin/activate ${MAMBA_ENV}
+```
+
 Install requirements:
 `pip install requirements.txt`
 
@@ -18,11 +39,11 @@ Refer to the [LiteLLM Docs](https://docs.litellm.ai/docs/) on how to setup your 
 Workflow init:
 
 ```bash
-export SHARED_MINICONDA=/path/to/miniconda_install
-export CONDA_ENV=/path/to/conda_env
+export MAMBA_DIR=/path/to/mamba_install
+export MAMBA_ENV=/path/to/aiw_mamba_env
 export AIW_REPO_PATH=/path/to_local_cloned_AIW_repo
 
-source ${SHARED_MINICONDA}/bin/activate ${CONDA_ENV}
+source ${MAMBA_DIR}/bin/activate ${MAMBA_ENV}
 export PYTHONPATH=$PYTHONPATH:$AIW_REPO_PATH
 
 # export your API keys
