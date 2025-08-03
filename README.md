@@ -82,7 +82,7 @@ Hint: n_sessions is now purely a dummy, and can be set to 1; the only thing that
 
 **Execution example for a whole range of ID:**
 
-Hint: rename script file names inside the script files, they have to be adapted, as those are using local own naming)
+Hint: rename script file names inside the script files in `scripts/`, they have to be adapted, as those are using local own naming (adapt also the correspodning scripts in `data_collection/examples`)
 
 
 ```bash
