@@ -3584,42 +3584,1514 @@
         "id": 596,
         "prompt": "Alice has 3 male colleagues and she also has 5 female colleagues. These are all colleagues that Alice has. All these mentioned persons around Alice are colleagues of each other. Bob has 2 female colleagues and 1 male colleague in total. All these mentioned persons around Bob are colleagues of each other. The people in the circle around Bob do not have other colleagues aside - with the only exception of Matilda. She is colleague of Bob and she is also colleague of Alice, being part of Alice's circle. How many female colleagues does Matilda have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
         "right_answer": "6",
-        "description": "AIW VARIATION 6, THINKING V2, Peers Version, all mentioned persons version"
+        "description": "AIW VARIATION 6, THINKING V2, Colleagues Circles Version, all mentioned persons version"
     },
     {
         "id": 597,
         "prompt": "Alice has 3 male colleagues and she also has 6 female colleagues. These are all colleagues that Alice has. All these mentioned persons around Alice are colleagues of each other. Bob has 2 female colleagues and 1 male colleague in total. All these mentioned persons around Bob are colleagues of each other. The people in the circle around Bob do not have other colleagues aside - with the only exception of Matilda. She is colleague of Bob and she is also colleague of Alice, being part of Alice's circle. How many female colleagues does Matilda have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
         "right_answer": "7",
-        "description": "AIW VARIATION 1, THINKING V2, Peers Version, all mentioned persons version"
+        "description": "AIW VARIATION 1, THINKING V2, Colleagues Circles Version, all mentioned persons version"
     },
     {
         "id": 598,
         "prompt": "Alice has 3 male colleagues and she also has 5 female colleagues. These are all colleagues that Alice has. All these mentioned persons around Alice are colleagues of each other. Bob has 3 female colleagues and 1 male colleague in total. All these mentioned persons around Bob are colleagues of each other. The people in the circle around Bob do not have other colleagues aside - with the only exception of Matilda. She is colleague of Bob and she is also colleague of Alice, being part of Alice's circle. How many female colleagues does Matilda have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
         "right_answer": "7",
-        "description": "AIW VARIATION 1a, THINKING V2, Peers Version, all mentioned persons version"
+        "description": "AIW VARIATION 1a, THINKING V2, Colleagues Circles Version, all mentioned persons version"
     },
     {
         "id": 599,
         "prompt": "Alice has 3 male colleagues and she also has 2 female colleagues. These are all colleagues that Alice has. All these mentioned persons around Alice are colleagues of each other. Bob has 2 female colleagues and 1 male colleague in total. All these mentioned persons around Bob are colleagues of each other. The people in the circle around Bob do not have other colleagues aside - with the only exception of Matilda. She is colleague of Bob and she is also colleague of Alice, being part of Alice's circle. How many female colleagues does Matilda have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
         "right_answer": "3",
-        "description": "AIW VARIATION 2, THINKING V2, Peers Version, all mentioned persons version"
+        "description": "AIW VARIATION 2, THINKING V2, Colleagues Circles Version, all mentioned persons version"
     },
     {
         "id": 600,
         "prompt": "Alice has 3 male colleagues and she also has 4 female colleagues. These are all colleagues that Alice has. All these mentioned persons around Alice are colleagues of each other. Bob has 2 female colleagues and 1 male colleague in total. All these mentioned persons around Bob are colleagues of each other. The people in the circle around Bob do not have other colleagues aside - with the only exception of Matilda. She is colleague of Bob and she is also colleague of Alice, being part of Alice's circle. How many female colleagues does Matilda have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
         "right_answer": "5",
-        "description": "AIW VARIATION 3, THINKING V2, Peers Version, all mentioned persons version"
+        "description": "AIW VARIATION 3, THINKING V2, Colleagues Circles Version, all mentioned persons version"
     },
     {
         "id": 601,
         "prompt": "Alice has 3 male colleagues and she also has 1 female colleague. These are all colleagues that Alice has. All these mentioned persons around Alice are colleagues of each other. Bob has 2 female colleagues and 1 male colleague in total. All these mentioned persons around Bob are colleagues of each other. The people in the circle around Bob do not have other colleagues aside - with the only exception of Matilda. She is colleague of Bob and she is also colleague of Alice, being part of Alice's circle. How many female colleagues does Matilda have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
         "right_answer": "2",
-        "description": "AIW VARIATION 4, THINKING V2, Peers Version, all mentioned persons version"
+        "description": "AIW VARIATION 4, THINKING V2, Colleagues Circles Version, all mentioned persons version"
     },
     {
         "id": 602,
         "prompt": "Alice has 3 male colleagues and she also has 3 female colleague. These are all colleagues that Alice has. All these mentioned persons around Alice are colleagues of each other. Bob has 2 female colleagues and 1 male colleague in total. All these mentioned persons around Bob are colleagues of each other. The people in the circle around Bob do not have other colleagues aside - with the only exception of Matilda. She is colleague of Bob and she is also colleague of Alice, being part of Alice's circle. How many female colleagues does Matilda have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
         "right_answer": "4",
-        "description": "AIW VARIATION 5, THINKING V2, Peers Version, all mentioned persons version"
+        "description": "AIW VARIATION 5, THINKING V2, Colleagues Circles Version, all mentioned persons version"
+    },
+    {
+        "id": 603,
+        "prompt": "Alice has 3 male friends and she also has 6 female friends. These are all friends that Alice has. All these mentioned persons around Alice are friends of each other. Bob has 2 female friends and 1 male friend in total. All these mentioned persons around Bob are friends of each other. The people in the circle around Bob do not have other friends aside - with the only exception of Matilda. She is friend of Bob and she is also friend of Alice, being part of Alice's circle. How many female friends does Matilda have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "7",
+        "description": "AIW VARIATION 1, THINKING V2, friends Circles Version, all mentioned persons version"
+    },
+    {
+        "id": 604,
+        "prompt": "Alice has 3 male friends and she also has 2 female friends. These are all friends that Alice has. All these mentioned persons around Alice are friends of each other. Bob has 2 female friends and 1 male friend in total. All these mentioned persons around Bob are friends of each other. The people in the circle around Bob do not have other friends aside - with the only exception of Matilda. She is friend of Bob and she is also friend of Alice, being part of Alice's circle. How many female friends does Matilda have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "3",
+        "description": "AIW VARIATION 2, THINKING V2, friends Circles Version, all mentioned persons version"
+    },
+    {
+        "id": 605,
+        "prompt": "Alice has 3 male friends and she also has 4 female friends. These are all friends that Alice has. All these mentioned persons around Alice are friends of each other. Bob has 2 female friends and 1 male friend in total. All these mentioned persons around Bob are friends of each other. The people in the circle around Bob do not have other friends aside - with the only exception of Matilda. She is friend of Bob and she is also friend of Alice, being part of Alice's circle. How many female friends does Matilda have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "5",
+        "description": "AIW VARIATION 3, THINKING V2, friends Circles Version, all mentioned persons version"
+    },
+    {
+        "id": 606,
+        "prompt": "Alice has 3 male friends and she also has 1 female friend. These are all friends that Alice has. All these mentioned persons around Alice are friends of each other. Bob has 2 female friends and 1 male friend in total. All these mentioned persons around Bob are friends of each other. The people in the circle around Bob do not have other friends aside - with the only exception of Matilda. She is friend of Bob and she is also friend of Alice, being part of Alice's circle. How many female friends does Matilda have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "2",
+        "description": "AIW VARIATION 4, THINKING V2, friends Circles Version, all mentioned persons version"
+    },
+    {
+        "id": 607,
+        "prompt": "Alice has 3 male friends and she also has 3 female friend. These are all friends that Alice has. All these mentioned persons around Alice are friends of each other. Bob has 2 female friends and 1 male friend in total. All these mentioned persons around Bob are friends of each other. The people in the circle around Bob do not have other friends aside - with the only exception of Matilda. She is friend of Bob and she is also friend of Alice, being part of Alice's circle. How many female friends does Matilda have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "4",
+        "description": "AIW VARIATION 5, THINKING V2, friends Circles Version, all mentioned persons version"
+    },
+    {
+        "id": 608,
+        "prompt": "Alice has 3 male friends and she also has 5 female friends. These are all friends that Alice has. All these mentioned persons around Alice are friends of each other. Bob has 2 female friends and 1 male friend in total. All these mentioned persons around Bob are friends of each other. The people in the circle around Bob do not have other friends aside - with the only exception of Matilda. She is friend of Bob and she is also friend of Alice, being part of Alice's circle. How many female friends does Matilda have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "6",
+        "description": "AIW VARIATION 6, THINKING V2, Friends Circles Version, all mentioned persons version"
+    },
+    {
+        "id": 609,
+        "prompt": "Alice has 3 male friends and she also has 6 female friends. These are all friends that Alice has. All these mentioned persons around Alice are friends of each other. Bob has 2 female friends and 1 male friend in total. All these mentioned persons around Bob are friends of each other. The people in the circle around Bob do not have other friends aside - with the only exception of Matilda. She is friend of Bob and she is also friend of Alice, being part of Alice's circle. Mathilda has no other friends outside of the Alice and Bob circles. How many female friends does Matilda have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "7",
+        "description": "AIW VARIATION 1, THINKING V2, Friends Circles Version, MOD 2, Matilda clarification control, all mentioned persons version"
+    },
+    {
+        "id": 610,
+        "prompt": "Alice has 3 male friends and she also has 2 female friends. These are all friends that Alice has. All these mentioned persons around Alice are friends of each other. Bob has 2 female friends and 1 male friend in total. All these mentioned persons around Bob are friends of each other. The people in the circle around Bob do not have other friends aside - with the only exception of Matilda. She is friend of Bob and she is also friend of Alice, being part of Alice's circle. Mathilda has no other friends outside of the Alice and Bob circles. How many female friends does Matilda have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "3",
+        "description": "AIW VARIATION 2, THINKING V2, Friends Circles Version, MOD 2, Matilda clarification control, all mentioned persons version"
+    },
+    {
+        "id": 611,
+        "prompt": "Alice has 3 male friends and she also has 4 female friends. These are all friends that Alice has. All these mentioned persons around Alice are friends of each other. Bob has 2 female friends and 1 male friend in total. All these mentioned persons around Bob are friends of each other. The people in the circle around Bob do not have other friends aside - with the only exception of Matilda. She is friend of Bob and she is also friend of Alice, being part of Alice's circle. Mathilda has no other friends outside of the Alice and Bob circles. How many female friends does Matilda have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "5",
+        "description": "AIW VARIATION 3, THINKING V2, Friends Circles Version, MOD 2, Matilda clarification control, all mentioned persons version"
+    },
+    {
+        "id": 612,
+        "prompt": "Alice has 3 male friends and she also has 1 female friend. These are all friends that Alice has. All these mentioned persons around Alice are friends of each other. Bob has 2 female friends and 1 male friend in total. All these mentioned persons around Bob are friends of each other. The people in the circle around Bob do not have other friends aside - with the only exception of Matilda. She is friend of Bob and she is also friend of Alice, being part of Alice's circle. Mathilda has no other friends outside of the Alice and Bob circles. How many female friends does Matilda have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "2",
+        "description": "AIW VARIATION 4, THINKING V2, Friends Circles Version, MOD 2, Matilda clarification control, all mentioned persons version"
+    },
+    {
+        "id": 613,
+        "prompt": "Alice has 3 male friends and she also has 3 female friend. These are all friends that Alice has. All these mentioned persons around Alice are friends of each other. Bob has 2 female friends and 1 male friend in total. All these mentioned persons around Bob are friends of each other. The people in the circle around Bob do not have other friends aside - with the only exception of Matilda. She is friend of Bob and she is also friend of Alice, being part of Alice's circle. Mathilda has no other friends outside of the Alice and Bob circles. How many female friends does Matilda have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "4",
+        "description": "AIW VARIATION 5, THINKING V2, Friends Circles Version, MOD 2, Matilda clarification control, all mentioned persons version"
+    },
+    {
+        "id": 614,
+        "prompt": "Alice has 3 male friends and she also has 5 female friends. These are all friends that Alice has. All these mentioned persons around Alice are friends of each other. Bob has 2 female friends and 1 male friend in total. All these mentioned persons around Bob are friends of each other. The people in the circle around Bob do not have other friends aside - with the only exception of Matilda. She is friend of Bob and she is also friend of Alice, being part of Alice's circle. Mathilda has no other friends outside of the Alice and Bob circles. How many female friends does Matilda have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "6",
+        "description": "AIW VARIATION 6, THINKING V2, Friends Circles Version, MOD 2, Matilda clarification control, all mentioned persons version"
+    },
+    {
+        "id": 615,
+        "prompt": "Alice has 3 male colleagues and she also has 6 female colleagues. These are all colleagues that Alice has. All these mentioned persons around Alice are colleagues of each other. Bob has 2 female colleagues and 1 male colleague in total. All these mentioned persons around Bob are colleagues of each other. The people in the circle around Bob do not have other colleagues aside - with the only exception of Matilda. She is colleague of Bob and she is also colleague of Alice, being part of Alice's circle. Mathilda has no other colleagues outside of the Alice's and Bob's circles. How many female colleagues does Matilda have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "7",
+        "description": "AIW VARIATION 1, THINKING V2, Colleagues Circles Version, Mod 2, all mentioned persons version"
+    },
+    {
+        "id": 616,
+        "prompt": "Alice has 3 male colleagues and she also has 2 female colleagues. These are all colleagues that Alice has. All these mentioned persons around Alice are colleagues of each other. Bob has 2 female colleagues and 1 male colleague in total. All these mentioned persons around Bob are colleagues of each other. The people in the circle around Bob do not have other colleagues aside - with the only exception of Matilda. She is colleague of Bob and she is also colleague of Alice, being part of Alice's circle. Mathilda has no other colleagues outside of the Alice's and Bob's circles. How many female colleagues does Matilda have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "3",
+        "description": "AIW VARIATION 2, THINKING V2, Colleagues Circles Version, Mod 2, all mentioned persons version"
+    },
+    {
+        "id": 617,
+        "prompt": "Alice has 3 male colleagues and she also has 4 female colleagues. These are all colleagues that Alice has. All these mentioned persons around Alice are colleagues of each other. Bob has 2 female colleagues and 1 male colleague in total. All these mentioned persons around Bob are colleagues of each other. The people in the circle around Bob do not have other colleagues aside - with the only exception of Matilda. She is colleague of Bob and she is also colleague of Alice, being part of Alice's circle. Mathilda has no other colleagues outside of the Alice's and Bob's circles. How many female colleagues does Matilda have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "5",
+        "description": "AIW VARIATION 3, THINKING V2, Colleagues Circles Version, Mod 2, all mentioned persons version"
+    },
+    {
+        "id": 618,
+        "prompt": "Alice has 3 male colleagues and she also has 1 female colleague. These are all colleagues that Alice has. All these mentioned persons around Alice are colleagues of each other. Bob has 2 female colleagues and 1 male colleague in total. All these mentioned persons around Bob are colleagues of each other. The people in the circle around Bob do not have other colleagues aside - with the only exception of Matilda. She is colleague of Bob and she is also colleague of Alice, being part of Alice's circle. Mathilda has no other colleagues outside of the Alice's and Bob's circles. How many female colleagues does Matilda have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "2",
+        "description": "AIW VARIATION 4, THINKING V2, Colleagues Circles Version, Mod 2, all mentioned persons version"
+    },
+    {
+        "id": 619,
+        "prompt": "Alice has 3 male colleagues and she also has 3 female colleague. These are all colleagues that Alice has. All these mentioned persons around Alice are colleagues of each other. Bob has 2 female colleagues and 1 male colleague in total. All these mentioned persons around Bob are colleagues of each other. The people in the circle around Bob do not have other colleagues aside - with the only exception of Matilda. She is colleague of Bob and she is also colleague of Alice, being part of Alice's circle. Mathilda has no other colleagues outside of the Alice's and Bob's circles. How many female colleagues does Matilda have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "4",
+        "description": "AIW VARIATION 5, THINKING V2, Colleagues Circles Version, Mod 2, all mentioned persons version"
+    },
+    {
+        "id": 620,
+        "prompt": "Alice has 3 male colleagues and she also has 5 female colleagues. These are all colleagues that Alice has. All these mentioned persons around Alice are colleagues of each other. Bob has 2 female colleagues and 1 male colleague in total. All these mentioned persons around Bob are colleagues of each other. The people in the circle around Bob do not have other colleagues aside - with the only exception of Matilda. She is colleague of Bob and she is also colleague of Alice, being part of Alice's circle. Mathilda has no other colleagues outside of the Alice's and Bob's circles. How many female colleagues does Matilda have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "6",
+        "description": "AIW VARIATION 6, THINKING V2, Colleagues Circles Version, Mod 2, all mentioned persons version"
+    },
+    {
+        "id":621,
+        "prompt": "Alice has 3 male colleagues and she also has 6 female colleagues in total. All these mentioned persons in the circle around Alice are colleagues of each other. Bob has 2 female colleagues and 1 male colleague in total. All these mentioned persons in the circle around Bob are colleagues of each other. The people in the circle around Bob do not have other colleagues aside - with the only exception of Matilda. She is colleague of Bob and she is also colleague of Alice. All the mentioned persons have no colleagues beoynd the already described group of people. How many female colleagues does Matilda have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "7",
+        "description": "AIW VARIATION 1, THINKING V2, Colleagues Circles Version, MOD 3, not mentioning Alice's circle, all mentioned persons version"
+    },
+    {
+        "id":622,
+        "prompt": "Alice has 3 male colleagues and she also has 6 female colleagues in total. All these mentioned persons in the circle around Alice are colleagues of each other. Bob has 2 female colleagues and 1 male colleague in total. All these mentioned persons in the circle around Bob are colleagues of each other. The people in the circle around Bob do not have other colleagues aside - with the only exception of Matilda. She is colleague of Bob and she is also colleague of Alice. All the mentioned persons have no colleagues beyond the already described group of people. How many female colleagues does Matilda have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "7",
+        "description": "AIW VARIATION 1, THINKING V2, Colleagues Circles Version, MOD 3a correction, not mentioning Alice's circle, all mentioned persons version"
+    },
+    {
+        "id": 623,
+        "prompt": "Alice has 3 male colleagues and she also has 6 female colleagues in total. All these mentioned persons in the circle around Alice are colleagues of each other. Bob has 2 female colleagues and 1 male colleague in total. All these mentioned persons in the circle around Bob are colleagues of each other. The people in the circle around Bob do not have other colleagues aside - with the only exception of Matilda. She is colleague of Bob and she is also colleague of Alice, being part of Alice's circle. All the mentioned persons have no colleagues beyond the already described group of people. How many female colleagues does Matilda have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "7",
+        "description": "AIW VARIATION 1, THINKING V2, Colleagues Circles Version, Mod 4, control more precise, all mentioned persons version"
+    },
+    {
+        "id": 624,
+        "prompt": "Alice has 3 male colleagues and she also has 2 female colleagues in total. All these mentioned persons in the circle around Alice are colleagues of each other. Bob has 2 female colleagues and 1 male colleague in total. All these mentioned persons in the circle around Bob are colleagues of each other. The people in the circle around Bob do not have other colleagues aside - with the only exception of Matilda. She is colleague of Bob and she is also colleague of Alice, being part of Alice's circle. All the mentioned persons have no colleagues beyond the already described group of people. How many female colleagues does Matilda have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "3",
+        "description": "AIW VARIATION 2, THINKING V2, Colleagues Circles Version, Mod 4, control more precise, all mentioned persons version"
+    },
+    {
+        "id": 625,
+        "prompt": "Alice has 3 male colleagues and she also has 4 female colleagues in total. All these mentioned persons in the circle around Alice are colleagues of each other. Bob has 2 female colleagues and 1 male colleague in total. All these mentioned persons in the circle around Bob are colleagues of each other. The people in the circle around Bob do not have other colleagues aside - with the only exception of Matilda. She is colleague of Bob and she is also colleague of Alice, being part of Alice's circle. All the mentioned persons have no colleagues beyond the already described group of people. How many female colleagues does Matilda have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "5",
+        "description": "AIW VARIATION 3, THINKING V2, Colleagues Circles Version, Mod 4, control more precise, all mentioned persons version"
+    },
+    {
+        "id": 626,
+        "prompt": "Alice has 3 male colleagues and she also has 1 female colleague in total. All these mentioned persons in the circle around Alice are colleagues of each other. Bob has 2 female colleagues and 1 male colleague in total. All these mentioned persons in the circle around Bob are colleagues of each other. The people in the circle around Bob do not have other colleagues aside - with the only exception of Matilda. She is colleague of Bob and she is also colleague of Alice, being part of Alice's circle. All the mentioned persons have no colleagues beyond the already described group of people. How many female colleagues does Matilda have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "2",
+        "description": "AIW VARIATION 4, THINKING V2, Colleagues Circles Version, Mod 4, control more precise, all mentioned persons version"
+    },
+    {
+        "id": 627,
+        "prompt": "Alice has 3 male colleagues and she also has 3 female colleague in total. All these mentioned persons in the circle around Alice are colleagues of each other. Bob has 2 female colleagues and 1 male colleague in total. All these mentioned persons in the circle around Bob are colleagues of each other. The people in the circle around Bob do not have other colleagues aside - with the only exception of Matilda. She is colleague of Bob and she is also colleague of Alice, being part of Alice's circle. All the mentioned persons have no colleagues beyond the already described group of people. How many female colleagues does Matilda have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "4",
+        "description": "AIW VARIATION 5, THINKING V2, Colleagues Circles Version, Mod 4, control more precise, all mentioned persons version"
+    },
+    {
+        "id": 628,
+        "prompt": "Alice has 3 male colleagues and she also has 5 female colleagues in total. All these mentioned persons in the circle around Alice are colleagues of each other. Bob has 2 female colleagues and 1 male colleague in total. All these mentioned persons in the circle around Bob are colleagues of each other. The people in the circle around Bob do not have other colleagues aside - with the only exception of Matilda. She is colleague of Bob and she is also colleague of Alice, being part of Alice's circle. All the mentioned persons have no colleagues beyond the already described group of people. How many female colleagues does Matilda have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "6",
+        "description": "AIW VARIATION 6, THINKING V2, Colleagues Circles Version, Mod 4, control more precise, all mentioned persons version"
+    },
+    {
+        "id": 629,
+        "prompt": "Alice has 3 male colleagues and she also has 6 female colleagues in total. All these mentioned persons in the circle around Alice are colleagues of each other. Bob has 2 female colleagues and 1 male colleague in total. All these mentioned persons in the circle around Bob are colleagues of each other. Matilda is a colleague of Bob. She is the only person from Bob's circle who has colleagues outside Bob's circle, all other people in Bob's circle have no further colleagues aside. Matilda is colleague of Alice, being part of Alice's circle. All the mentioned persons have no colleagues beyond the already described group of people. How many female colleagues does Matilda have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "7",
+        "description": "AIW VARIATION 1, THINKING V2, Colleagues Circles Version, Mod 5, Matilda more precise, control more precise, all mentioned persons version"
+    },
+    {
+        "id": 630,
+        "prompt": "Alice has 3 male colleagues and she also has 2 female colleagues in total. All these mentioned persons in the circle around Alice are colleagues of each other. Bob has 2 female colleagues and 1 male colleague in total. All these mentioned persons in the circle around Bob are colleagues of each other. Matilda is a colleague of Bob. She is the only person from Bob's circle who has colleagues outside Bob's circle, all other people in Bob's circle have no further colleagues aside. Matilda is colleague of Alice, being part of Alice's circle. All the mentioned persons have no colleagues beyond the already described group of people. How many female colleagues does Matilda have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "3",
+        "description": "AIW VARIATION 2, THINKING V2, Colleagues Circles Version, Mod 5, Matilda more precise, control more precise, all mentioned persons version"
+    },
+    {
+        "id": 631,
+        "prompt": "Alice has 3 male colleagues and she also has 4 female colleagues in total. All these mentioned persons in the circle around Alice are colleagues of each other. Bob has 2 female colleagues and 1 male colleague in total. All these mentioned persons in the circle around Bob are colleagues of each other. Matilda is a colleague of Bob. She is the only person from Bob's circle who has colleagues outside Bob's circle, all other people in Bob's circle have no further colleagues aside. Matilda is colleague of Alice, being part of Alice's circle. All the mentioned persons have no colleagues beyond the already described group of people. How many female colleagues does Matilda have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "5",
+        "description": "AIW VARIATION 3, THINKING V2, Colleagues Circles Version, Mod 5, Matilda more precise, control more precise, all mentioned persons version"
+    },
+    {
+        "id": 632,
+        "prompt": "Alice has 3 male colleagues and she also has 1 female colleague in total. All these mentioned persons in the circle around Alice are colleagues of each other. Bob has 2 female colleagues and 1 male colleague in total. All these mentioned persons in the circle around Bob are colleagues of each other. Matilda is a colleague of Bob. She is the only person from Bob's circle who has colleagues outside Bob's circle, all other people in Bob's circle have no further colleagues aside. Matilda is colleague of Alice, being part of Alice's circle. All the mentioned persons have no colleagues beyond the already described group of people. How many female colleagues does Matilda have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "2",
+        "description": "AIW VARIATION 4, THINKING V2, Colleagues Circles Version, Mod 5, Matilda more precise, control more precise, all mentioned persons version"
+    },
+    {
+        "id": 633,
+        "prompt": "Alice has 3 male colleagues and she also has 3 female colleague in total. All these mentioned persons in the circle around Alice are colleagues of each other. Bob has 2 female colleagues and 1 male colleague in total. All these mentioned persons in the circle around Bob are colleagues of each other. Matilda is a colleague of Bob. She is the only person from Bob's circle who has colleagues outside Bob's circle, all other people in Bob's circle have no further colleagues aside. Matilda is colleague of Alice, being part of Alice's circle. All the mentioned persons have no colleagues beyond the already described group of people. How many female colleagues does Matilda have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "4",
+        "description": "AIW VARIATION 5, THINKING V2, Colleagues Circles Version, Mod 5, Matilda more precise, control more precise, all mentioned persons version"
+    },
+    {
+        "id": 634,
+        "prompt": "Alice has 3 male colleagues and she also has 5 female colleagues in total. All these mentioned persons in the circle around Alice are colleagues of each other. Bob has 2 female colleagues and 1 male colleague in total. All these mentioned persons in the circle around Bob are colleagues of each other. Matilda is a colleague of Bob. She is the only person from Bob's circle who has colleagues outside Bob's circle, all other people in Bob's circle have no further colleagues aside. Matilda is colleague of Alice, being part of Alice's circle. All the mentioned persons have no colleagues beyond the already described group of people. How many female colleagues does Matilda have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "6",
+        "description": "AIW VARIATION 6, THINKING V2, Colleagues Circles Version, Mod 5, Matilda more precise, control more precise, all mentioned persons version"
+    },
+    {
+        "id": 635,
+        "prompt": "Alice has 3 male colleagues and she also has 6 female colleagues in total. All these mentioned persons in the circle around Alice are colleagues of each other. Bob has 2 female colleagues and 1 male colleague in total. All these mentioned persons in the circle around Bob are colleagues of each other. Matilda is a colleague of Bob and she is also a colleague of Alice, being part of Alice's circle. All other colleagues of Bob have no colleagues outside of Bob's circle. All the mentioned persons have no colleagues beyond the already described total group of people. How many female colleagues does Matilda have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "7",
+        "description": "AIW VARIATION 1, THINKING V2, Colleagues Circles Version, Mod 6, Matilda all other colleagues, control more precise, all mentioned persons version"
+    },
+    {
+        "id": 636,
+        "prompt": "Alice has 3 male colleagues and she also has 6 female colleagues in total. All these mentioned persons in the circle around Alice are colleagues of each other. Bob has 2 female colleagues and 1 male colleague in total. All these mentioned persons in the circle around Bob are colleagues of each other. Apart from one exception, no person in the circle around Bob has other colleagues outside. The only exception is Matilda who is colleague of Bob and she is also colleague of Alice, being part of Alice's circle. All the mentioned persons have no colleagues beyond the already described total group of people. How many female colleagues does Matilda have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "7",
+        "description": "AIW VARIATION 1, THINKING V2, Colleagues Circles Version, Mod 7, Matilda only exception, control more precise, all mentioned persons version"
+    },
+    {
+        "id": 637,
+        "prompt": "Alice has 3 male colleagues and she also has 6 female colleagues in total. All these mentioned persons in the circle around Alice are colleagues of each other. Bob has 2 female colleagues and 1 male colleague in total. All these mentioned persons in the circle around Bob are colleagues of each other. The people in the circle around Bob do not have other colleagues aside - with the only exception of Matilda. She is colleague of Bob, being part of Bob's circle, and she is also colleague of Alice, being part of Alice's circle. All the mentioned persons have no colleagues beyond the already described group of people. How many female colleagues does Matilda have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "7",
+        "description": "AIW VARIATION 1, THINKING V2, Colleagues Circles Version, Mod 8, both circles, control more precise, all mentioned persons version"
+    },
+    {
+        "id": 638,
+        "prompt": "Alice has 3 male colleagues and she also has 2 female colleagues in total. All these mentioned persons in the circle around Alice are colleagues of each other. Bob has 2 female colleagues and 1 male colleague in total. All these mentioned persons in the circle around Bob are colleagues of each other. The people in the circle around Bob do not have other colleagues aside - with the only exception of Matilda. She is colleague of Bob, being part of Bob's circle, and she is also colleague of Alice, being part of Alice's circle. All the mentioned persons have no colleagues beyond the already described group of people. How many female colleagues does Matilda have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "3",
+        "description": "AIW VARIATION 2, THINKING V2, Colleagues Circles Version, Mod 8, both circles, control more precise, all mentioned persons version"
+    },
+    {
+        "id": 639,
+        "prompt": "Alice has 3 male colleagues and she also has 4 female colleagues in total. All these mentioned persons in the circle around Alice are colleagues of each other. Bob has 2 female colleagues and 1 male colleague in total. All these mentioned persons in the circle around Bob are colleagues of each other. The people in the circle around Bob do not have other colleagues aside - with the only exception of Matilda. She is colleague of Bob, being part of Bob's circle, and she is also colleague of Alice, being part of Alice's circle. All the mentioned persons have no colleagues beyond the already described group of people. How many female colleagues does Matilda have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "5",
+        "description": "AIW VARIATION 3, THINKING V2, Colleagues Circles Version, Mod 8, both circles, control more precise, all mentioned persons version"
+    },
+    {
+        "id": 640,
+        "prompt": "Alice has 3 male colleagues and she also has 1 female colleague in total. All these mentioned persons in the circle around Alice are colleagues of each other. Bob has 2 female colleagues and 1 male colleague in total. All these mentioned persons in the circle around Bob are colleagues of each other. The people in the circle around Bob do not have other colleagues aside - with the only exception of Matilda. She is colleague of Bob, being part of Bob's circle, and she is also colleague of Alice, being part of Alice's circle. All the mentioned persons have no colleagues beyond the already described group of people. How many female colleagues does Matilda have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "2",
+        "description": "AIW VARIATION 4, THINKING V2, Colleagues Circles Version, Mod 8, both circles, control more precise, all mentioned persons version"
+    },
+    {
+        "id": 641,
+        "prompt": "Alice has 3 male colleagues and she also has 3 female colleague in total. All these mentioned persons in the circle around Alice are colleagues of each other. Bob has 2 female colleagues and 1 male colleague in total. All these mentioned persons in the circle around Bob are colleagues of each other. The people in the circle around Bob do not have other colleagues aside - with the only exception of Matilda. She is colleague of Bob, being part of Bob's circle, and she is also colleague of Alice, being part of Alice's circle. All the mentioned persons have no colleagues beyond the already described group of people. How many female colleagues does Matilda have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "4",
+        "description": "AIW VARIATION 5, THINKING V2, Colleagues Circles Version, Mod 8, both circles, control more precise, all mentioned persons version"
+    },
+    {
+        "id": 642,
+        "prompt": "Alice has 3 male colleagues and she also has 5 female colleagues in total. All these mentioned persons in the circle around Alice are colleagues of each other. Bob has 2 female colleagues and 1 male colleague in total. All these mentioned persons in the circle around Bob are colleagues of each other. The people in the circle around Bob do not have other colleagues aside - with the only exception of Matilda. She is colleague of Bob, being part of Bob's circle, and she is also colleague of Alice, being part of Alice's circle. All the mentioned persons have no colleagues beyond the already described group of people. How many female colleagues does Matilda have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "6",
+        "description": "AIW VARIATION 6, THINKING V2, Colleagues Circles Version, Mod 8, both circles, control more precise, all mentioned persons version"
+    },
+    {
+        "id": 643,
+        "prompt": "Alice has 3 male friends and she also has 6 female friends in total. All these mentioned persons in the circle around Alice are friends of each other. Bob has 2 female friends and 1 male friend in total. All these mentioned persons in the circle around Bob are friends of each other. The people in the circle around Bob do not have other friends aside - with the only exception of Matilda. She is friend of Bob, being part of Bob's circle, and she is also friend of Alice, being part of Alice's circle. All the mentioned persons have no friends beyond the already described group of people. How many female friends does Matilda have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "7",
+        "description": "AIW VARIATION 1, THINKING V2, friends Circles Version, Mod 8, both circles, control more precise, all mentioned persons version"
+    },
+    {
+        "id": 644,
+        "prompt": "Alice has 3 male friends and she also has 2 female friends in total. All these mentioned persons in the circle around Alice are friends of each other. Bob has 2 female friends and 1 male friend in total. All these mentioned persons in the circle around Bob are friends of each other. The people in the circle around Bob do not have other friends aside - with the only exception of Matilda. She is friend of Bob, being part of Bob's circle, and she is also friend of Alice, being part of Alice's circle. All the mentioned persons have no friends beyond the already described group of people. How many female friends does Matilda have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "3",
+        "description": "AIW VARIATION 2, THINKING V2, friends Circles Version, Mod 8, both circles, control more precise, all mentioned persons version"
+    },
+    {
+        "id": 645,
+        "prompt": "Alice has 3 male friends and she also has 4 female friends in total. All these mentioned persons in the circle around Alice are friends of each other. Bob has 2 female friends and 1 male friend in total. All these mentioned persons in the circle around Bob are friends of each other. The people in the circle around Bob do not have other friends aside - with the only exception of Matilda. She is friend of Bob, being part of Bob's circle, and she is also friend of Alice, being part of Alice's circle. All the mentioned persons have no friends beyond the already described group of people. How many female friends does Matilda have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "5",
+        "description": "AIW VARIATION 3, THINKING V2, friends Circles Version, Mod 8, both circles, control more precise, all mentioned persons version"
+    },
+    {
+        "id": 646,
+        "prompt": "Alice has 3 male friends and she also has 1 female friend in total. All these mentioned persons in the circle around Alice are friends of each other. Bob has 2 female friends and 1 male friend in total. All these mentioned persons in the circle around Bob are friends of each other. The people in the circle around Bob do not have other friends aside - with the only exception of Matilda. She is friend of Bob, being part of Bob's circle, and she is also friend of Alice, being part of Alice's circle. All the mentioned persons have no friends beyond the already described group of people. How many female friends does Matilda have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "2",
+        "description": "AIW VARIATION 4, THINKING V2, friends Circles Version, Mod 8, both circles, control more precise, all mentioned persons version"
+    },
+    {
+        "id": 647,
+        "prompt": "Alice has 3 male friends and she also has 3 female friend in total. All these mentioned persons in the circle around Alice are friends of each other. Bob has 2 female friends and 1 male friend in total. All these mentioned persons in the circle around Bob are friends of each other. The people in the circle around Bob do not have other friends aside - with the only exception of Matilda. She is friend of Bob, being part of Bob's circle, and she is also friend of Alice, being part of Alice's circle. All the mentioned persons have no friends beyond the already described group of people. How many female friends does Matilda have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "4",
+        "description": "AIW VARIATION 5, THINKING V2, friends Circles Version, Mod 8, both circles, control more precise, all mentioned persons version"
+    },
+    {
+        "id": 648,
+        "prompt": "Alice has 3 male friends and she also has 5 female friends in total. All these mentioned persons in the circle around Alice are friends of each other. Bob has 2 female friends and 1 male friend in total. All these mentioned persons in the circle around Bob are friends of each other. The people in the circle around Bob do not have other friends aside - with the only exception of Matilda. She is friend of Bob, being part of Bob's circle, and she is also friend of Alice, being part of Alice's circle. All the mentioned persons have no friends beyond the already described group of people. How many female friends does Matilda have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "6",
+        "description": "AIW VARIATION 6, THINKING V2, friends Circles Version, Mod 8, both circles, control more precise, all mentioned persons version"
+    },
+    {   
+        "id": 649,
+        "prompt": "Alice and Bob are sister and brother. Alice has 3 sisters and Bob has 2 brothers. How many sisters does Bob have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "4",
+        "description": "AIW ext variation 5, Alice and Bob combi, Bob sisters question, THINKING v2, no output restriction"
+    },
+    {   
+        "id": 650,
+        "prompt": "Alice and Bob are sister and brother. Alice has 5 sisters and Bob has 3 brothers. How many sisters does Bob have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "6",
+        "description": "AIW ext variation 6, Alice and Bob combi, Bob sisters question, THINKING v2, no output restriction"
+    },
+    {
+        "id": 651,
+        "prompt": "Bob has 3 brothers and he also has 2 sisters. How many brothers does Bob's sister have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "4",
+        "description": "AIW variation 5, Bob version, THINKING v2, no output restriction, thinking carefully v1"
+    },
+    {
+        "id": 652,
+        "prompt": "Bob has 5 brothers and he also has 3 sisters. How many brothers does Bob's sister have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "6",
+        "description": "AIW variation 6, Bob version, THINKING v2, no output restriction, thinking carefully v1"
+    },
+    {
+        "id": 653,
+        "prompt": "Alice has 63 brothers and she also has 66 sisters. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "67",
+        "description": "AIW VARIATION 1, THINKING V2, EXAGGERATE NUMBERS 60"
+    },
+    {
+        "id": 654,
+        "prompt": "Alice has 62 sisters and she also has 64 brothers. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "63",
+        "description": "AIW VARIATION 2, THINKING V2, EXAGGERATE NUMBERS 60"
+    },
+    {
+        "id": 655,
+        "prompt": "Alice has 64 sisters and she also has 61 brothers. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "65",
+        "description": "AIW Variation 3, THINKING V2, EXAGGERATE NUMBERS 60"
+    },
+    {
+        "id": 656,
+        "prompt": "Alice has 64 brothers and she also has 61 sisters. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "62",
+        "description": "AIW Variation 4, THINKING V2, EXAGGERATE NUMBERS 60"
+    },
+    {
+        "id": 657,
+        "prompt": "Alice has 62 brothers and she also has 63 sisters. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "64",
+        "description": "AIW VARIATION 5, THINKING V2, EXAGGERATE NUMBERS 60"
+    },
+    {
+        "id": 658,
+        "prompt": "Alice has 65 sisters and she also has 63 brothers. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "66",
+        "description": "AIW VARIATION 6, THINKING V2, EXAGGERATE NUMBERS 60"
+    },
+    {
+        "id": 659,
+        "prompt": "Alice has 7 brothers and she also has 3 sisters. Is Alice male or female? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: SEX_CODE_DIGIT \", where SEX_CODE_DIGIT is 1 if female, 0 if male.",
+        "right_answer": "1",
+        "description": "AIW VARIATION 1, AIW LIGHT attribute binding control, THINKING V2"
+    },
+    {
+        "id": 660,
+        "prompt": "Alice has 4 sisters and she also has 3 brothers. Is Alice male or female? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: SEX_CODE_DIGIT \", where SEX_CODE_DIGIT is 1 if female, 0 if male.",
+        "right_answer": "1",
+        "description": "AIW VARIATION 2, AIW LIGHT attribute binding control, THINKING V2"
+    },
+    {
+        "id": 661,
+        "prompt": "Alice has 2 sisters and she also has 5 brothers. Is Alice male or female? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: SEX_CODE_DIGIT \", where SEX_CODE_DIGIT is 1 if female, 0 if male.",
+        "right_answer": "1",
+        "description": "AIW Variation 3, AIW LIGHT attribute binding control, THINKING V2"
+    },
+    {
+        "id": 662,
+        "prompt": "Alice has 2 brothers and she also has 3 sisters. Is Alice male or female? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: SEX_CODE_DIGIT \", where SEX_CODE_DIGIT is 1 if female, 0 if male.",
+        "right_answer": "1",
+        "description": "AIW Variation 4, AIW LIGHT attribute binding control, THINKING V2"
+    },
+    {
+        "id": 663,
+        "prompt": "Alice and Bob are sister and brother. Alice has 3 brothers and Bob has 8 sisters. How many sisters does Bob's sister have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "7",
+        "description": "AIW ext variation 1, Alice and Bob combi cross, Bob's sister sisters question, THINKING v2, no output restriction"
+    },
+    {   
+        "id": 664,
+        "prompt": "Alice and Bob are sister and brother. Alice has 4 brothers and Bob has 4 sisters. How many sisters does Bob's sister have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "3",
+        "description": "AIW ext variation 2, Alice and Bob combi cross, Bob's sister sisters question, THINKING v2, no output restriction"
+    },
+    {   
+        "id": 665,
+        "prompt": "Alice and Bob are sister and brother. Alice has 2 brothers and Bob has 6 sisters. How many sisters does Bob's sister have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "5",
+        "description": "AIW ext variation 3, Alice and Bob combi cross, Bob's sister sisters question, THINKING v2, no output restriction"
+    },
+    {   
+        "id": 666,
+        "prompt": "Alice and Bob are sister and brother. Alice has 4 brothers and Bob has 3 sisters. How many sisters does Bob's sister have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "2",
+        "description": "AIW ext variation 4, Alice and Bob combi cross, Bob's sister sisters question, THINKING v2, no output restriction"
+    },
+    {   
+        "id": 667,
+        "prompt": "Alice and Bob are sister and brother. Alice has 3 brothers and Bob has 5 sisters. How many sisters does Bob's sister have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "4",
+        "description": "AIW ext variation 5, Alice and Bob combi cross, Bob's sister sisters question, THINKING v2, no output restriction"
+    },
+    {   
+        "id": 668,
+        "prompt": "Alice and Bob are sister and brother. Alice has 5 brothers and Bob has 7 sisters. How many sisters does Bob's sister have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer": "6",
+        "description": "AIW ext variation 6, Alice and Bob combi cross, Bob's sister sisters question, THINKING v2, no output restriction"
+    },
+    {
+        "id":669,
+        "prompt":"Assume following is true and answer the question: Rabbit Hole was in 2026 in theatres. Alongside this comedy there were 2 westerns and 2 comedies. How many comedies could you watch when the westerns were in theaters? Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":3.0,
+        "description":"Movies VARIATION 1, THINKING V2",
+        "digit_change":null
+    },
+    {
+        "id":670,
+        "prompt":"Assume following is true and answer the question: Rabbit Hole was in 2026 in theatres. Alongside this comedy there were 2 westerns and 4 comedies. How many comedies could you watch when the westerns were in theaters? Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":5.0,
+        "description":"Movies VARIATION 2, THINKING V2",
+        "digit_change":null
+    },
+    {
+        "id":671,
+        "prompt":"Assume following is true and answer the question: Rabbit Hole was in 2026 in theatres. Alongside this comedy there were 2 westerns and 6 comedies. How many comedies could you watch when the westerns were in theaters? Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":7.0,
+        "description":"Movies VARIATION 3, THINKING V2",
+        "digit_change":null
+    },
+    {
+        "id":672,
+        "prompt":"Assume following is true and answer the question: Rabbit Hole was in 2026 in theatres. Alongside this comedy there were 2 westerns and 8 comedies. How many comedies could you watch when the westerns were in theaters? Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":9.0,
+        "description":"Movies VARIATION 4, THINKING V2",
+        "digit_change":null
+    },
+    {
+        "id":673,
+        "prompt":"Rabbit Hole by Alice was released in 2026 alongside 17 other comedies and 11 westerns including one by Alice. How many comedies were released when the comedy by Rabbit Hole's director was out? Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":18.0,
+        "description":"Movies Hard VARIATION 1, THINKING V2",
+        "digit_change":null
+    },
+    {
+        "id":674,
+        "prompt":"Rabbit Hole by Alice was released in 2026 alongside 23 other comedies and 11 westerns including one by Alice. How many comedies were released when the comedy by Rabbit Hole's director was out? Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":24.0,
+        "description":"Movies Hard VARIATION 2, THINKING V2",
+        "digit_change":null
+    },
+    {
+        "id":675,
+        "prompt":"Rabbit Hole by Alice was released in 2026 alongside 29 other comedies and 11 westerns including one by Alice. How many comedies were released when the comedy by Rabbit Hole's director was out? Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":30.0,
+        "description":"Movies Hard VARIATION 3, THINKING V2",
+        "digit_change":null
+    },
+    {
+        "id":676,
+        "prompt":"Rabbit Hole by Alice was released in 2026 alongside 29 other comedies and 11 westerns including one by Alice. How many comedies were released when the comedy by Rabbit Hole's director was out? Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":30.0,
+        "description":"Movies Hard VARIATION 4, THINKING V2",
+        "digit_change":null
+    },
+    {
+        "id":677,
+        "prompt":"Rabbit Hole by Alice was released in 2026 alongside 4 other comedies and 11 westerns including one by Alice. How many comedies were released that year? Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":5.0,
+        "description":"Movies Light VARIATION 1, THINKING V2",
+        "digit_change":null
+    },
+    {
+        "id":678,
+        "prompt":"Rabbit Hole by Alice was released in 2026 alongside 2 other comedies and 11 westerns including one by Alice. How many comedies were released that year? Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":3.0,
+        "description":"Movies Light VARIATION 2, THINKING V2",
+        "digit_change":null
+    },
+    {
+        "id":679,
+        "prompt":"Rabbit Hole by Alice was released in 2026 alongside 6 other comedies and 11 westerns including one by Alice. How many comedies were released that year? Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":7.0,
+        "description":"Movies Light VARIATION 3, THINKING V2",
+        "digit_change":null
+    },
+    {
+        "id":680,
+        "prompt":"Rabbit Hole by Alice was released in 2026 alongside 8 other comedies and 11 westerns including one by Alice. How many comedies were released that year? Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":9.0,
+        "description":"Movies Light VARIATION 4, THINKING V2",
+        "digit_change":null
+    },
+    {
+        "id":681,
+        "prompt":"Rabbit Hole by Alice was released in 2026 alongside 57 other comedies and 38 westerns including one by Alice. How many comedies were released when the comedy by Rabbit Hole's director was out? Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":58.0,
+        "description":"Movies big numbers VARIATION 1",
+        "digit_change":null
+    },
+    {
+        "id":682,
+        "prompt":"Rabbit Hole by Alice was released in 2026 alongside 64 other comedies and 38 westerns including one by Alice. How many comedies were released that year? Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":65.0,
+        "description":"Movies big numbers VARIATION 2",
+        "digit_change":null
+    },
+    {
+        "id":683,
+        "prompt":"Rabbit Hole by Alice was released in 2026 alongside 72 other comedies and 38 westerns including one by Alice. How many comedies were released that year? Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":73.0,
+        "description":"Movies big numbers VARIATION 3",
+        "digit_change":null
+    },
+    {
+        "id":684,
+        "prompt":"Rabbit Hole by ,Alice was released in 2026 alongside 87 other comedies and 38 westerns including one by Alice. How many comedies were released that year? Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":88.0,
+        "description":"Movies big numbers VARIATION 4",
+        "digit_change":null
+    },
+    {
+        "id":685,
+        "prompt":"On a table, there is a big bowl, next to this bowl, which is blue, there are 2 red bowls and 3 blue bowls on the table. How many blue bowls are on the table with red bowls? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer":"4",
+        "description":"Bowls VARIATION 1, PLAIN",
+        "digit_change":null
+    },
+    {
+        "id":686,
+        "prompt":"On a table, there is a big bowl, next to this bowl, which is blue, there are 3 red bowls and 5 blue bowls on the table. How many blue bowls are on the table with red bowls? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer":"6",
+        "description":"Bowls VARIATION 2, PLAIN",
+        "digit_change":null
+    },
+    {
+        "id":687,
+        "prompt":"On a table, there is a big bowl, next to this bowl, which is blue, there are 4 red bowls and 7 blue bowls on the table. How many blue bowls are on the table with red bowls? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer":"8",
+        "description":"Bowls VARIATION 3, PLAIN",
+        "digit_change":null
+    },
+    {
+        "id":688,
+        "prompt":"On a table, there is a big bowl, next to this bowl, which is blue, there are 5 red bowls and 9 blue bowls on the table. How many blue bowls are on the table with red bowls? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer":"10",
+        "description":"Bowls VARIATION 4, PLAIN",
+        "digit_change":null
+    },
+    {
+        "id":689,
+        "prompt":"On a table, there is a big bowl, next to this bowl, which is blue, there are 5 red bowls and 11 blue bowls on the table. How many blue bowls are on the table with red bowls? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer":"12",
+        "description":"Bowls VARIATION 5, PLAIN",
+        "digit_change":null
+    },
+    {
+        "id":690,
+        "prompt":"On a table, there is a big bowl, next to this bowl, which is blue, there are 5 red bowls and 12 blue bowls on the table. How many blue bowls are on the table with red bowls? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer":"13",
+        "description":"Bowls VARIATION 6, PLAIN",
+        "digit_change":null
+    },
+    {
+        "id":691,
+        "prompt":"Assume following is true and answer the question: Rabbit Hole was in 2026 in theatres. Alongside this comedy there were 2 westerns and 9 comedies. How many comedies could you watch when the westerns were in theaters? Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":10.0,
+        "description":"Movies VARIATION 5, THINKING V2",
+        "digit_change":null
+    },
+    {
+        "id":692,
+        "prompt":"Assume following is true and answer the question: Rabbit Hole was in 2026 in theatres. Alongside this comedy there were 2 westerns and 3 comedies. How many comedies could you watch when the westerns were in theaters? Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":4.0,
+        "description":"Movies VARIATION 6, THINKING V2",
+        "digit_change":null
+    },
+    {
+        "id":693,
+        "prompt":"On a table, there is a big bowl, next to this bowl, which is blue, there are 2 red bowls and 3 blue bowls on the table. How many bowls are on the table beside the big bowl? Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":5.0,
+        "description":"Bowls VARIATION 1, Control",
+        "digit_change":null
+    },
+    {
+        "id":694,
+        "prompt":"On a table, there is a big bowl, next to this bowl, which is blue, there are 3 red bowls and 5 blue bowls on the table. How many bowls are on the table beside the big bowl? Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":8.0,
+        "description":"Bowls VARIATION 2, Control",
+        "digit_change":null
+    },
+    {
+        "id":695,
+        "prompt":"On a table, there is a big bowl, next to this bowl, which is blue, there are 4 red bowls and 7 blue bowls on the table. How many bowls are on the table beside the big bowl? Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":11.0,
+        "description":"Bowls VARIATION 3, Control",
+        "digit_change":null
+    },
+    {
+        "id":696,
+        "prompt":"On a table, there is a big bowl, next to this bowl, which is blue, there are 5 red bowls and 9 blue bowls on the table. How many bowls are on the table beside the big bowl? Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":14.0,
+        "description":"Bowls VARIATION 4, Control",
+        "digit_change":null
+    },
+    {
+        "id":697,
+        "prompt":"On a table, there is a big bowl, which is blue, next to this bowl there are 2 red bowls and 3 blue bowls on the table. How many blue bowls are on the table beside the red bowls? Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":4.0,
+        "description":"Bowls VARIATION 1, Control v2",
+        "digit_change":null
+    },
+    {
+        "id":698,
+        "prompt":"On a table, there is a big bowl, which is blue, next to this bowl there are 3 red bowls and 5 blue bowls on the table. How many blue bowls are on the table beside the red bowls? Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":6.0,
+        "description":"Bowls VARIATION 2, Control v2",
+        "digit_change":null
+    },
+    {
+        "id":699,
+        "prompt":"On a table, there is a big bowl, which is blue, next to this bowl there are 4 red bowls and 7 blue bowls on the table. How many blue bowls are on the table beside the red bowls? Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":8.0,
+        "description":"Bowls VARIATION 3, Control v2",
+        "digit_change":null
+    },
+    {
+        "id":700,
+        "prompt":"On a table, there is a big bowl, which is blue, next to this bowl there are 5 red bowls and 9 blue bowls on the table. How many blue bowls are on the table beside the red bowls? Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":10.0,
+        "description":"Bowls VARIATION 4, Control v2",
+        "digit_change":null
+    },
+    {
+        "id":701,
+        "prompt":"On a table, there is a big bowl, next to this bowl, which is blue, there are 2 red bowls and 3 blue bowls on the table. How many blue bowls are on the table next to the red bowls? Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":4.0,
+        "description":"Bowls VARIATION 1, Control v2, Next to",
+        "digit_change":null
+    },
+    {
+        "id":702,
+        "prompt":"On a table, there is a big bowl, next to this bowl, which is blue, there are 3 red bowls and 5 blue bowls on the table. How many blue bowls are on the table next to the red bowls? Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":6.0,
+        "description":"Bowls VARIATION 2, Control v2, Next to",
+        "digit_change":null
+    },
+    {
+        "id":703,
+        "prompt":"On a table, there is a big bowl, next to this bowl, which is blue, there are 4 red bowls and 7 blue bowls on the table. How many blue bowls are on the table next to the red bowls? Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":8.0,
+        "description":"Bowls VARIATION 3, Control v2, Next to",
+        "digit_change":null
+    },
+    {
+        "id":704,
+        "prompt":"On a table, there is a big bowl, next to this bowl, which is blue, there are 5 red bowls and 9 blue bowls on the table. How many blue bowls are on the table next to the red bowls? Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":10.0,
+        "description":"Bowls VARIATION 4, Control v2, Next to",
+        "digit_change":null
+    },
+    {
+        "id":705,
+        "prompt":"On a table, there is a big blue bowl, next to this bowl there are 2 red bowls and 3 blue bowls on the table. How many blue bowls are on the table beside the red bowls? Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":4.0,
+        "description":"Bowls VARIATION 1, Control v2, big blue bowl",
+        "digit_change":null
+    },
+    {
+        "id":706,
+        "prompt":"On a table, there is a big blue bowl, next to this bowl there are 3 red bowls and 5 blue bowls on the table. How many blue bowls are on the table beside the red bowls? Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":6.0,
+        "description":"Bowls VARIATION 2, Control v2, big blue bowl",
+        "digit_change":null
+    },
+    {
+        "id":707,
+        "prompt":"On a table, there is a big blue bowl, next to this bowl there are 4 red bowls and 7 blue bowls on the table. How many blue bowls are on the table beside the red bowls? Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":8.0,
+        "description":"Bowls VARIATION 3, Control v2, big blue bowl",
+        "digit_change":null
+    },
+    {
+        "id":708,
+        "prompt":"On a table, there is a big blue bowl, next to this bowl there are 5 red bowls and 9 blue bowls on the table. How many blue bowls are on the table beside the red bowls? Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":10.0,
+        "description":"Bowls VARIATION 4, Control v2, big blue bowl",
+        "digit_change":null
+    },
+    {
+        "id":709,
+        "prompt":"On a table, there is a big blue bowl, in addition to this bowl there are 2 red bowls and 3 blue bowls on the table. How many blue bowls are on the table beside the red bowls? Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":4.0,
+        "description":"Bowls VARIATION 1, Control v2, big blue bowl, in addition to",
+        "digit_change":null
+    },
+    {
+        "id":710,
+        "prompt":"On a table, there is a big blue bowl, in addition to this bowl there are 3 red bowls and 5 blue bowls on the table. How many blue bowls are on the table beside the red bowls? Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":6.0,
+        "description":"Bowls VARIATION 2, Control v2, big blue bowl, in addition to",
+        "digit_change":null
+    },
+    {
+        "id":711,
+        "prompt":"On a table, there is a big blue bowl, in addition to this bowl there are 4 red bowls and 7 blue bowls on the table. How many blue bowls are on the table beside the red bowls? Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":8.0,
+        "description":"Bowls VARIATION 3, Control v2, big blue bowl, in addition to",
+        "digit_change":null
+    },
+    {
+        "id":712,
+        "prompt":"On a table, there is a big blue bowl, in addition to this bowl there are 5 red bowls and 9 blue bowls on the table. How many blue bowls are on the table beside the red bowls? Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":10.0,
+        "description":"Bowls VARIATION 4, Control v2, big blue bowl, in addition to",
+        "digit_change":null
+    },
+    {
+        "id":713,
+        "prompt":"On a table, there is a big bowl, which is blue, in addition to this bowl there are 2 red bowls and 3 blue bowls on the table. How many blue bowls are on the table beside the red bowls? Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":4.0,
+        "description":"Bowls VARIATION 1, Control v2, big blue bowl, in addition to",
+        "digit_change":null
+    },
+    {
+        "id":714,
+        "prompt":"On a table, there is a big bowl, which is blue, in addition to this bowl there are 3 red bowls and 5 blue bowls on the table. How many blue bowls are on the table beside the red bowls? Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":6.0,
+        "description":"Bowls VARIATION 2, Control v2, big blue bowl, in addition to",
+        "digit_change":null
+    },
+    {
+        "id":715,
+        "prompt":"On a table, there is a big bowl, which is blue, in addition to this bowl there are 4 red bowls and 7 blue bowls on the table. How many blue bowls are on the table beside the red bowls? Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":8.0,
+        "description":"Bowls VARIATION 3, Control v2, big blue bowl, in addition to",
+        "digit_change":null
+    },
+    {
+        "id":716,
+        "prompt":"On a table, there is a big bowl, which is blue, in addition to this bowl there are 5 red bowls and 9 blue bowls on the table. How many blue bowls are on the table beside the red bowls? Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":10.0,
+        "description":"Bowls VARIATION 4, Control v2, big blue bowl, in addition to",
+        "digit_change":null
+    },
+    {
+        "id":717,
+        "prompt":"On a table, there is a blue bowl, in addition to this bowl there are 2 red bowls and 3 blue bowls on the table. How many blue bowls are on the table beside the red bowls? Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":4.0,
+        "description":"Bowls VARIATION 1, Control v2, blue ball",
+        "digit_change":null
+    },
+    {
+        "id":718,
+        "prompt":"On a table, there is a blue bowl, in addition to this bowl there are 3 red bowls and 5 blue bowls on the table. How many blue bowls are on the table beside the red bowls? Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":6.0,
+        "description":"Bowls VARIATION 2, Control v2, blue ball",
+        "digit_change":null
+    },
+    {
+        "id":719,
+        "prompt":"On a table, there is a blue bowl, in addition to this bowl there are 4 red bowls and 7 blue bowls on the table. How many blue bowls are on the table beside the red bowls? Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":8.0,
+        "description":"Bowls VARIATION 3, Control v2, blue ball",
+        "digit_change":null
+    },
+    {
+        "id":720,
+        "prompt":"On a table, there is a blue bowl, in addition to this bowl there are 5 red bowls and 9 blue bowls on the table. How many blue bowls are on the table beside the red bowls? Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":10.0,
+        "description":"Bowls VARIATION 4, Control v2, blue ball",
+        "digit_change":null
+    },
+    {
+        "id":721,
+        "prompt":"On a table, there is a blue bowl. Further, there are 2 red bowls and 3 blue bowls on the table. How many blue bowls are on the table besides the red bowls? Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":4.0,
+        "description":"Bowls VARIATION 1, Control v2, further blue ball",
+        "digit_change":null
+    },
+    {
+        "id":722,
+        "prompt":"On a table, there is a blue bowl. Further, there are 3 red bowls and 5 blue bowls on the table. How many blue bowls are on the table besides the red bowls? Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":6.0,
+        "description":"Bowls VARIATION 2, Control v2, blue ball",
+        "digit_change":null
+    },
+    {
+        "id":723,
+        "prompt":"On a table, there is a blue bowl. Further, there are 4 red bowls and 7 blue bowls on the table. How many blue bowls are on the table besides the red bowls? Provide then final answer in following form: \"### Answer: \".",
+        "right_answer":8.0,
+        "description":"Bowls VARIATION 3, Control v2, blue ball",
+        "digit_change":null
+    },
+    {
+        "id":724,
+        "prompt":"On a table, there is a blue bowl. Further, there are 5 red bowls and 9 blue bowls on the table. How many blue bowls are on the table besides the red bowls? Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":10.0,
+        "description":"Bowls VARIATION 4, Control v2, blue ball",
+        "digit_change":null
+    },
+    {
+        "id":725,
+        "prompt":"On a table, there is a big blue bowl. Further, there are 2 red bowls and 3 blue bowls on the table. How many blue bowls are on the table besides the red bowls? Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":4.0,
+        "description":"Bowls VARIATION 1, Control v2, further big blue ball",
+        "digit_change":null
+    },
+    {
+        "id":726,
+        "prompt":"On a table, there is a big blue bowl. Further, there are 3 red bowls and 5 blue bowls on the table. How many blue bowls are on the table besides the red bowls? Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":6.0,
+        "description":"Bowls VARIATION 2, Control v2, blue ball",
+        "digit_change":null
+    },
+    {
+        "id":727,
+        "prompt":"On a table, there is a big blue bowl. Further, there are 4 red bowls and 7 blue bowls on the table. How many blue bowls are on the table besides the red bowls? Provide then final answer in following form: \"### Answer: \".",
+        "right_answer":8.0,
+        "description":"Bowls VARIATION 3, Control v2, blue ball",
+        "digit_change":null
+    },
+    {
+        "id":728,
+        "prompt":"On a table, there is a big blue bowl. Further, there are 5 red bowls and 9 blue bowls on the table. How many blue bowls are on the table besides the red bowls? Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":10.0,
+        "description":"Bowls VARIATION 4, Control v2, blue ball",
+        "digit_change":null
+    },
+    {
+        "id":729,
+        "prompt":"A big bowl is on a table and there are 3 blue and 4 red bowls near that bowl, which is blue. How many blue bowls are near the red bowl which is on the same table as the big bowl? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer":4.0,
+        "description":"Bowls VARIATION 1, Control v2 continue",
+        "digit_change":null
+    },
+    {
+        "id":730,
+        "prompt":"A big bowl is on a table and there are 5 blue and 4 red bowls near that bowl, which is blue. How many blue bowls are near the red bowl which is on the same table as the big bowl? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer":6.0,
+        "description":"Bowls VARIATION 2, Control v2 continue",
+        "digit_change":null
+    },
+    {
+        "id":731,
+        "prompt":"A big bowl is on a table and there are 7 blue and 4 red bowls near that bowl, which is blue. How many blue bowls are near the red bowl which is on the same table as the big bowl? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer":8.0,
+        "description":"Bowls VARIATION 3, Control v2 continue",
+        "digit_change":null
+    },
+    {
+        "id":732,
+        "prompt":"A big bowl is on a table and there are 9 blue and 4 red bowls near that bowl, which is blue. How many blue bowls are near the red bowl which is on the same table as the big bowl? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer":10.0,
+        "description":"Bowls VARIATION 4, Control v2 continue",
+        "digit_change":null
+    },
+    {
+        "id":733,
+        "prompt":"A big blue bowl is on a table and there are 3 blue and 4 red bowls near that bowl. How many blue bowls are near the red bowl which is on the same table as the big bowl? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer":4.0,
+        "description":"Bowls VARIATION 1, Control v2 continue",
+        "digit_change":null
+    },
+    {
+        "id":734,
+        "prompt":"A big blue bowl is on a table and there are 5 blue and 4 red bowls near that bowl. How many blue bowls are near the red bowl which is on the same table as the big bowl? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer":6.0,
+        "description":"Bowls VARIATION 2, Control v2 continue",
+        "digit_change":null
+    },
+    {
+        "id":735,
+        "prompt":"A big blue bowl is on a table and there are 7 blue and 4 red bowls near that bowl. How many blue bowls are near the red bowl which is on the same table as the big bowl? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer":8.0,
+        "description":"Bowls VARIATION 3, Control v2 continue",
+        "digit_change":null
+    },
+    {
+        "id":736,
+        "prompt":"A big blue bowl is on a table and there are 9 blue and 4 red bowls near that bowl. How many blue bowls are near the red bowl which is on the same table as the big bowl? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer":10.0,
+        "description":"Bowls VARIATION 4, Control v2 continue",
+        "digit_change":null
+    },
+    {
+        "id":737,
+        "prompt":"A big blue bowl is on a table and there are 3 blue and 4 red bowls near that bowl. How many blue bowls are near a red bowl? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer":4.0,
+        "description":"Bowls VARIATION 1, Control v2 continue",
+        "digit_change":null
+    },
+    {
+        "id":738,
+        "prompt":"A big blue bowl is on a table and there are 5 blue and 4 red bowls near that bowl. How many blue bowls are near a red bowl? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer":6.0,
+        "description":"Bowls VARIATION 2, Control v2 continue",
+        "digit_change":null
+    },
+    {
+        "id":739,
+        "prompt":"A big blue bowl is on a table and there are 7 blue and 4 red bowls near that bowl. How many blue bowls are near a red bowl? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer":8.0,
+        "description":"Bowls VARIATION 3, Control v2 continue",
+        "digit_change":null
+    },
+    {
+        "id":740,
+        "prompt":"A big blue bowl is on a table and there are 9 blue and 4 red bowls near that bowl. How many blue bowls are near a red bowl? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer":10.0,
+        "description":"Bowls VARIATION 4, Control v2 continue",
+        "digit_change":null
+    },
+    {
+        "id":741,
+        "prompt":"A big blue bowl is on a table and there are 3 blue and 6 red bowls near that bowl. How many blue bowls are near a blue bowl? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer":3.0,
+        "description":"Bowls VARIATION 1, Control v2 continue",
+        "digit_change":null
+    },
+    {
+        "id":742,
+        "prompt":"A big blue bowl is on a table and there are 5 blue and 6 red bowls near that bowl. How many blue bowls are near a blue bowl? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer":5.0,
+        "description":"Bowls VARIATION 2, Control v2 continue",
+        "digit_change":null
+    },
+    {
+        "id":743,
+        "prompt":"A big blue bowl is on a table and there are 7 blue and 6 red bowls near that bowl. How many blue bowls are near a blue bowl? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer":7.0,
+        "description":"Bowls VARIATION 3, Control v2 continue",
+        "digit_change":null
+    },
+    {
+        "id":744,
+        "prompt":"A big blue bowl is on a table and there are 9 blue and 6 red bowls near that bowl. How many blue bowls are near a blue bowl? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer":9.0,
+        "description":"Bowls VARIATION 4, Control v2 continue",
+        "digit_change":null
+    },
+    {
+        "id":745,
+        "prompt":"A big blue bowl is on a table and there are 3 blue and 5 red bowls near that bowl. How many blue bowls are near a red bowl? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer":4.0,
+        "description":"Bowls VARIATION 1, Control v2 continue",
+        "digit_change":null
+    },
+    {
+        "id":746,
+        "prompt":"A big blue bowl is on a table and there are 5 blue and 4 red bowls near that bowl. How many blue bowls are near a red bowl? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer":6.0,
+        "description":"Bowls VARIATION 2, Control v2 continue",
+        "digit_change":null
+    },
+    {
+        "id":747,
+        "prompt":"A big blue bowl is on a table and there are 7 blue and 3 red bowls near that bowl. How many blue bowls are near a red bowl? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer":8.0,
+        "description":"Bowls VARIATION 3, Control v2 continue",
+        "digit_change":null
+    },
+    {
+        "id":748,
+        "prompt":"A big blue bowl is on a table and there are 9 blue and 2 red bowls near that bowl. How many blue bowls are near a red bowl? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer":10.0,
+        "description":"Bowls VARIATION 4, Control v2 continue",
+        "digit_change":null
+    },
+    {
+        "id":749,
+        "prompt":"A big blue bowl is on a table and there are 3 blue and 8 red bowls near that bowl. How many blue bowls are near a blue bowl? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer":3.0,
+        "description":"Bowls VARIATION 1, Control v2 continue",
+        "digit_change":null
+    },
+    {
+        "id":750,
+        "prompt":"A big blue bowl is on a table and there are 5 blue and 7 red bowls near that bowl. How many blue bowls are near a blue bowl? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer":5.0,
+        "description":"Bowls VARIATION 2, Control v2 continue",
+        "digit_change":null
+    },
+    {
+        "id":751,
+        "prompt":"A big blue bowl is on a table and there are 7 blue and 6 red bowls near that bowl. How many blue bowls are near a blue bowl? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer":7.0,
+        "description":"Bowls VARIATION 3, Control v2 continue",
+        "digit_change":null
+    },
+    {
+        "id":752,
+        "prompt":"A big blue bowl is on a table and there are 9 blue and 5 red bowls near that bowl. How many blue bowls are near a blue bowl? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer":9.0,
+        "description":"Bowls VARIATION 4, Control v2 continue",
+        "digit_change":null
+    },
+    {
+        "id":753,
+        "prompt":"A big blue bowl is on a table and there are 3 blue and 8 red bowls on the table. How many blue bowls are on the table that a red bowl placed on? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer":4.0,
+        "description":"Bowls VARIATION 1, Control v2 continue",
+        "digit_change":null
+    },
+    {
+        "id":754,
+        "prompt":"A big blue bowl is on a table and there are 5 blue and 8 red bowls on the table. How many blue bowls are on the table that a red bowl placed on? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer":6.0,
+        "description":"Bowls VARIATION 2, Control v2 continue",
+        "digit_change":null
+    },
+    {
+        "id":755,
+        "prompt":"A big blue bowl is on a table and there are 7 blue and 8 red bowls on the table. How many blue bowls are on the table that a red bowl placed on? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer":8.0,
+        "description":"Bowls VARIATION 3, Control v2 continue",
+        "digit_change":null
+    },
+    {
+        "id":756,
+        "prompt":"A big blue bowl is on a table and there are 9 blue and 8 red bowls on the table. How many blue bowls are on the table that a red bowl placed on? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer":10.0,
+        "description":"Bowls VARIATION 4, Control v2 continue",
+        "digit_change":null
+    },
+    {
+        "id":757,
+        "prompt":"A big blue bowl is on a table and there are 3 blue and 8 red bowls on the table. How many blue bowls are on the table that a blue bowl placed on? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer":3.0,
+        "description":"Bowls VARIATION 1, Control v2 continue",
+        "digit_change":null
+    },
+    {
+        "id":758,
+        "prompt":"A big blue bowl is on a table and there are 5 blue and 8 red bowls on the table. How many blue bowls are on the table that a blue bowl placed on? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer":5.0,
+        "description":"Bowls VARIATION 2, Control v2 continue",
+        "digit_change":null
+    },
+    {
+        "id":759,
+        "prompt":"A big blue bowl is on a table and there are 7 blue and 8 red bowls on the table. How many blue bowls are on the table that a blue bowl placed on? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer":7.0,
+        "description":"Bowls VARIATION 3, Control v2 continue",
+        "digit_change":null
+    },
+    {
+        "id":760,
+        "prompt":"A big blue bowl is on a table and there are 9 blue and 8 red bowls on the table. How many blue bowls are on the table that a blue bowl placed on? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer":9.0,
+        "description":"Bowls VARIATION 4, Control v2 continue",
+        "digit_change":null
+    },
+    {
+        "id":761,
+        "prompt":"Alice has 3 brothers and she also has 2 sisters. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":3.0,
+        "description":"AIW VARIATION 1 THINKING V2, original, one digit change",
+        "digit_change":2.0
+    },
+    {
+        "id":762,
+        "prompt":"Alice has 3 brothers and she also has 4 sisters. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":5.0,
+        "description":"AIW VARIATION 2 THINKING V2, original, one digit change",
+        "digit_change":4.0
+    },
+    {
+        "id":763,
+        "prompt":"Alice has 3 brothers and she also has 6 sisters. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \"",
+        "right_answer":7.0,
+        "description":"AIW VARIATION 3 THINKING V2, original, one digit change, duplicate 205",
+        "digit_change":6.0
+    },
+    {
+        "id":764,
+        "prompt":"Alice has 3 brothers and she also has 8 sisters. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":9.0,
+        "description":"AIW VARIATION 4 THINKING V2, original, one digit change",
+        "digit_change":8.0
+    },
+    {
+        "id":765,
+        "prompt":"Alice is a female, she has 3 brothers and she also has 2 sisters. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":3.0,
+        "description":"AIW VARIATION 1 THINKING V2, original, one digit change, female boost",
+        "digit_change":2.0
+    },
+    {
+        "id":766,
+        "prompt":"Alice is a female, she has 3 brothers and she also has 4 sisters. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":5.0,
+        "description":"AIW VARIATION 2 THINKING V2, original, one digit change, female boost",
+        "digit_change":4.0
+    },
+    {
+        "id":767,
+        "prompt":"Alice is a female, she has 3 brothers and she also has 6 sisters. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":7.0,
+        "description":"AIW VARIATION 3 THINKING V2, original, one digit change, female boost",
+        "digit_change":6.0
+    },
+    {
+        "id":768,
+        "prompt":"Alice is a female, she has 3 brothers and she also has 8 sisters. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":9.0,
+        "description":"AIW VARIATION 4 THINKING V2, original, one digit change, female boost",
+        "digit_change":8.0
+    },
+    {
+        "id":769,
+        "prompt":"Alice is a female, she has 3 brothers and she also has 3 sisters. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":4.0,
+        "description":"AIW VARIATION 5 THINKING V2, original, one digit change, female boost",
+        "digit_change":3.0
+    },
+    {
+        "id":770,
+        "prompt":"Alice is a female, she has 3 brothers and she also has 5 sisters. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":6.0,
+        "description":"AIW VARIATION 6 THINKING V2, original, one digit change, female boost",
+        "digit_change":5.0
+    },
+    {
+        "id":771,
+        "prompt":"Alice is a female, she has 3 brothers and she also has 7 sisters. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":8.0,
+        "description":"AIW VARIATION 7 THINKING V2, original, one digit change, female boost",
+        "digit_change":7.0
+    },
+    {
+        "id":772,
+        "prompt":"Alice is a female, she has 3 brothers and she also has 9 sisters. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":9.0,
+        "description":"AIW VARIATION 8 THINKING V2, original, one digit change, female boost",
+        "digit_change":8.0
+    },
+    {
+        "id":773,
+        "prompt":"Alice is a female, she has 3 brothers and she also has 1 sister. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":2.0,
+        "description":"AIW VARIATION 9 THINKING V2, original, one digit change, female boost",
+        "digit_change":1.0
+    },
+    {
+        "id":774,
+        "prompt":"Alice is a female, she has 3 brothers and she also has 10 sisters. How many sisters does Alice's brother have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":11.0,
+        "description":"AIW VARIATION 9 THINKING V2, original, one digit change, female boost",
+        "digit_change":10.0
+    },
+    {
+        "id":775,
+        "prompt":"Alice has 1 brother and she also has 2 sisters. How many siblings does Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":3.0,
+        "description":"AIW VARIATION 1 THINKING V2, easy",
+        "digit_change":null
+    },
+    {
+        "id":776,
+        "prompt":"Alice has 1 brother and she also has 3 sisters. How many siblings does Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":4.0,
+        "description":"AIW VARIATION 2 THINKING V2, easy",
+        "digit_change":null
+    },
+    {
+        "id":777,
+        "prompt":"Alice has 1 brother and she also has 4 sisters. How many siblings does Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":5.0,
+        "description":"AIW VARIATION 3 THINKING V2, easy",
+        "digit_change":null
+    },
+    {
+        "id":778,
+        "prompt":"Alice has 1 brother and she also has 5 sisters. How many siblings does Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":6.0,
+        "description":"AIW VARIATION 4 THINKING V2, easy",
+        "digit_change":null
+    },
+    {
+        "id":779,
+        "prompt":"Alice has 1 brother and she also has 6 sisters. How many siblings does Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":7.0,
+        "description":"AIW VARIATION 5 THINKING V2, easy",
+        "digit_change":null
+    },
+    {
+        "id":780,
+        "prompt":"Alice has 1 brother and she also has 7 sisters. How many siblings does Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":8.0,
+        "description":"AIW VARIATION 6 THINKING V2, easy",
+        "digit_change":null
+    },
+    {
+        "id":781,
+        "prompt":"Alice has 1 brother and she also has 8 sisters. How many siblings does Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":9.0,
+        "description":"AIW VARIATION 7 THINKING V2, easy",
+        "digit_change":null
+    },
+    {
+        "id":782,
+        "prompt":"Alice has 1 brother and she also has 9 sisters. How many siblings does Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":10.0,
+        "description":"AIW VARIATION 8 THINKING V2, easy",
+        "digit_change":null
+    },
+    {
+        "id":783,
+        "prompt":"Alice has 1 brother and she also has 10 sisters. How many siblings does Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":11.0,
+        "description":"AIW VARIATION 9 THINKING V2, easy",
+        "digit_change":null
+    },
+    {
+        "id":784,
+        "prompt":"Alice has 1 brother and she also has 11 sisters. How many siblings does Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":12.0,
+        "description":"AIW VARIATION 10 THINKING V2, easy",
+        "digit_change":null
+    },
+    {
+        "id":785,
+        "prompt":"Alice has M brothers and she also has N sisters. How many sisters does Alice's brother have? Before providing answer to this problem, plug in any natural numbers for N and M. Think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":null,
+        "description":"AIW VARIATION 1 number distribution, original",
+        "digit_change":null
+    },
+    {
+        "id":786,
+        "prompt":"Alice has M brother and she also has N sisters. How many sisters does Alice's brother have? Provide any natural number that can be an answer to this problem. Think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \"..",
+        "right_answer":null,
+        "description":"AIW VARIATION 1 number distribution, original",
+        "digit_change":null
+    },
+    {
+        "id":787,
+        "prompt":"Alice has 2 brothers and each of her brothers has 2 sisters. How many sisters does Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":1.0,
+        "description":"AIW VARIATION 1 THINKING V2, easy",
+        "digit_change":null
+    },
+    {
+        "id":788,
+        "prompt":"Alice has 2 brothers and each of her brothers has 3 sisters. How many sisters does Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":2.0,
+        "description":"AIW VARIATION 2 THINKING V2, easy",
+        "digit_change":null
+    },
+    {
+        "id":789,
+        "prompt":"Alice has 2 brothers and each of her brothers has 4 sisters. How many sisters does Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":3.0,
+        "description":"AIW VARIATION 3 THINKING V2, easy",
+        "digit_change":null
+    },
+    {
+        "id":790,
+        "prompt":"Alice has 2 brothers and each of her brothers has 5 sisters. How many sisters does Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":4.0,
+        "description":"AIW VARIATION 4 THINKING V2, easy",
+        "digit_change":null
+    },
+    {
+        "id":791,
+        "prompt":"Alice has 2 brothers and each of her brothers has 6 sisters. How many sisters does Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \"..",
+        "right_answer":5.0,
+        "description":"AIW VARIATION 5 THINKING V2, easy",
+        "digit_change":null
+    },
+    {
+        "id":792,
+        "prompt":"Alice has 2 brothers and each of her brothers has 7 sisters. How many sisters does Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":6.0,
+        "description":"AIW VARIATION 6 THINKING V2, easy",
+        "digit_change":null
+    },
+    {
+        "id":793,
+        "prompt":"Alice has 2 brothers and each of her brothers has 8 sisters. How many sisters does Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":7.0,
+        "description":"AIW VARIATION 7 THINKING V2, easy",
+        "digit_change":null
+    },
+    {
+        "id":794,
+        "prompt":"Alice has 2 brothers and each of her brothers has 9 sisters. How many sisters does Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":8.0,
+        "description":"AIW VARIATION 8 THINKING V2, easy",
+        "digit_change":null
+    },
+    {
+        "id":795,
+        "prompt":"Alice has 2 brothers and each of her brothers has 10 sisters. How many sisters does Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":9.0,
+        "description":"AIW VARIATION 9 THINKING V2, easy",
+        "digit_change":null
+    },
+    {
+        "id":796,
+        "prompt":"Alice has 2 brothers and each of her brothers has 11 sisters. How many sisters does Alice have? Before providing answer to this problem, think carefully step by step and double check the path to the correct solution for any mistakes. Provide then the final answer in following form: \"### Answer: \".",
+        "right_answer":10.0,
+        "description":"AIW VARIATION 10 THINKING V2, easy",
+        "digit_change":null
+    },
+    {
+        "id": 797,
+        "prompt": "Alice has 3 brothers and she also has 6 sisters. How many sisters does Alice's brother have? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "7",
+        "description": "AIW VARIATION 1, Formatting only, Original, NO BOOST"
+    },
+    {
+        "id": 798,
+        "prompt": "Alice has 2 sisters and she also has 4 brothers. How many sisters does Alice's brother have? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "3",
+        "description": "AIW VARIATION 2, Formatting only, Original, NO BOOST"
+    },
+    {
+        "id": 799,
+        "prompt": "Alice has 4 sisters and she also has 1 brother. How many sisters does Alice's brother have? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "5",
+        "description": "AIW Variation 3, Formatting only, no output restriction, "
+    },
+    {
+        "id": 800,
+        "prompt": "Alice has 4 brothers and she also has 1 sister. How many sisters does Alice's brother have? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "2",
+        "description": "AIW Variation 4, Formatting only, no output restriction, "
+    },
+    {
+        "id": 801,
+        "prompt": "Alice has 2 brothers and she also has 3 sisters. How many sisters does Alice's brother have? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "4",
+        "description": "AIW VARIATION 5, Formatting only, Original, NO BOOST"
+    },
+    {
+        "id": 802,
+        "prompt": "Alice has 5 sisters and she also has 3 brothers. How many sisters does Alice's brother have? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "6",
+        "description": "AIW VARIATION 6, Formatting only, Original, NO BOOST"
+    },
+    {
+        "id": 803,
+        "prompt": "Alice and Bob are sister and brother. Alice has 3 sisters and Bob has 6 brothers. How many brothers does Alice have? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "7",
+        "description": "AIW ext variation 1, Alice and Bob combi, Alice brothers question, Formatting only, no output restriction"
+    },
+    {   
+        "id": 804,
+        "prompt": "Alice and Bob are sister and brother. Alice has 2 sisters and Bob has 2 brothers. How many brothers does Alice have? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "3",
+        "description": "AIW ext variation 2, Alice and Bob combi, Alice brothers question, Formatting only, no output restriction"
+    },
+    {   
+        "id": 805,
+        "prompt": "Alice and Bob are sister and brother. Alice has 1 sister and Bob has 4 brothers. How many brothers does Alice have? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "5",
+        "description": "AIW ext variation 3, Alice and Bob combi, Alice brothers question, Formatting only, no output restriction"
+    },
+    {   
+        "id": 806,
+        "prompt": "Alice and Bob are sister and brother. Alice has 3 sisters and Bob has 1 brother. How many brothers does Alice have? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "2",
+        "description": "AIW ext variation 4, Alice and Bob combi, Alice brothers question, Formatting only, no output restriction"
+    },
+    {
+        "id": 807,
+        "prompt": "Alice and Bob are sister and brother. Alice has 2 sisters and Bob has 3 brothers. How many brothers does Alice have? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "4",
+        "description": "AIW ext variation 5, Alice and Bob combi, Alice brothers question, Formatting only, no output restriction"
+    },
+    {   
+        "id": 808,
+        "prompt": "Alice and Bob are sister and brother. Alice has 3 sisters and Bob has 5 brothers. How many brothers does Alice have? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "6",
+        "description": "AIW ext variation 6, Alice and Bob combi, Alice brothers question, Formatting only, no output restriction"
+    },
+    {
+        "id": 809,
+        "prompt": "Alice has 3 male friends and she also has 6 female friends. All mentioned persons are friends with each other and have no other friends aside. How many female friends does male friend of Alice have? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "7",
+        "description": "AIW VARIATION 1, Formatting only, Alice friends, all mentioned persons version"
+    },
+    {
+        "id": 810,
+        "prompt": "Alice has 2 female friends and she also has 4 male friends. All mentioned persons are friends with each other and have no other friends aside. How many female friends does male friend of Alice have? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "3",
+        "description": "AIW VARIATION 2, Formatting only, Alice friends, all mentioned persons version"
+    },
+    {
+        "id": 811,
+        "prompt": "Alice has 4 female friends and she also has 1 male friend. All mentioned persons are friends with each other and have no other friends aside. How many female friends does male friend of Alice have? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "5",
+        "description": "AIW Variation 3, Alice friends, all mentioned persons version, Formatting only, no output restriction, "
+    },
+    {
+        "id": 812,
+        "prompt": "Alice has 4 male friends and she also has 1 female friend. All mentioned persons are friends with each other and have no other friends aside. How many female friends does male friend of Alice have? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "2",
+        "description": "AIW Variation 4, Alice friends, all mentioned persons version, Formatting only, no output restriction, "
+    },
+    {
+        "id": 813,
+        "prompt": "Alice has 2 male friends and she also has 3 female friends. All mentioned persons are friends with each other and have no other friends aside. How many female friends does male friend of Alice have? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "4",
+        "description": "AIW VARIATION 5, Formatting only, Alice friends, all mentioned persons version"
+    },
+    {
+        "id": 814,
+        "prompt": "Alice has 5 female friends and she also has 3 male friends. All mentioned persons are friends with each other and have no other friends aside. How many female friends does male friend of Alice have? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "6",
+        "description": "AIW VARIATION 6, Formatting only, Alice friends, all mentioned persons version"
+    },
+    {
+        "id": 815,
+        "prompt": "Alice has 1 sister and 1 brother in total. Her mother has 2 brothers. She also has 1 sister who does not have children and who has 6 nephews and nieces in total. Alice's father has 2 sisters. He also has a brother who has 5 nephews and nieces in total, and who also has 2 sons. How many cousins does Alice's sister have? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "7",
+        "description": "AIW+ VARIATION 1, MOD 6, her mother she has mod, total cousins, Basic"
+    },
+    {
+        "id": 816,
+        "prompt": "Alice has 2 sisters and 1 brother in total. Her mother has 2 brothers. She also has 1 sister who does not have children and who has 6 nephews and nieces in total. Alice's father has 2 sisters. He also has a brother who has 4 nephews and nieces in total, and who also has 1 son. How many cousins does Alice's sister have? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "3",
+        "description": "AIW+ VARIATION 2, MOD 6, her mother she has mod, total cousins, Basic"
+    },
+    {
+        "id": 817,
+        "prompt": "Alice has 2 sisters and 1 brother in total. Her mother has 2 brothers. She also has 1 sister who does not have children and who has 7 nephews and nieces in total. Alice's father has 2 sisters. He also has a brother who has 5 nephews and nieces in total, and who also has 1 son. How many cousins does Alice's sister have? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "5",
+        "description": "AIW+ VARIATION 3, MOD 6, her mother she has mod, total cousins, Basic"
+    },
+    {
+        "id": 818,
+        "prompt": "Alice has 1 sister and 3 brothers in total. Her mother has 2 brothers. She also has 1 sister who does not have children and who has 6 nephews and nieces in total. Alice's father has 2 sisters. He also has a brother who has 5 nephews and nieces in total, and who also has 1 daughter. How many cousins does Alice's sister have? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "2",
+        "description": "AIW+ VARIATION 4, MOD 6, her mother she has mod, total cousins, Basic"
+    },
+    {
+        "id": 819,
+        "prompt": "Alice has 2 sisters and 1 brother in total. Her mother has 2 brothers. She also has 1 sister who does not have children and who has 6 nephews and nieces in total. Alice's father has 2 sisters. He also has a brother who has 5 nephews and nieces in total, and who also has 1 son. How many cousins does Alice's sister have? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "4",
+        "description": "AIW+ VARIATION 5, MOD 6, her mother she has mod, total cousins, Basic"
+    },
+    {
+        "id": 820,
+        "prompt": "Alice has 1 sister and 1 brother in total. Her mother has 2 brothers. She also has 1 sister who does not have children and who has 6 nephews and nieces in total. Alice's father has 2 sisters. He also has a brother who has 5 nephews and nieces in total, and who also has 1 daughter. How many cousins does Alice's sister have? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "6",
+        "description": "AIW+ VARIATION 6, MOD 6, her mother she has mod, total cousins, Basic"
+    },
+    {
+        "id": 821,
+        "prompt": "Alice has 3 male colleagues and she also has 6 female colleagues in total. All these mentioned persons in the circle around Alice are colleagues of each other. Bob has 2 female colleagues and 1 male colleague in total. All these mentioned persons in the circle around Bob are colleagues of each other. The people in the circle around Bob do not have other colleagues aside - with the only exception of Matilda. She is colleague of Bob, being part of Bob's circle, and she is also colleague of Alice, being part of Alice's circle. All the mentioned persons have no colleagues beyond the already described group of people. How many female colleagues does Matilda have? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "7",
+        "description": "AIW VARIATION 1, THINKING V2, Colleagues Circles Version, Mod 8, both circles, control more precise, all mentioned persons version"
+    },
+    {
+        "id": 822,
+        "prompt": "Alice has 3 male colleagues and she also has 2 female colleagues in total. All these mentioned persons in the circle around Alice are colleagues of each other. Bob has 2 female colleagues and 1 male colleague in total. All these mentioned persons in the circle around Bob are colleagues of each other. The people in the circle around Bob do not have other colleagues aside - with the only exception of Matilda. She is colleague of Bob, being part of Bob's circle, and she is also colleague of Alice, being part of Alice's circle. All the mentioned persons have no colleagues beyond the already described group of people. How many female colleagues does Matilda have? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "3",
+        "description": "AIW VARIATION 2, THINKING V2, Colleagues Circles Version, Mod 8, both circles, control more precise, all mentioned persons version"
+    },
+    {
+        "id": 823,
+        "prompt": "Alice has 3 male colleagues and she also has 4 female colleagues in total. All these mentioned persons in the circle around Alice are colleagues of each other. Bob has 2 female colleagues and 1 male colleague in total. All these mentioned persons in the circle around Bob are colleagues of each other. The people in the circle around Bob do not have other colleagues aside - with the only exception of Matilda. She is colleague of Bob, being part of Bob's circle, and she is also colleague of Alice, being part of Alice's circle. All the mentioned persons have no colleagues beyond the already described group of people. How many female colleagues does Matilda have? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "5",
+        "description": "AIW VARIATION 3, THINKING V2, Colleagues Circles Version, Mod 8, both circles, control more precise, all mentioned persons version"
+    },
+    {
+        "id": 824,
+        "prompt": "Alice has 3 male colleagues and she also has 1 female colleague in total. All these mentioned persons in the circle around Alice are colleagues of each other. Bob has 2 female colleagues and 1 male colleague in total. All these mentioned persons in the circle around Bob are colleagues of each other. The people in the circle around Bob do not have other colleagues aside - with the only exception of Matilda. She is colleague of Bob, being part of Bob's circle, and she is also colleague of Alice, being part of Alice's circle. All the mentioned persons have no colleagues beyond the already described group of people. How many female colleagues does Matilda have? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "2",
+        "description": "AIW VARIATION 4, THINKING V2, Colleagues Circles Version, Mod 8, both circles, control more precise, all mentioned persons version"
+    },
+    {
+        "id": 825,
+        "prompt": "Alice has 3 male colleagues and she also has 3 female colleague in total. All these mentioned persons in the circle around Alice are colleagues of each other. Bob has 2 female colleagues and 1 male colleague in total. All these mentioned persons in the circle around Bob are colleagues of each other. The people in the circle around Bob do not have other colleagues aside - with the only exception of Matilda. She is colleague of Bob, being part of Bob's circle, and she is also colleague of Alice, being part of Alice's circle. All the mentioned persons have no colleagues beyond the already described group of people. How many female colleagues does Matilda have? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "4",
+        "description": "AIW VARIATION 5, THINKING V2, Colleagues Circles Version, Mod 8, both circles, control more precise, all mentioned persons version"
+    },
+    {
+        "id": 826,
+        "prompt": "Alice has 3 male colleagues and she also has 5 female colleagues in total. All these mentioned persons in the circle around Alice are colleagues of each other. Bob has 2 female colleagues and 1 male colleague in total. All these mentioned persons in the circle around Bob are colleagues of each other. The people in the circle around Bob do not have other colleagues aside - with the only exception of Matilda. She is colleague of Bob, being part of Bob's circle, and she is also colleague of Alice, being part of Alice's circle. All the mentioned persons have no colleagues beyond the already described group of people. How many female colleagues does Matilda have? Provide the final answer in following form: \"### Answer: \".",
+        "right_answer": "6",
+        "description": "AIW VARIATION 6, THINKING V2, Colleagues Circles Version, Mod 8, both circles, control more precise, all mentioned persons version"
     }
 ]
