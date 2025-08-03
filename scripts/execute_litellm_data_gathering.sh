@@ -9,18 +9,8 @@ MODELS_SET=$4
 ID_SET=$5
 EXP_NAME=$6
 
-
 echo $ID_SET
 echo $EXP_NAME
-
-# for run_idx in ${ID_SET}
-# do
-
-#    echo "python examples/example_litellm_test.py --prompt_id=${run_idx} --n_trials=${N_TRIALS} --n_sessions=1 --prompts_json=lmsys_tools/prompts.json --models_json=lmsys_tools/${MODELS_SET} --exp_name=${EXP_NAME}_run-${RUN_ID} &&"
-
-# done
-
-# a=($(echo "$t" | tr ',' '\n'))
 
 array_id_set=($(echo "$ID_SET" | tr ' ' '\n'))
 array_exp_name=($(echo "$EXP_NAME" | tr ' ' '\n'))
@@ -28,13 +18,7 @@ array_exp_name=($(echo "$EXP_NAME" | tr ' ' '\n'))
 
 n_ids=${#array_id_set[@]}
 
-
-# for ((idx=0;idx<$n_ids;idx++))
-# do
-#    echo "python examples/example_litellm_test.py --prompt_id=${array_id_set[$idx]} --n_trials=${N_TRIALS} --n_sessions=1 --prompts_json=lmsys_tools/prompts.json --models_json=lmsys_tools/${MODELS_SET} --exp_name=${array_exp_name[$idx]}_run-${RUN_ID} &&"
-# done
-
-
+# adapt data_collection/examples/example_litellm.py to your env and save it as data_collection/examples/example_litellm_test.py  
 for ((sess_id=0; sess_id<$SESSIONS;sess_id++))
 do
 
@@ -43,7 +27,7 @@ do
 
     for ((idx=0;idx<$n_ids;idx++))
     do
-        python examples/example_litellm_test.py --prompt_id=${array_id_set[$idx]} --n_trials=${N_TRIALS} --n_sessions=1 --prompts_json=lmsys_tools/prompts.json --models_json=lmsys_tools/${MODELS_SET} --exp_name=${array_exp_name[$idx]}_run-${RUN_ID}
+        python data_collection/examples/example_litellm_test.py --prompt_id=${array_id_set[$idx]} --n_trials=${N_TRIALS} --n_sessions=1 --prompts_json=lmsys_tools/prompts.json --models_json=lmsys_tools/${MODELS_SET} --exp_name=${array_exp_name[$idx]}_run-${RUN_ID}
     done
 
 done
