@@ -2,7 +2,7 @@
         🎩🐇 Alice in Wonderland: Simple Tasks Showing Complete Reasoning Breakdown in State-Of-the-Art Large Language Models
     </h1>
  <p align="center">Alice in Wonderland code base for experiments and raw experiments data</p>
-<h4 align="center"><a href="https://marianna13.github.io/aiw/" target="_blank">Homepage</a> | <a href="https://arxiv.org/pdf/2406.02061" target="_blank"> Paper</a> | <a href="https://arxiv.org/abs/2406.02061"target="_blank">arXiv:2406.02061</a> | <a href="https://huggingface.co/spaces/marianna13/AIW-responses"target="_blank">Dataset explorer</a></h4>
+<h4 align="center"><a href="https://marianna13.github.io/aiw/" target="_blank">Homepage</a> | <a href="https://arxiv.org/abs/2406.02061" target="_blank"> ArXiv:2406.02061</a> | <a href="https://openreview.net/forum?id=Mkl7dzjYiW" target="_blank">NeurIPS 2024 SciDL</a> | <a href="https://openreview.net/forum?id=frA7uYn2um" target="_blank">TMLR paper</a> | <a href="https://huggingface.co/spaces/marianna13/AIW-responses"target="_blank">Dataset explorer</a></h4>
 
 
 ## Usage
@@ -157,7 +157,7 @@ Lucia Cipolina-Kun acknowledges the Helmholtz Information & Data Science Academy
 If you like this work, please cite:
 
 ```
-@article{nezhurina2024alice,
+ArXiv: @article{nezhurina2024alice,
         title={Alice in Wonderland: Simple Tasks Showing Complete Reasoning Breakdown in State-Of-the-Art Large Language Models},
         author={Marianna Nezhurina and Lucia Cipolina-Kun and Mehdi Cherti and Jenia Jitsev},
         year={2024},
@@ -166,6 +166,27 @@ If you like this work, please cite:
         archivePrefix={arXiv},
         primaryClass={cs.LG}
 }
+
+NeurIPS 2024 Workshop on Scientific Methods for Understanding Deep Learning (SciDL) :@inproceedings{
+nezhurina2024alice,
+title={Alice in Wonderland: Simple Tasks Reveal Severe Generalization and Basic Reasoning Deficits in State-Of-the-Art Large Language Models},
+author={Marianna Nezhurina and Lucia Cipolina-Kun and Mehdi Cherti and Jenia Jitsev},
+booktitle={NeurIPS 2024 Workshop on Scientific Methods for Understanding Deep Learning},
+year={2024},
+url={https://openreview.net/forum?id=Mkl7dzjYiW}
+}
+
+TMLR: @article{
+nezhurina2026detecting,
+title={Detecting generalization deficits in large language and reasoning models by using natural variations in simple problems},
+author={Marianna Nezhurina and Lucia Cipolina-Kun and Mehdi Cherti and Jenia Jitsev},
+journal={Transactions on Machine Learning Research},
+issn={2835-8856},
+year={2026},
+url={https://openreview.net/forum?id=frA7uYn2um},
+note={}
+}
+
 ```
 
 License
