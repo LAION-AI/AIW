@@ -157,7 +157,9 @@ Lucia Cipolina-Kun acknowledges the Helmholtz Information & Data Science Academy
 If you like this work, please cite:
 
 ```
-ArXiv: @article{nezhurina2024alice,
+ArXiv: 
+
+@article{nezhurina2024alice,
         title={Alice in Wonderland: Simple Tasks Showing Complete Reasoning Breakdown in State-Of-the-Art Large Language Models},
         author={Marianna Nezhurina and Lucia Cipolina-Kun and Mehdi Cherti and Jenia Jitsev},
         year={2024},
@@ -168,6 +170,7 @@ ArXiv: @article{nezhurina2024alice,
 }
 
 NeurIPS 2024 Workshop on Scientific Methods for Understanding Deep Learning (SciDL) : 
+
 @inproceedings{
 nezhurina2024alice,
 title={Alice in Wonderland: Simple Tasks Reveal Severe Generalization and Basic Reasoning Deficits in State-Of-the-Art Large Language Models},
@@ -177,7 +180,9 @@ year={2024},
 url={https://openreview.net/forum?id=Mkl7dzjYiW}
 }
 
-TMLR: @article{
+TMLR: 
+
+@article{
 nezhurina2026detecting,
 title={Detecting generalization deficits in large language and reasoning models by using natural variations in simple problems},
 author={Marianna Nezhurina and Lucia Cipolina-Kun and Mehdi Cherti and Jenia Jitsev},
