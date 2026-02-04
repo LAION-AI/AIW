@@ -167,7 +167,8 @@ ArXiv: @article{nezhurina2024alice,
         primaryClass={cs.LG}
 }
 
-NeurIPS 2024 Workshop on Scientific Methods for Understanding Deep Learning (SciDL) :@inproceedings{
+NeurIPS 2024 Workshop on Scientific Methods for Understanding Deep Learning (SciDL) : 
+@inproceedings{
 nezhurina2024alice,
 title={Alice in Wonderland: Simple Tasks Reveal Severe Generalization and Basic Reasoning Deficits in State-Of-the-Art Large Language Models},
 author={Marianna Nezhurina and Lucia Cipolina-Kun and Mehdi Cherti and Jenia Jitsev},
